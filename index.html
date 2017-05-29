@@ -1,446 +1,445 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <link rel="icon" type="image/png" href="img/pyora.png" alt="pyörä">
-    <title>N4S@JAMK | Home </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta charset="UTF-8">
-    <meta property="og:image" content="img/faces/team.JPG">
-    <meta name="google-site-verification" content="Br1OpDFI_BTmjCTzqt2MDLuluCCUW1mqHQMeF8s3uEI" />
-    <!-- CSS-files -->
-    <link rel="stylesheet" href="css/zerogrid.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive-nav.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/animations.css" />
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta charset="UTF-8">
+        <title>WIMMA Lab</title>
+        <!-- Links -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script>
+            window.sr = ScrollReveal();
+        </script>
+    </head>
 
-    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/jquery.tap.js"></script>
-    <script type="text/javascript" src="js/googlemaps.js"></script>
-    <script type="text/javascript" src="js/on-scroll.js"></script>
-    <script type="text/javascript" src="js/on-hover.js"></script>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <script type="text/javascript" src="js/responsive-nav.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA76moW71nzaqY1C3Xv4T42G3BKzU5k0f0"></script>
-
-    <script>
-    $(window).load(function() {
-        responsiveNav('.nav-collapse');
-        // Keep copyright up to date
-        var currentYear = new Date().getFullYear();
-        var copyrightText = '© Cyber Trust @JAMK ' + currentYear + '. All rights reserved.';
-        $('#copyright').text(copyrightText);
-    });
-    </script>
-</head>
-<!--this is comment-->
-<body>
-    <div class="main-bg">
-        <video class="taustavideo" autoplay loop>
-            <source src="img/panorama.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="wrapper" id="top">
-            <header>
-                <a href="index.html">
-                    <div class="logo"></div>
-                </a>
-                <nav class="nav-collapse"> <!-- menu-bar -->
-                    <ul id="nav-left">
-                        <li><a href="#meet-the-project">ABOUT</a></li>
-                        <li><a href="#works">WORKS</a></li>
-                        <li><a href="#meet-the-team">TEAM</a></li>
-                        <li><a href="#supported-by">PARTNERS</a></li>
-                        <li><a href="#contact-info">CONTACT</a></li>
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top custom-navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#about">WIMMA Lab</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">Home</a></li>
+                        <li><a href="#info">About</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#partners">Contact</a></li>
                     </ul>
-                    <ul class="nav-right">
-                        <li>
-                            <a class="cflink">CHALLENGE FACTORY &#9662;</a>
-                            <ul>
-                                <li><a href="challenge-factory.html">CF Home</a></li>
-                                <li><a href="challenge-factory-2017.html">2017</a></li>
-                                <li><a href="challenge-factory-2016.html">2016</a></li>
-                                <li><a href="challenge-factory-2015.html">2015</a></li>
-                                <li><a href="challenge-factory-2014.html">2014</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-
-            <div class="zerogrid row transparent top">
-                <div class="col-full">
-                    <div class="wrap-col">
-                        <div class="slideUp">
-                            <div class="big-text">Creating agile solutions together.</div>
-                        </div>
-                    </div>
-                </div>
+                </div><!--/.nav-collapse -->
             </div>
-        </div>
+        </nav>
 
-        <!-- Get up, speed up! -->
-        <div id="meet-the-project">
-            <div class="zerogrid">
+        <!-- Landing / About -->
+        <section id="about">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-1-2 n4sdesc">
-                        <div class="motto">Get up, speed up!</div>
-                        <p class="text">We are a group of experts working for simple target: Speeding up your development! Our main target is to research, develop, and                                       invent solutions in collaboration with Digile N4S-Program partners.</p>
-                        <a class="button" href="http://www.n4s.fi/en/">More About N4S</a>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="about-left">
+                            <!-- <img src="img/IMG_4641.jpg" alt="cover-image" class="cover-image" /> -->
+                        </div>
                     </div>
-                    <div class="col-1-2 n4simage">
-                        <img class="n4slogo" src="img/n4slogo.png" alt="n4slogo">
+                    <div class="col-sm-8 col-md-8">
+                        <div class="about-right">
+                            <h1>Welcome to WIMMA Lab</h1>
+                            <p>This is our temporary site, our new pages are under construction. You are welcome to come and see what we're doing at 9.6.2017 starting from 10:00 - 11:30.</p>
+                        </div>
+                        <br>
+                        <a class="btn btn-primary about-btn" href="http://n4sjamk.github.io/" target="_blank">Old Challenge Factory</a>
+                        <br><br>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-
-        <!-- WORKS -->
-        <div id="works">
-            <div class="zerogrid">
-                <div class="row">
-                    <div class="col-full">
-                        <div class="wrap-col">
-                            <div class="section-heading">Works</div>
-                        </div>
-                    </div>
+        <!-- Info / Works -->
+        <section id="info">
+            <div class="container">
+                <div class="info-info">
+                    <h2>About us</h2>
+                    <p>Wimma Lab is a concept based on the challenge-centered approach. Purpose of the concept is to integrate students into different kinds of research challenges. Various companies can present challenges for students to solve. This year’s employers come from IT-institute of JAMK University of Applied Sciences. In Wimma Lab you can learn important skills for working life, like teamwork, collaboration with companies and problem solving skills. You will meet many people from different companies, whose knowledge can be very beneficial later. Wimma Lab is also known as Summer Factory (2011-2014) and Challenge Factory (2014-2017) and was re-named in summer 2017 to Wimma Lab, giving chance to expand the concept over the world.</p>
                 </div>
+                <hr/>
             </div>
-            <div id="build-experiences">
-                <div class="zerogrid">
-                    <div class="row experiences">
-                        <div class="col-full info">
-                            <div class="wrap-col">
-                                <div class="slideup-text">
-                                    <p class="challenge-title">We build experiences</p>
-                                    <p class="experience-content">Yes, we build products and experiences. Here is collection of works done with N4S@JAMK and Challenge Factory teams during the N4S-Program.</p>
-                                </div>
-                            </div>
+        </section>
+
+        <section id="works">
+            <div class="container">
+                <div class="works-info">
+                    <h2>What we're doing</h2>
+                    <p>Keytar locavore fanny pack, hashtag vape normcore migas art party enamel pin mlkshk. VHS slow-carb pok pok messenger bag retro pabst forage, cred thundercats readymade 8-bit letterpress biodiesel distillery banh mi.</p>
+                </div>
+                <div class="row"> <!-- << Näitä voi vaikka toista jos on tarvetta -->
+                    <div class="col-sm-6 col-md-6"> <!-- ja säätää näiden kokoja -->
+                        <div class="works-left">
+                            <h3>Wimma sitä</h3>
+                            <p>Pop-up vaporware hexagon, 8-bit unicorn tote bag hell of before they sold out forage four dollar toast umami copper mug.</p>
                         </div>
                     </div>
-                    <div class="row products">
-                        <div class="col-1-2 works-mobile">
-                            <div class="wrap-col">
-                                <a href="http://www.n4s.fi/2014magazine/article9/" target="_blank" class="corolla-image"></a>
-                                <div class="slideup-text">
-                                    <div class="experience-title">Reference Production Environment</div>
-                                    <div class="experience-content">
-                                        For efficient teamwork and development we use and improve a toolchain of several software components. Our working methods are inspired by DevOps and LEAN practices.
-                                    </div>
-                                    <div class="experience-links">
-
-                                        <div class="experience-link">
-                                            <a href="https://github.com/N4SJAMK/teamboard-meta/wiki/about-production-environment">About environment</a>
-                                        </div>
-
-                                        <div class="experience-link">
-                                            <a href="http://www.n4s.fi/2014magazine/article9/">N4S Magazine Article</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-1-2 works-mobile">
-                            <div class="wrap-col">
-                                <a href="http://n4sjamk.github.io/contriboard/" target="_blank" class="board-image"></a>
-                                <div class="slideup-text">
-                                    <div class="experience-title">Contriboard</div>
-                                    <div class="experience-content">
-                                        Contriboard is an open source realtime collaboration tool for teams. It targets primarily tablet and desktop users to enable all team members to participate.
-                                    </div>
-                                    <div class="experience-links">
-
-                                        <div class="experience-link">
-                                            <a href="http://n4sjamk.github.io/contriboard/" target="_blank">Contriboard</a>
-                                        </div>
-
-                                        <div class="experience-link">
-                                            <a href="http://github.com/N4SJAMK/teamboard-meta/wiki" target="_blank">Contriboard @ Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="works-right">
+                            <h3>Wimma tätä  </h3>
+                            <p>Keytar locavore fanny pack, hashtag vape normcore migas art party enamel pin mlkshk. VHS slow-carb pok pok messenger bag retro pabst forage, cred thundercats readymade 8-bit letterpress biodiesel distillery banh mi.</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-
-
-        <!-- Meet our team -->
-        <div id="meet-the-team">
-            <div class="zerogrid">
-                <div class="row">
-                    <div class="col-full">
-                        <div class="wrap-col">
-                            <div class="section-heading">Meet our team</div>
+        <!-- Team -->
+        <section id="team">
+            <div class="container">
+                <h2>The Team</h2>
+                <div class="avatar-container">
+                    <div class="avatar"><img src="img/aleksi_meisalmi.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Aleksi Meisalmi<br><small>Junior Developer</small></h3>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/anni_lajunen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Anni Lajunen<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/anni-lajunen-a73634106/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/Lannil" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/antti_lohtaja.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Antti Lohtaja<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/antti-lohtaja-528201133" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/antti_tuovinen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Antti Tuovinen<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/antti-tuovinen-682ba7143/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/anttuov" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/artur_veselovski.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Artur Veselovski<br><small>Junior Web Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/artur-veselovski/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/AVeselovski" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/borhan_amini.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Borhan Amini<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/borhan-amini-a7346756/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/bhnamn" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/carita_tammelin.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Carita Tammelin<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/carita-tammelin-6b678292/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/yunamarth" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/eppu_heilimo.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Eppu Heilimo<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/eppu-heilimo-2b5523109/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/EppuHeilimo" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/harri_jantti.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Harri Jantti<br><small>Junior Developer</small></h3>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/jani_kerttula.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Jani Kerttula<br><small>Junior Developer</small></h3>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/jarmo_luostarinen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Jarmo Luostarinen<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/jarmo-luostarinen-85a22a137/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/JarmoLuostarinen" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/joonas_lipponen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Joonas Lipponen<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/joonas-lipponen-8994b2143/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/joolip" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/juho_hautamaki.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Juho Hautamäki<br><small>Junior Developer</small></h3>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/juho_nissi.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Juho Nissi<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/juhonissi" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/JuhoNissi" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/julius_polkki.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Julius Pölkki<br><small>Junior Developer</small></h3>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/jussi_ahola.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Jussi Ahola<br><small>Junior Developer</small></h3>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/lauri_korte.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Lauri Korte<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/kortelauri" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/LauriKorte" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/lauri_moilanen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Lauri Moilanen<br><small>Junior Developer</small></h3>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/maiju_schreck.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Maiju Schreck<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/maiju-schreck-71269780/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/Maiju123" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/markus_malm.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Markus Malm<br><small>Junior Developer</small></h3>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/mikael_malste.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Mikael Malste<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/mikael-malste-999bb3143/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/mikaelmalste" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/mikko_tiitinen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Mikko Tiitinen<br><small>Junior Game Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/mikkotiitinen/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/Miggooo" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/niko_liimatainen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Niko Liimatainen<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/niko-liimatainen-00ab91138/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/Nick-Korn" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/onni_hakkari.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Onni Hakkari<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/onni-hakkari-802190130/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/LuckyHacker" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/rami_ojala.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Rami Ojala<br><small>Junior Game Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/rami-ojala-63772197/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/raojala" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/sami_pitkanen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Sami Pitkänen<br><small>Junior Developer</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/sami-pitk%C3%A4nen-9113a7143/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="https://github.com/sapake" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/toni_tanninen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Toni Tanninen<br><small>Junior Developer</small></h3>
+                            <!--
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                            <a class="avatar-link" href="#" target="_blank">
+                                <i class="fa fa-github fa-2x"></i></a>
+                            -->
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="avatar-container">
+                    <div class="avatar"><img src="img/marko_rintamaki.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Marko Rintamäki<br><small>Product Owner</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/narsuman/?ppe=1" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/paavo_nelimarkka.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Paavo Nelimarkka<br><small>Team Coach</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/paavonelimarkka/?ppe=1" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="avatar"><img src="img/lauri_makinen.jpg" />
+                        <div class="avatar-overlay">
+                            <h3>Lauri Mäkinen<br><small>Team Coach</small></h3>
+                            <a class="avatar-link" href="https://www.linkedin.com/in/lauri-m%C3%A4kinen-8aa6a311b/" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div id="photos">
-                <!-- Photos -->
-                <div class="zerogrid faces-row">
-                    <div class="row">
-                        <!-- Face -->
-                        <div class="col-1-5 faces slideup-text">
-                            <div class="face-card">
-                                <!-- Pic -->
-                                <img src="img/faces/heli.JPG" alt="Heli Sutinen" class="face" />
-                                <!-- Content -->
-                                <div class="face-details">
-                                    <div class="face-info">Heli Sutinen</div>
-                                    <div class="job">Graphic Design</div>
-                                </div>
-                            </div>
-                            <!-- Social media links -->
-                            <div class="member_some">
-                                <a href="https://twitter.com/heli_hjs" target="_blank">
-                                    <i class="fa fa-twitter-square fa-2x"></i>
-                                    <a href="https://www.linkedin.com/pub/heli-sutinen/a0/502/115" target="_blank">
-                                        <i class="fa fa-linkedin-square fa-2x"></i>
-                                    </a>
-                                </div>
-                            </div>
+        <!-- Partners -->
+        <section id="partners">
+            <div class="container">
+                <h2>Supported By</h2>
+                <div class="partner-container">
+                    <div class="partners">
+                        <img src="img/iotitude.png" alt="iotititude-logo" />
+                    </div>
+                    <div class="partners">
+                        <img src="img/jamk_logo.png" alt="jamk-logo" />
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                            <div class="col-1-5 faces slideup-text">
-                                <div class="face-card">
-                                    <!-- Pic -->
-                                    <img src="img/faces/janne.JPG" alt="Janne Alatalo" class="face" />
-                                    <!-- Content -->
-                                    <div class="face-details">
-                                        <div class="face-info">Janne Alatalo</div>
-                                        <div class="job">TDD, automation</div>
-                                    </div>
-                                </div>
-                                <!-- Social media links -->
-                                <div class="member_some">
-                                </div>
-                            </div>
-
-                            <div class="col-1-5 faces slideup-text">
-                                <div class="face-card">
-                                    <!-- Pic -->
-                                    <img src="img/faces/team_jarmo.jpg" alt="Jarmo Viinikanoja" class="face" />
-                                    <!-- Content -->
-                                    <div class="face-details">
-                                        <div class="face-info">Jarmo Viinikanoja</div>
-                                        <div class="job">Network specialist</div>
-                                    </div>
-                                </div>
-                                <!-- Social media links -->
-                                <div class="member_some">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-1-5 faces slideup-text">
-                                    <div class="face-card">
-                                        <!-- Pic -->
-                                        <img src="img/faces/petri.JPG" alt="Petri Matilainen" class="face" />
-                                        <!-- Content -->
-                                        <div class="face-details">
-                                            <div class="face-info">Petri Matilainen</div>
-                                            <div class="job">Test automation</div>
-                                        </div>
-                                    </div>
-                                    <!-- Social media links -->
-                                    <div class="member_some">
-                                    </div>
-                                </div>
-
-                                <div class="col-1-5 faces slideup-text">
-                                    <div class="face-card">
-                                        <!-- Pic -->
-                                        <img src="img/faces/taneli.JPG" alt="Taneli Hartikainen" class="face" />
-                                        <!-- Content -->
-                                        <div class="face-details">
-                                            <div class="face-info">Taneli Hartikainen</div>
-                                            <div class="job">Talonmies</div>
-                                        </div>
-                                    </div>
-                                    <!-- Social media links -->
-                                    <div class="member_some">
-                                        <a href="https://www.linkedin.com/pub/taneli-hartikainen/32/b83/712" target="_blank">
-                                            <i class="fa fa-linkedin-square fa-2x"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-1-5 faces slideup-text">
-                                    <div class="face-card">
-                                        <!-- Pic -->
-                                        <img src="img/faces/narsu.JPG" alt="Marko Rintamäki" class="face" />
-                                        <!-- Content -->
-                                        <div class="face-details">
-                                            <div class="face-info">Marko Rintamäki</div>
-                                            <div class="job">Team Coach
-                                                <br>Product Owner</div>
-                                            </div>
-                                        </div>
-                                        <!-- Social media links -->
-                                        <div class="member_some">
-                                            <a href=" https://twitter.com/narsuman" target="_blank">
-                                                <i class="fa fa-twitter-square fa-2x"></i>
-                                                <a href="https://www.linkedin.com/in/narsuman" target="_blank">
-                                                    <i class="fa fa-linkedin-square fa-2x"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-1-5 faces slideup-text">
-                                            <div class="face-card">
-                                                <!-- Pic -->
-                                                <img src="img/faces/team_jouni.jpg" alt="Jouni Huotari" class="face" />
-                                                <!-- Content -->
-                                                <div class="face-details">
-                                                    <div class="face-info">Jouni Huotari</div>
-                                                    <div class="job">Project manager</div>
-                                                </div>
-                                            </div>
-                                            <!-- Social media links -->
-                                            <div class="member_some">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-1-5 faces slideup-text">
-                                            <div class="face-card">
-                                                <!-- Pic -->
-                                                <img src="img/faces/nikok.JPG" alt="Niko Korhonen" class="face" />
-                                                <!-- Content -->
-                                                <div class="face-details">
-                                                    <div class="face-info">Niko Korhonen</div>
-                                                    <div class="job">Test automation</div>
-                                                </div>
-                                            </div>
-                                            <!-- Social media links -->
-                                            <div class="member_some">
-                                                <a href=" https://www.linkedin.com/profile/view?id=162900125" target="_blank">
-                                                    <i class="fa fa-linkedin-square fa-2x"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-1-5 faces slideup-text">
-                                            <div class="face-card">
-                                                <!-- Pic -->
-                                                <img src="img/faces/team_paavo.jpg" alt="Paavo Nelimarkka" class="face" />
-                                                <!-- Content -->
-                                                <div class="face-details">
-                                                    <div class="face-info">Paavo Nelimarkka</div>
-                                                    <div class="job">Web developer</div>
-                                                </div>
-                                            </div>
-                                            <!-- Social media links -->
-                                            <div class="member_some">
-                                            </div>
-                                        </div>
-
-                                        <a href="challenge-factory-2015.html#photos" target="_blank">
-                                            <div class="col-1-5 faces slideup-text">
-                                                <div class="face-card">
-                                                    <!-- Pic -->
-                                                    <img src="img/faces/team.JPG" alt="Paavo Nelimarkka" class="face" />
-                                                    <!-- Content -->
-                                                    <div class="face-details">
-                                                        <div class="face-info">Challenge Factory team</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <!-- Social media links -->
-                                            <div class="member_some">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <hr />
+                <div class="footer-info-holder">
+                    <div class="footer-contact">
+                        <h3>Contact</h3>
+                        <p>marko.rintamaki@jamk.fi</p>
+                        <p>lauri.makinen@jamk.fi</p>
+                        <p>40100 Jyväskylä</p>
+                        <p>Finland</p>
+                    </div>
+                    <div class="footer-contact">
+                        <h3>Find us</h3>
+                        <div>
+                            <a href="https://github.com/wimmalab" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+                            <a href="https://twitter.com/wimmalab" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/company-beta/22308846/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
                         </div>
                     </div>
+                </div>
+                <br>
+                <div class="footer-fineprint">
+                    <p>© Cyber Trust @ JAMK 2017. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
 
-                    <!-- supported by -->
-                    <div id="supported-by">
-                        <div class="zerogrid">
-                            <div class="row">
-                                <div class="col-full">
-                                    <div class="wrap-col">
-                                        <div class="section-heading">Supported By</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- partner logos -->
-                        <div id="meet-the-partners">
-                            <div class="zerogrid row partners" id="black">
-                                <div class="col-1-3 logo-container" id="digile">
-                                    <div class="wrap-col">
-                                        <a href="http://www.n4s.fi/en/"><img src="img/digile-n4s.png" alt="Digile" class="company-logos" /></a>
-                                    </div>
-                                </div>
-                                <div class="col-1-3 logo-container">
-                                    <div class="wrap-col">
-                                        <a href="http://www.tekes.fi/en/"><img src="img/tekes_logo.png" alt="Tekes" class="company-logos" /></a>
-                                    </div>
-                                </div>
-                                <div class="col-1-3 logo-container">
-                                    <div class="wrap-col">
-                                        <a href="http://www.jamk.fi/en/Home/"><img src="img/jamk_logo.png" alt="Jamk" class="company-logos" /></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Contact -->
-                    <div id="contact-info" class="contact-wrapper">
-                        <div class="zerogrid row vision">
-                            <div class="wrap-col">
-                                <p class="ourvision-text">We are looking for talents all the time. If you have the urge to stay on top of the IT evolution, we would like to hear from you. And if you just want to come and say hello, we are in with that also. Let's improve the process of software
-                                    delivery together. We have coffee, you can bring some korvapuusti!</p>
-                                </div>
-                            </div>
-                            <div id="map-canvas">
-                            </div>
-
-                            <div class="contact-bg">
-                                <div class="zerogrid row contact ">
-                                    <div class="col-1-3">
-                                        <div class="wrap-col">
-                                            <h3>Contact</h3>
-                                            <p>marko.rintamaki@jamk.fi</p>
-                                            <p>lauri.makinen@jamk.fi</p>
-                                            <p>40100 Jyväskylä</p>
-                                            <p>Finland</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-3">
-                                        <div class="wrap-col">
-                                            <h3>Find us</h3>
-                                            <p>
-                                                <a href="http://twitter.com/n4sjamk" target="_blank"><i class="fa fa-twitter-square fa-3x twitter"></i></a>
-                                                <a href="http://github.com/N4SJAMK" target="_blank"><i class="fa fa-github-square fa-3x github"></i></a>
-                                                <a href="https://www.linkedin.com/grp/home?gid=6623114" target="_blank"><i class="fa fa-linkedin-square fa-3x linkedin"></i></a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <footer class="zerogrid row footer">
-                                    <div class="col-1-3">
-                                        <div class="wrap-col">
-                                            <p id="copyright"></p>
-                                        </div>
-                                    </div>
-                                </footer>
-                            </div>
-                        </div>
-                    </body>
-
-                    </html>
+        <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/reveal.js"></script>
+        <script src="js/scroll.js"></script>
+    </body>
+</html>
