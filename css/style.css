@@ -16,7 +16,7 @@ body {
     overflow-x:hidden;
 }
 h1,h2,h3,h4,h5,h6 {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
@@ -48,6 +48,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .info-info {
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /* Works */
@@ -58,7 +59,7 @@ h1,h2,h3,h4,h5,h6 {
     padding-bottom: 20px;
 }
 .works-info, .works-left, .works-right {
-    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 /* Team */
