@@ -17,26 +17,24 @@ sr.reveal('.about-btn', {
 });
 sr.reveal('.info-info', {
     duration: 2000,
-    origin: 'left'
+    origin: 'top',
+    viewFactor: 0.2
 });
-sr.reveal('.works-right', {
+sr.reveal('.info-right', {
     duration: 2000,
     origin: 'right',
     distance: '10px',
-    viewFactor: 0.8
+    viewFactor: 0.2
 });
-sr.reveal('.works-info', {
-    duration: 2000,
-    origin: 'top'
-});
-sr.reveal('.works-left', {
+sr.reveal('.info-left', {
     duration: 2000,
     origin: 'left',
-    distance: '100px'
+    distance: '10px',
+    viewFactor: 0.2
 });
 sr.reveal('.avatar', {
     duration: 2000,
     origin: 'bottom',
     distance: '10px',
-    viewFactor: 0.1
+    viewFactor: 0.2
 });
