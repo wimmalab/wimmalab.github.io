@@ -36,10 +36,12 @@ body {
 .about h1 {
     font-size: 50px;
     margin-bottom: 20px;
-    text-shadow: -2px 0 3px #030303, 0 2px 3px#030303, 2px 0 3px #030303, 0 -2px 3px #030303;
+    /* text-shadow: -2px 0 3px #030303, 0 2px 3px#030303, 2px 0 3px #030303, 0 -2px 3px #030303; */
+    /* text-shadow: 2px 2px 3px rgba(3, 3, 3, 0.5); */
+    text-shadow: -2px 0 3px rgba(3, 3, 3, 0.4), 0 2px 3px rgba(3, 3, 3, 0.4), 1px 0 3px rgba(3, 3, 3, 0.4), 0 -1px 3px rgba(3, 3, 3, 0.4);
 }
 .about p {
-    text-shadow: -2px 0 3px #030303, 0 2px 3px#030303, 2px 0 3px #030303, 0 -2px 3px #030303;
+    text-shadow: -1px 0 3px rgba(3, 3, 3, 0.6), 0 1px 3px rgba(3, 3, 3, 0.6), 1px 0 3px rgba(3, 3, 3, 0.6), 0 -1px 3px rgba(3, 3, 3, 0.6);
 }
 .about-right {
     margin-top: 30px;
