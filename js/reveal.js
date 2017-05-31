@@ -10,9 +10,19 @@ sr.reveal('.about-right', {
     origin: 'right',
     distance: '10px'
 });
-sr.reveal('.about-btn', {
-    duration: 1500,
+sr.reveal('.about-btn-1', {
+    duration: 1000,
     delay: 1000,
+    origin: 'right'
+});
+sr.reveal('.about-btn-2', {
+    duration: 1000,
+    delay: 1300,
+    origin: 'right'
+});
+sr.reveal('.about-btn-3', {
+    duration: 1000,
+    delay: 1600,
     origin: 'right'
 });
 sr.reveal('.info-info', {
