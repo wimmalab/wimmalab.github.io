@@ -1,0 +1,5 @@
+title: WIMMA Lab
+baseurl: /wimmalab
+exclude: ['README.md']
+
+markdown: kramdown

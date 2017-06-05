@@ -1,0 +1,35 @@
+<!-- Team -->
+<section id="team" class="team">
+    <div class="container">
+        <h2>The Team</h2>
+        <div class="avatar-container">
+            {% for member in site.data.team %}
+            <div class="avatar"><img src="img/{{ member.img }}" />
+                <div class="avatar-overlay">
+                    <h3>{{ member.name }}<br><small>{{ member.title }}</small></h3>
+                    {% if member.linkedin %}
+                    <a class="avatar-link" href="https://www.linkedin.com/in/{{ member.linkedin }}" target="_blank">
+                        <i class="fa fa-linkedin fa-2x"></i></a>
+                    {% endif %}
+                    {% if member.github %}
+                    <a class="avatar-link" href="https://github.com/{{ member.github }}" target="_blank">
+                        <i class="fa fa-github fa-2x"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <hr/>
+        <div class="avatar-container">
+            {% for member in site.data.coach %}
+            <div class="avatar"><img src="img/{{ member.img }}" />
+                <div class="avatar-overlay">
+                    <h3>{{ member.name }}<br><small>{{ member.title }}</small></h3>
+                    <a class="avatar-link" href="https://www.linkedin.com/in/{{ member.linkedin }}" target="_blank">
+                        <i class="fa fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
