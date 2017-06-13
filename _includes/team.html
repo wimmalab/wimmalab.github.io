@@ -57,6 +57,10 @@
                     <a class="avatar-link" href="https://github.com/{{ member.github }}" target="_blank">
                         <i class="fa fa-github fa-2x"></i></a>
                     {% endif %}
+                    {% if member.gitlab %}
+                    <a class="avatar-link" href="https://gitlab.com/{{ member.gitlab }}" target="_blank">
+                        <i class="fa fa-gitlab fa-2x"></i></a>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
