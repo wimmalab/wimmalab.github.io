@@ -1,0 +1,50 @@
+$darker: #58595b;
+$lighter: #7b7c7c;
+$white: #fbfbfb;
+$accent: #87ccbe;
+
+.custom-navbar {
+    background: #030303;
+    border: 0;
+
+    .navbar-brand {
+        font-size: 20px;
+        color: $white;
+        -webkit-transition: color .3s;
+        -moz-transition: color .3s;
+        -o-transition: color .3s;
+        transition: color .3s;
+        &:hover, &:active, &:focus {
+            color: $accent;
+        }
+    }
+    .navbar-nav > li > a {
+        color: $white;
+        -webkit-transition: color .3s;
+        -moz-transition: color .3s;
+        -o-transition: color .3s;
+        transition: color .3s;
+        &:hover {
+            color: $accent;
+        }
+    }
+    .navbar-nav > .active > a {
+        color: $accent;
+        &:hover, &:focus {
+            color: $accent;
+        }
+    }
+    .nav-icons {
+        width: 320px;
+        line-height: 60px;
+        height: 50px;
+        margin-left: 50px;
+        display: none;
+        @media only screen and (min-width : 768px) {
+            display: inline-block;
+        }
+        a {
+            margin-left: 10px;
+        }
+    }
+}

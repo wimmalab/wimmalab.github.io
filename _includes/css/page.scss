@@ -3,53 +3,6 @@ $lighter: #7b7c7c;
 $white: #fbfbfb;
 $accent: #87ccbe;
 
-/* Bootstrap default overrides */
-.custom-navbar {
-    background: #030303;
-    border: 0;
-
-    .navbar-brand {
-        font-size: 20px;
-        color: $white;
-        -webkit-transition: color .3s;
-        -moz-transition: color .3s;
-        -o-transition: color .3s;
-        transition: color .3s;
-        &:hover, &:active, &:focus {
-            color: $accent;
-        }
-    }
-    .navbar-nav > li > a {
-        color: $white;
-        -webkit-transition: color .3s;
-        -moz-transition: color .3s;
-        -o-transition: color .3s;
-        transition: color .3s;
-        &:hover {
-            color: $accent;
-        }
-    }
-    .navbar-nav > .active > a {
-        color: $accent;
-        &:hover, &:focus {
-            color: $accent;
-        }
-    }
-    .nav-icons {
-        width: 300px;
-        line-height: 60px;
-        height: 50px;
-        margin-left: 50px;
-        display: none;
-        @media only screen and (min-width : 768px) {
-            display: inline-block;
-        }
-        a {
-            margin-left: 10px;
-        }
-    }
-}
-
 /* Global */
 @font-face {
     font-family: system;
@@ -233,37 +186,4 @@ footer a:active,
     text-shadow: none;
     border: none;
     cursor: pointer;
-}
-
-/*==================================================
-=            Bootstrap 3 Media Queries             =
-==================================================*/
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-    .landing-right p {
-        max-width: 670px;
-    }
 }
