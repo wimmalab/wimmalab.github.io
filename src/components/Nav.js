@@ -34,7 +34,7 @@ export default class Nav extends React.Component {
                     <ul className="navbar-nav">
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#for-you">WIMMA for you</a></li>
-                        <li><a href="#companies">VCOMPANIES</a></li>
+                        <li><a href="#companies">vCOMPANIES</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                         <li><a href="https://wimmalab.github.io/blog/" className="blog-link">BLOG</a></li>
                     </ul>
@@ -50,7 +50,7 @@ export default class Nav extends React.Component {
                     <ul>
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#for-you">WIMMA for you</a></li>
-                        <li><a href="#companies">VCOMPANIES</a></li>
+                        <li><a href="#companies">vCOMPANIES</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                         <li><a href="https://wimmalab.github.io/blog/">BLOG</a></li>
                     </ul>
