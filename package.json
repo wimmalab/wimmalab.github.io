@@ -1,0 +1,19 @@
+{
+  "name": "wimmalab",
+  "version": "1.0.0",
+  "description": "New pages for wimmalab.github.io using React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wimmalab/wimmalab.github.io.git"
+  },
+  "author": "Artur Veselovski, Maiju Shcreck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wimmalab/wimmalab.github.io/issues"
+  },
+  "homepage": "https://github.com/wimmalab/wimmalab.github.io#readme"
+}
