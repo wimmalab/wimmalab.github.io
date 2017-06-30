@@ -4,7 +4,8 @@
   "description": "New pages for wimmalab.github.io using React.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/wimmalab/wimmalab.github.io/issues"
   },
-  "homepage": "https://github.com/wimmalab/wimmalab.github.io#readme"
+  "homepage": "https://github.com/wimmalab/wimmalab.github.io#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scrollable-anchor": "^0.4.2"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.0.10"
+  }
 }
