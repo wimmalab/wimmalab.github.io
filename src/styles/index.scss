@@ -5,12 +5,30 @@
 @import "companies.min.css";
 @import "contact.min.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+@font-face {
+  font-family: 'Gothic';
+  src: url('../fonts/GOTHIC.TTF');
+}
+
+@font-face {
+  font-family: 'BaskVill';
+  src: url('../fonts/BASKVILL.TTF');
+}
+
+@font-face {
+  font-family: 'GothicB';
+  src: url('../fonts/GOTHICB.TTF');
+}
 // variables
 $main-background: #fefffa;
 $main-1: #575756;
 $main-2: #171a1f;
 $accent-1: #a5e0df;
 $accent-2: #fc8f97;
+$font-h1: 'GothicB';
+$font-h2: 'BaskVill';
+$font-h3: 'Gothic';
 
 * {
     // do not change
@@ -19,6 +37,11 @@ $accent-2: #fc8f97;
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-h1;
     background-color: $main-background;
+}
+
+.container {
+    font-family: $font-h2;
+    font-size: 100px;
 }
