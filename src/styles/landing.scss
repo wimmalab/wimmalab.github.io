@@ -1,0 +1,20 @@
+// variables
+$main-background: #fefffa;
+$main-1: #575756;
+$main-2: #171a1f;
+$accent-1: #a5e0df;
+$accent-2: #fc8f97;
+
+.landing {
+    // basic styles to keep sections consistent
+    min-height: 100vh;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .container {
+        margin: 0 auto;
+        // styles go in here
+    }
+}

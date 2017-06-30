@@ -1,19 +1,32 @@
 // libs
 import React from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
+// components
+import Landing from './Landing';
+import About from './About';
+import ForYou from './ForYou';
+import Companies from './Companies';
+import Contact from './Contact';
 
 export default class Page extends React.Component {
     render() {
         return (
             <div className="wrapper">
-                <section className="landing">Landing</section>
-
-                <section className="about">About</section>
-
-                <section className="for-you">For You</section>
-
-                <section className="vcompanies">VCompanies</section>
-
-                <section className="contact">Contact</section>
+                <ScrollableAnchor id={'page-top'}>
+                    <Landing />
+                </ScrollableAnchor>
+                <ScrollableAnchor id={'about'}>
+                    <About />
+                </ScrollableAnchor>
+                <ScrollableAnchor id={'for-you'}>
+                    <ForYou />
+                </ScrollableAnchor>
+                <ScrollableAnchor id={'companies'}>
+                    <Companies />
+                </ScrollableAnchor>
+                <ScrollableAnchor id={'contact'}>
+                    <Contact />
+                </ScrollableAnchor>
             </div>
         );
     }

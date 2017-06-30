@@ -1,6 +1,24 @@
 @import "nav.min.css";
+@import "landing.min.css";
+@import "about.min.css";
+@import "for-you.min.css";
+@import "companies.min.css";
+@import "contact.min.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+// variables
+$main-background: #fefffa;
+$main-1: #575756;
+$main-2: #171a1f;
+$accent-1: #a5e0df;
+$accent-2: #fc8f97;
 
 * {
+    // do not change
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $main-background;
 }
