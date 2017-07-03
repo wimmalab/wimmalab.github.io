@@ -15,6 +15,13 @@ $accent-2: #fc8f97;
     justify-content: center;
     .container {
         margin: 0 auto;
+        background-color: $main-2;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
         // styles go in here
+        img {
+          width: 100px;
+        }
     }
 }
