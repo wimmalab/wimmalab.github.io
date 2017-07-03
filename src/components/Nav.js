@@ -1,4 +1,5 @@
 import React from 'react';
+import LogoImg from '../img/logo/WI.turqbox.png';
 
 export default class Nav extends React.Component {
     constructor(props) {
@@ -21,7 +22,7 @@ export default class Nav extends React.Component {
         return (
             <div>
                 <nav className="navbar">
-                    <a href="#page-top" className="brand-link"><img src="../img/logo/WI.blackbox.png"/></a>
+                    <a href="#page-top" className="brand-link"><img src={LogoImg} alt={LogoImg} /></a>
                     <span className="open-slide">
                         <a onClick={() => this.openSlideMenu()}>
                             <svg width="30" height="30">
