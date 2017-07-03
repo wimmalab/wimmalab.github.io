@@ -1,49 +1,25 @@
-@import "nav.min.css";
-@import "landing.min.css";
-@import "about.min.css";
-@import "for-you.min.css";
-@import "companies.min.css";
-@import "contact.min.css";
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+// =========================================================================
+// index
+// =========================================================================
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
 @font-face {
   font-family: 'Gothic';
   src: url('../fonts/GOTHIC.TTF');
 }
-
 @font-face {
   font-family: 'BaskVill';
   src: url('../fonts/BASKVILL.TTF');
 }
-
 @font-face {
   font-family: 'GothicB';
   src: url('../fonts/GOTHICB.TTF');
 }
-// variables
-$main-background: #fefffa;
-$main-1: #575756;
-$main-2: #171a1f;
-$accent-1: #a5e0df;
-$accent-2: #fc8f97;
-$font-h1: 'GothicB';
-$font-h2: 'BaskVill';
-$font-h3: 'Gothic';
-$font-p: 'BaskVill';
-
-* {
-    // do not change
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: $font-h1;
-    background-color: $main-background;
-}
-
-.container {
-    max-width: 960px;
-    font-family: $font-h2;
-    font-size: 100px;
-}
+@import "partials/variables.scss";
+@import "partials/global.scss";
+@import "partials/nav.scss";
+@import "partials/landing.scss";
+@import "partials/about.scss";
+@import "partials/for-you.scss";
+@import "partials/companies.scss";
+@import "partials/contact.scss";

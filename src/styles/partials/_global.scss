@@ -1,0 +1,23 @@
+// main: ../index.scss
+// =========================================================================
+// global
+// =========================================================================
+
+@import 'variables.scss';
+
+* {
+    // do not change
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: $main-2;
+    font-family: $font-h1;
+    background-color: $main-3;
+}
+.container {
+    max-width: 960px;
+    font-family: $font-h2;
+    font-size: 100px;
+}

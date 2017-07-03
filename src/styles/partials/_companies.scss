@@ -1,9 +1,9 @@
-// variables
-$main-background: #fefffa;
-$main-1: #575756;
-$main-2: #171a1f;
-$accent-1: #a5e0df;
-$accent-2: #fc8f97;
+// main: ../index.scss
+// =========================================================================
+// companies
+// =========================================================================
+
+@import 'variables.scss';
 
 .companies {
     // basic styles to keep sections consistent

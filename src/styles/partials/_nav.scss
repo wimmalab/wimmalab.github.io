@@ -1,9 +1,9 @@
-// variables
-$main-background: #fefffa;
-$main-1: #575756;
-$main-2: #171a1f;
-$accent-1: #a5e0df;
-$accent-2: #fc8f97;
+// main: ../index.scss
+// =========================================================================
+// navigation
+// =========================================================================
+
+@import 'variables.scss';
 
 .navbar {
     overflow: hidden;
@@ -13,8 +13,8 @@ $accent-2: #fc8f97;
     background-color: $main-2;
     a {
         text-decoration: none;
-        color: $main-background;
-        stroke: $main-background;
+        color: $main-3;
+        stroke: $main-3;
         transition: 0.5s;
         padding: 10px 0;
         &:hover {
@@ -64,12 +64,12 @@ $accent-2: #fc8f97;
         }
     }
     .blog-link {
-        border: solid 2px $main-background;
+        border: solid 2px $main-3;
         padding: 10px 40px;
         &:hover {
-            background-color: $main-background;
+            background-color: $main-3;
             color:$main-2;
-            border: solid 2px $main-background;
+            border: solid 2px $main-3;
             box-shadow: none;
         }
     }
@@ -101,8 +101,8 @@ $accent-2: #fc8f97;
         }
     }
     a {
-        color: $main-background;
-        stroke: $main-background;
+        color: $main-3;
+        stroke: $main-3;
         transition: 0.5s;
         &:hover {
             color: $accent-1;
