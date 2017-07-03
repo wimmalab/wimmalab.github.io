@@ -7,9 +7,9 @@ export default class What extends React.Component {
             <div className="what-content">
                 <h2>What is WIMMA?</h2>
                 <h3>Unique opportunity to learn</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>During WIMMA Lab students gain experience on project-based teamwork in work life-like environment. Students are guided to find their own place on a team and together build culture and rules for their team.</p>
                 <h3>We teach to execute</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>WIMMA Lab is all about building from idea to execution. Virtual companies are coached to deliver a working demo each sprint. However, the goal is not to build quick and dirty demos, but solutions that are production ready and can stand the test of time.</p>
             </div>
         );
     }

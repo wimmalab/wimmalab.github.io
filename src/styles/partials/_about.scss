@@ -10,14 +10,45 @@
     min-height: 100vh;
     padding-top: 100px;
     padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    .container {
-        margin: 0 auto;
-        max-width: 960px;
-        // styles go in here
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 20px;
     }
+    .about-info {
+        max-width: 440px;
+        h2 {
+            font-family: $font-h2;
+            font-size: 60px;
+            margin-bottom: 50px;
+            padding: 40px 0;
+            box-shadow: 0px -5px 0px $accent-1 inset;
+            color: $main-1;
+            display: inline-block;
+        }
+        p {
+            font-family: $font-p;
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+    }
+    .about-img {
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img {
+            width: 100%;
+        }
+    }
+
     .switch-icons {
         display: flex;
         justify-content: center;
@@ -26,6 +57,7 @@
         line-height: 250px;
     }
     .switch-icon {
+
         width: 320px;
         height: 250px;
         background-color: $accent-1;
@@ -39,7 +71,7 @@
 }
 
 .what-content {
-    height: 700px;
+    min-height: 700px;
     padding: 20px 0;
     h2 {
         font-family: $font-h2;
@@ -62,11 +94,66 @@
 }
 
 .who-content {
-    height: 700px;
+    min-height: 700px;
     padding: 20px 0;
+    h2 {
+        font-family: $font-h2;
+        font-size: 60px;
+        margin-bottom: 40px;
+        padding: 40px 0;
+        box-shadow: 0px -5px 0px $accent-1 inset;
+        color: $main-1;
+    }
+    .team-container {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 22px;
+    }
+    .team-member {
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        border: solid 2px $main-2;
+    }
+    p {
+        font-family: $font-p;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
 }
 
 .projects-content {
-    height: 700px;
+    min-height: 700px;
     padding: 20px 0;
+    h2 {
+        font-family: $font-h2;
+        font-size: 60px;
+        margin-bottom: 40px;
+        padding: 40px 0;
+        box-shadow: 0px -5px 0px $accent-1 inset;
+        color: $main-1;
+    }
+    h3 {
+        font-family: $font-h3;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-family: $font-p;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .projects-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .projects-icon {
+        width: 150px;
+        height: 150px;
+        border: solid 2px $main-1;
+        border-radius: 50%;
+    }
 }
