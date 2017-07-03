@@ -17,7 +17,7 @@ $accent-2: #fc8f97;
         stroke: $main-background;
         transition: 0.5s;
         &:hover {
-            color: $accent-1;
+            box-shadow: 0px -2px 4px $accent-1 inset;
             stroke: $accent-1;
         }
     }
@@ -35,6 +35,8 @@ $accent-2: #fc8f97;
         line-height: 70px;
         margin-left: 30px;
         font-size: 22px;
+        width: 10px;
+        height: 10px;
         @media only screen and (min-width: 768px) {
             margin-left: 50px;
         }
@@ -43,7 +45,7 @@ $accent-2: #fc8f97;
         float: right;
         margin-right: 50px;
         list-style: none;
-        width: 500px;
+        width: 700px;
         font-size: 16px;
         line-height: 70px;
         display: none;
@@ -57,10 +59,11 @@ $accent-2: #fc8f97;
     }
     .blog-link {
         border: solid 2px $main-background;
-        padding: 10px;
+        padding: 10px 40px;
         &:hover {
-            color: $accent-2;
-            border-color: $accent-2;
+            background-color: $main-background;
+            color:$main-2;
+            border: solid 2px $main-background;
         }
     }
 }

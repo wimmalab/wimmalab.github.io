@@ -21,7 +21,7 @@ export default class Nav extends React.Component {
         return (
             <div>
                 <nav className="navbar">
-                    <a href="#page-top" className="brand-link">WIMMA Lab</a>
+                    <a href="#page-top" className="brand-link"><img src="../img/logo/WI.blackbox.png"/></a>
                     <span className="open-slide">
                         <a onClick={() => this.openSlideMenu()}>
                             <svg width="30" height="30">
