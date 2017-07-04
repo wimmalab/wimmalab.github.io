@@ -8,20 +8,75 @@
 .companies {
     // basic styles to keep sections consistent
     min-height: 100vh;
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    .container {
-        margin: 0 auto;
-        background-color: $main-2;
-        width: 100px;
-        height: 100px;
-        margin: 10px;
-        // styles go in here
-        img {
-          width: 100px;
-        }
+    //display: flex;
+    //flex-flow: column wrap;
+    //justify-content: center;
+
+    // styles go in here
+    //this headline styles. DO GLOBAL??
+    h2 {
+      font-family: $font-h2;
+      font-size: 60px;
+      margin-bottom: 50px;
+      padding: 40px 0;
+      box-shadow: 0px -5px 0px $accent-1 inset;
+      color: $main-1;
+      display: inline-block;
     }
-}
+
+    //Company boxes styles
+    .companies-container {
+        display: -webkit-flex;
+         display: flex;
+         -webkit-flex-flow: row wrap;
+         flex-flow: row wrap;
+         -webkit-align-items: center;
+         align-items: center;
+         -webkit-justify-content: center;
+         justify-content: center;
+
+
+        .company-icon {
+          position:relative;
+          width: 450px;
+          margin:10px;
+          &:hover .company-overlay {
+            opacity: 0.9;
+          }
+        .company-img {
+          display: block;
+          width: 100%;
+        }
+        .company-overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: $accent-1;
+        }
+        .company-text{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          color: $main-3;
+          h1 {
+            font-family:$font-h1;
+            font-size: 33px;
+          }
+          p {
+            font-family:$font-p;
+            font-size: 20px;
+          }
+          }
+        }
+      }
+    }

@@ -6,6 +6,7 @@
 @import 'variables.scss';
 
 .navbar {
+    z-index: 1; //this keeps navbar on top
     overflow: hidden;
     position: fixed;
     width: 100%;
