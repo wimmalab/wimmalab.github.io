@@ -156,4 +156,25 @@
         border: solid 2px $main-1;
         border-radius: 50%;
     }
+
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: $font-p;
+.missio {
+  color:$main-3;
+  background-color: $main-2;
+  padding: 20px;
+}
+.visio {
+  background-color: $accent-1;
+  padding: 20px;
+
+}
+.methods {
+  background-color: $accent-2;
+  padding: 20px;
+
+}
 }

@@ -13,8 +13,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url("../img/landingimg.jpg");
+    background-size: cover;
     .container {
         margin: 0 auto;
         // styles go in here
+        h1{
+          color: $accent-2;
+        }
     }
 }

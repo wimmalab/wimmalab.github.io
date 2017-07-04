@@ -49,6 +49,17 @@ export default class About extends React.Component {
                     {this.state.content === 'projects' &&
                         <Projects />
                     }
+                    <div className="boxes">
+                    <div className="missio">
+                    <p>I am missio</p>
+                    </div>
+                    <div className="visio">
+                    <p>I am visio</p>
+                    </div>
+                    <div className="methods">
+                    <p>I am methods</p>
+                    </div>
+                    </div>
                 </div>
             </section>
         );
