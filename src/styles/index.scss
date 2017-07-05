@@ -15,6 +15,7 @@
   font-family: 'GothicB';
   src: url('../fonts/GOTHICB.TTF');
 }
+
 @import "partials/variables.scss";
 @import "partials/global.scss";
 @import "partials/nav.scss";
@@ -23,3 +24,6 @@
 @import "partials/for-you.scss";
 @import "partials/companies.scss";
 @import "partials/contact.scss";
+
+//import faicons
+//@import "./src/fonts/font-awesome-4.7.0/scss/font-awesome.scss";

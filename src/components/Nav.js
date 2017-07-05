@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoImg from '../img/logo/WI.turqbox.png';
+import LogoImg from '../img/logo/WI.blackbox.png';
 
 export default class Nav extends React.Component {
     constructor(props) {
@@ -34,8 +34,8 @@ export default class Nav extends React.Component {
                     </span>
                     <ul className="navbar-nav">
                         <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#for-you">WIMMA for you</a></li>
-                        <li><a href="#companies">vCOMPANIES</a></li>
+                        <li><a href="#for-you">WIMMA FOR YOU</a></li>
+                        <li><a href="#companies">VIRTUAL COMPANIES</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                         <li><a href="https://wimmalab.github.io/blog/" className="blog-link">BLOG</a></li>
                     </ul>
@@ -50,8 +50,8 @@ export default class Nav extends React.Component {
                     </a>
                     <ul>
                         <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#for-you">WIMMA for you</a></li>
-                        <li><a href="#companies">vCOMPANIES</a></li>
+                        <li><a href="#for-you">WIMMA FOR YOU</a></li>
+                        <li><a href="#companies">VIRTUAL COMPANIES</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                         <li><a href="https://wimmalab.github.io/blog/">BLOG</a></li>
                     </ul>
