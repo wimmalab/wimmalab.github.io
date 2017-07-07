@@ -36,9 +36,9 @@ export default class About extends React.Component {
                         </div>
                     </div>
                     <div className="switch-icons">
-                        <a onClick={() => this.switchContent('what')}><div className="switch-icon"><h3>WHAT?</h3></div></a>
-                        <a onClick={() => this.switchContent('who')}><div className="switch-icon"><h3>WHO?</h3></div></a>
-                        <a onClick={() => this.switchContent('projects')}><div className="switch-icon"><h3>PROJECTS</h3></div></a>
+                        <a onClick={() => this.switchContent('what')}><div className="switch-icon"><h2>WHAT?</h2></div></a>
+                        <a onClick={() => this.switchContent('who')}><div className="switch-icon"><h2>WHO?</h2></div></a>
+                        <a onClick={() => this.switchContent('projects')}><div className="switch-icon"><h2>PROJECTS</h2></div></a>
                     </div>
                     {this.state.content === 'what' &&
                         <What />
