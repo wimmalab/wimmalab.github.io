@@ -60,7 +60,9 @@ export default class About extends React.Component {
                     <p>I am methods</p>
                     </div>
                     </div>
+                    <div className="latest-articles">
                     <h3>Here latest blog posts???</h3>
+                    </div>
                 </div>
             </section>
         );

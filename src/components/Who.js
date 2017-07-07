@@ -1,8 +1,11 @@
 // libs
 import React from 'react';
+//img
 import Laurimakinen from "../img/profile/Lauri_makinen.jpg";
 import Narsu from "../img/profile/Marko_rintamaki.jpg";
 import Paavonelimarkka from "../img/profile/Paavo_nelimarkka.jpg";
+//icons
+import LinkedIn from 'react-icons/lib/fa/linkedin-square';
 
 export default class Who extends React.Component {
     render() {
@@ -16,7 +19,7 @@ export default class Who extends React.Component {
                     <h4>Lauri Mäkinen</h4>
                     <p>Head Coach</p>
                     </div>
-                    <p>Add here some-icons </p>
+                    <h5><LinkedIn/></h5>
                     </div>
                     <div className="team-member">
                     <img src={Narsu} alt={'narsu'} />
@@ -24,7 +27,7 @@ export default class Who extends React.Component {
                     <h4>Marko "Narsu" Rintamäki</h4>
                     <p>Product Owner</p>
                     </div>
-                    <p>Add here some-icons </p>
+                    <h5><LinkedIn/></h5>
                     </div>
                     <div className="team-member">
                     <img src={Paavonelimarkka} alt={'paavo-nelimarkka'} />
@@ -32,7 +35,7 @@ export default class Who extends React.Component {
                     <h4>Paavo Nelimarkka</h4>
                     <p>Team Coach</p>
                     </div>
-                    <p>Add here some-icons </p>
+                    <h5><LinkedIn/></h5>
                     </div>
                 </div>
                 <div className="who-text">
