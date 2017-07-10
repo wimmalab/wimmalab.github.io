@@ -41,7 +41,6 @@
         font-family: $font-h3;
         font-size: 40px;
         line-height: 250px;
-    }
     .switch-icon {
 
         width: 320px;
@@ -65,7 +64,7 @@
           }
         }
     }
-
+}
 .what-content {
     min-height: 700px;
     padding: 20px 0;
@@ -182,26 +181,27 @@
 
 }
 .boxes {
-  display: flex;
-  flex-wrap: wrap;
   font-family: $font-p;
-.missio {
-  color:$main-3;
-  background-color: $main-2;
-  padding: 20px;
-  }
-.visio {
-  background-color: $accent-1;
-  padding: 20px;
+  text-align: center;
+.visio {  padding: 20px;
 
   }
+  .missio {
+    background-color: $main-2;
+    padding: 20px;
+    h3 {
+      color:$main-3;
+    }
+    }
 .methods {
-  background-color: $accent-2;
   padding: 20px;
+  .method-icons {
+    display: flex;
 
+    }
   }
 }
-
+//tuleeko tämä?
 .latest-articles {
   margin: 100px;
   display: flex;

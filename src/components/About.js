@@ -5,6 +5,8 @@ import Who from './Who';
 import What from './What';
 import Projects from './Projects';
 import AboutImg from '../img/about.jpg';
+import MdTrendingUp from 'react-icons/lib/md/trending-up'
+import BackUp from 'react-icons/lib/md/backup'
 
 export default class About extends React.Component {
     constructor(props) {
@@ -50,14 +52,18 @@ export default class About extends React.Component {
                         <Projects />
                     }
                     <div className="boxes">
-                    <div className="missio">
-                    <p>I am missio</p>
-                    </div>
                     <div className="visio">
-                    <p>I am visio</p>
+                    <h3>Our VISIO is to be universal learning method to any kind of students.</h3>
+                    </div>
+                    <div className="missio">
+                    <h3>Our MISSIO is to have two international WIMMA lab campukses in 2020.</h3>
                     </div>
                     <div className="methods">
-                    <p>I am methods</p>
+                    <h3>Our methods</h3>
+                    <div className="method-icons">
+                    <h3><MdTrendingUp/></h3>
+                    <h3><BackUp/></h3>
+                    </div>
                     </div>
                     </div>
                     <div className="latest-articles">
