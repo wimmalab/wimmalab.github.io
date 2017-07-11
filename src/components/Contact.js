@@ -1,7 +1,6 @@
 // libs
 import React from 'react';
-import LinkedIn from 'react-icons/lib/fa/linkedin-square';
-import Facebook from 'react-icons/lib/fa/facebook-square';
+import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, FaInstagram, FaYoutubeSquare } from 'react-icons/lib/fa';
 
 export default class Contact extends React.Component {
     render() {
@@ -10,20 +9,16 @@ export default class Contact extends React.Component {
                 <div className="container">
                     <h2>Contact</h2>
                     <div className="contact-container">
-                        <div className="leftside">
+                        <div className="left-side">
                             <h3>Marko "Narsu" Rintamäki</h3>
-                            <p>
-                            marko.rintamaki@jamk.fi
-                            </p>
+                            <p>marko.rintamaki@jamk.fi</p>
                             <h3>Lauri Mäkinen</h3>
-                            <p>
-                            lauri.makinen@jamk.fi
-                            </p>
+                            <p>lauri.makinen@jamk.fi</p>
                         </div>
-                        <div className="rightside">
+                        <hr />
+                        <div className="right-side">
                             <p>Campus Dynamo</p>
-                            <p>
-                            Piippukatu 2,
+                            <p>Piippukatu 2,
                             40100 Jyväskylä
                             Finland</p>
                             <p>wimmalab@gmail.com</p>
@@ -31,9 +26,14 @@ export default class Contact extends React.Component {
                     </div>
                 </div>
                 <div className="footer">
-                    How about Google maps on ahead?
-                    <h3><LinkedIn/></h3>
-                    <h3><Facebook/></h3>
+                    <div className="social-links">
+                        <span><a href=""><FaGithubSquare /></a></span>
+                        <span><a href=""><FaLinkedinSquare /></a></span>
+                        <span><a href=""><FaFacebookSquare /></a></span>
+                        <span><a href=""><FaTwitterSquare /></a></span>
+                        <span><a href=""><FaInstagram /></a></span>
+                        <span><a href=""><FaYoutubeSquare /></a></span>
+                    </div>
                 </div>
             </section>
         );

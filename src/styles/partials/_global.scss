@@ -15,10 +15,13 @@ body {
     color: $main-2;
     font-family: $font-h1;
     background-color: $main-3;
+    overflow-x: hidden;
 }
 .container {
     margin: 0 auto;
     max-width: 960px;
-    font-family: $font-h2;
-    font-size: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    // font-family: $font-h2;
+    // font-size: 100px;
 }

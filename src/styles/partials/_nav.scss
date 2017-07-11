@@ -6,7 +6,7 @@
 @import 'variables.scss';
 
 .navbar {
-    z-index: 1; //this keeps navbar on top
+    z-index: 1; // this keeps navbar on top
     overflow: hidden;
     position: fixed;
     width: 100%;
@@ -19,7 +19,7 @@
         stroke: $main-3;
         transition: 0.5s;
         padding: 10px 0;
-        &:hover, a:-webkit-any-link {
+        &:hover {
             box-shadow: 0px -5px 0px $accent-1 inset;
             stroke: $accent-1;
         }
@@ -33,7 +33,7 @@
         & a:hover {
             box-shadow: none;
         }
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: 900px) {
             display: none;
         }
     }
@@ -43,25 +43,25 @@
         width: 10px;
         height: 10px;
         &:hover {
-          opacity: 0.5;
+            opacity: 0.5;
         }
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: 900px) {
             margin-left: 50px;
-          }
+        }
         img {
-          width: 71px;
+            height: 70px;
         }
     }
     .navbar-nav {
         float: right;
-        margin-right: 30px; // WAS EARLIER 50PX???
+        margin-right: 50px; // WAS EARLIER 50PX??? YES, for a good reason
         list-style: none;
-        width: 65%;
+        width: 70%;
         font-size: 16px;
         line-height: 70px;
         display: none;
         justify-content: space-between;
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: 900px) {
             display: flex;
         }
         li {

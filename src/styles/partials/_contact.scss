@@ -7,36 +7,49 @@
 
 .contact {
     // basic styles to keep sections consistent
-    min-height: 100vh;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    //display: flex;
-    //flex-direction: column;
-    //justify-content: center;
+    // min-height: 100vh;
+    padding-top: 70px;
     .contact-container {
-        display: flex;
-        justify-content:space-between;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 1;
-        // styles go in here
-        .leftside{
-            width:45%;
-            border-right: 2px solid $main-1;
-            height:300px;
-            margin-bottom: 40px;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        text-align: center;
+        @media only screen and (min-width: 900px) {
+            margin-bottom: 20px;
+            display: flex;
+            text-align: left;
         }
-        .rightside {
-            width: 45%;
+        .left-side{
+            min-width: 320px;
+        }
+        hr {
+            margin-bottom: 30px;
+        }
+        .right-side {
+            min-width: 320px;
         }
     }
     .footer {
-        position: absolute;
+        height: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         background-color: $accent-2;
-        width:100%;
-        height:550px;
-        margin: 0;
+    }
+    .social-links {
+        width: 320px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+
+        a {
+            font-size: 40px;
+            color: $main-3;
+            transition: 0.5s;
+            &:hover {
+                color: $accent-1;
+            }
+        }
     }
 }

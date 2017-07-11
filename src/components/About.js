@@ -26,13 +26,13 @@ export default class About extends React.Component {
         return (
             <section className="about">
                 <div className="container">
-                    <div className="about-container">
+                    <div className="about-basic">
+                        <h2>OUR STORY</h2>
                         <div className="about-info">
-                            <h2>OUR STORY</h2>
                             <p>WIMMA Lab is a concept based on the challenge centered learning. It is run as 2,5 months long project which students join as trainees for their bachelor degree programme. WIMMA Lab introduces students to different research and development challenges. Challenges are presented from companies, research programs and universities. At the start of the project, students form virtual companies. During the project students develop concepts, proof-of-concepts or production ready solutions.</p>
-                        </div>
-                        <div className="about-img">
-                            <img src={AboutImg} alt={'about-img'} />
+                            <div className="about-img">
+                                <img src={AboutImg} alt={'about-img'} />
+                            </div>
                         </div>
                     </div>
                     <div className="switch-icons">
