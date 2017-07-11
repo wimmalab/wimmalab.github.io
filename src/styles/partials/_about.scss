@@ -14,6 +14,7 @@
     // flex-direction: column;
     // justify-content: center;
 
+    // basic about content ===>
     .about-container {
         display: flex;
         flex-direction: row;
@@ -35,59 +36,63 @@
         }
     }
 
+    // switch-icons ===>
     .switch-icons {
         display: flex;
         justify-content: center;
         font-family: $font-h3;
         font-size: 40px;
         line-height: 250px;
+    }
     .switch-icon {
-
         width: 320px;
         height: 250px;
         background-color: $main-2;
         text-align: center;
         cursor: pointer;
+        transition: .5s ease;
         &:hover{
             background-color: $accent-1;
-            transition: .5s ease;
         }
         h2 {
-          text-decoration:none;
-          font-style: italic;
-          box-shadow: none;
-          padding: 0px;
-          color: $main-3;
-          &:hover {
+            text-decoration:none;
+            font-style: italic;
+            box-shadow: none;
+            padding: 0px;
+            color: $main-3;
             transition: .5s ease;
-            color: $main-2;
-          }
+            &:hover {
+                color: $main-2;
+            }
         }
-    }
-}
-.what-content {
-    min-height: 700px;
-    padding: 20px 0;
-    h2 {
-        font-family: $font-h2;
-        font-size: 60px;
-        margin-bottom: 40px;
-        padding: 40px 0;
-        box-shadow: 0px -5px 0px $accent-1 inset;
-        color: $main-1;
-    }
-}
+    } // <=== switch-icons
 
-.who-content {
-    min-height: 700px;
-    padding: 20px 0;
-    h2 {
-        font-family: $font-h2;
-        font-size: 60px;
-        margin-bottom: 40px;
-        padding: 40px 0;
-        box-shadow: 0px -5px 0px $accent-1 inset;
-        color: $main-1;
+    // what ===>
+    .what-content {
+        min-height: 700px;
+        padding: 20px 0;
+        h2 {
+            font-family: $font-h2;
+            font-size: 60px;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            box-shadow: 0px -5px 0px $accent-1 inset;
+            color: $main-1;
+        }
+    } // <=== what
+
+    // who ===>
+    .who-content {
+        min-height: 700px;
+        padding: 20px 0;
+        h2 {
+            font-family: $font-h2;
+            font-size: 60px;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            box-shadow: 0px -5px 0px $accent-1 inset;
+            color: $main-1;
+        }
     }
     .team-container {
         margin-top: 60px;
@@ -95,6 +100,7 @@
         display: flex;
         justify-content: space-around;
         font-size: 16px;
+    }
     .team-member {
         position: relative;
         height: 200px;
@@ -102,110 +108,107 @@
         background-color: #ccc;
         transition: .5s ease;
         &:hover {
-          filter: grayscale(20%);
+            filter: grayscale(20%);
         }
-        //border: solid 2px $main-2;
-    img {
-      width:100%;
-      filter: grayscale(90%);
+        img {
+            width:100%;
+            filter: grayscale(90%);
         }
-    .team-text {
-      position: absolute;
-      color: $main-3;
-      width: 100%;
-      text-align:center;
-      padding: 40px 0px;
-      top:60%;
-      left:50%;
-      transition: .5s ease;
-      transform: translate(-50%, -50%);
-      &:hover {
-        opacity: 0;
-      }
+        .team-text {
+            position: absolute;
+            color: $main-3;
+            width: 100%;
+            text-align:center;
+            padding: 40px 0px;
+            top:60%;
+            left:50%;
+            transition: .5s ease;
+            transform: translate(-50%, -50%);
+            &:hover {
+                opacity: 0;
+            }
+        }
+        h5 {
+            font-size: 25px;
+            text-align: center;
+            color:$accent-1;
+            transition: .5s ease;
+            &:hover{
+                color:$main-1;
+                cursor: pointer;
+            }
+        }
     }
-    h5 {
-      font-size: 25px;
-      text-align: center;
-      color:$accent-1;
-      transition: .5s ease;
-      &:hover{
-        color:$main-1;
-        cursor: pointer;
-      }
-    }
-  }
-}
     .who-text {
-      display: block;
-      margin-top: 100px;
-      p {
-          font-family: $font-p;
-          font-size: 22px;
-          margin-bottom: 30px;
+        display: block;
+        margin-top: 100px;
+        p {
+            font-family: $font-p;
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+    } // <=== who
+
+    // projects ===>
+    .projects-content {
+        min-height: 700px;
+        padding: 20px 0;
+        .projects-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 80px;
+            h2 {
+                box-shadow: none;
+                margin-right: 10px;
+                font-size: 40px;
+            }
+        }
+        .projects-icon {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            img {
+                width: 100%;
+                shape-outside: circle(50%);
+                -webkit-clip-path: circle(50%);
+                transition: .5s ease;
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+            p {
+                text-align: center;
+            }
+        }
+    } // <=== projects
+
+    // <=== visio / mission
+    .boxes {
+        font-family: $font-p;
+        text-align: center;
+        .visio {
+            padding: 20px;
+        }
+        .missio {
+            background-color: $main-2;
+            padding: 20px;
+            h3 {
+                color:$main-3;
+            }
+        }
+        .methods {
+            padding: 20px;
+            .method-icons {
+                display: flex;
+            }
+        }
     }
-  }
-}
-
-.projects-content {
-    min-height: 700px;
-    padding: 20px 0;
-
-    .projects-icons {
+    // tuleeko tämä?
+    .latest-articles {
+        margin: 100px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 80px;
-    h2 {
-        box-shadow: none;
-        margin-right: 10px;
-        font-size: 40px;
-    }
-  }
-    .projects-icon {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        img {
-          width: 100%;
-          shape-outside: circle(50%);
-          -webkit-clip-path: circle(50%);
-          transition: .5s ease;
-          &:hover{
-            opacity: 0.7;
-          }
-        }
-        p {
-          text-align: center;
-        }
     }
 
-}
-.boxes {
-  font-family: $font-p;
-  text-align: center;
-.visio {  padding: 20px;
-
-  }
-  .missio {
-    background-color: $main-2;
-    padding: 20px;
-    h3 {
-      color:$main-3;
-    }
-    }
-.methods {
-  padding: 20px;
-  .method-icons {
-    display: flex;
-
-    }
-  }
-}
-//tuleeko tämä?
-.latest-articles {
-  margin: 100px;
-  display: flex;
-  flex-wrap: wrap;
-
-  }
-}
+} // <=== about end

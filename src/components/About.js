@@ -16,14 +16,12 @@ export default class About extends React.Component {
         }
         this.switchContent = this.switchContent.bind(this);
     }
-
     switchContent(value) {
         console.log(value);
         this.setState({
             content: value
         });
     }
-
     render() {
         return (
             <section className="about">
@@ -52,22 +50,22 @@ export default class About extends React.Component {
                         <Projects />
                     }
                     <div className="boxes">
-                    <div className="visio">
-                    <h3>Our VISIO is to be universal learning method to any kind of students.</h3>
-                    </div>
-                    <div className="missio">
-                    <h3>Our MISSIO is to have two international WIMMA lab campukses in 2020.</h3>
-                    </div>
-                    <div className="methods">
-                    <h3>Our methods</h3>
-                    <div className="method-icons">
-                    <h3><MdTrendingUp/></h3>
-                    <h3><BackUp/></h3>
-                    </div>
-                    </div>
+                        <div className="visio">
+                            <h3>Our VISIO is to be universal learning method to any kind of students.</h3>
+                        </div>
+                        <div className="missio">
+                            <h3>Our MISSIO is to have two international WIMMA lab campukses in 2020.</h3>
+                        </div>
+                        <div className="methods">
+                            <h3>Our methods</h3>
+                            <div className="method-icons">
+                                <h3><MdTrendingUp/></h3>
+                                <h3><BackUp/></h3>
+                            </div>
+                        </div>
                     </div>
                     <div className="latest-articles">
-                    <h3>Here latest blog posts???</h3>
+                        <h3>Here latest blog posts???</h3>
                     </div>
                 </div>
             </section>
