@@ -26,7 +26,7 @@ h2 {
     color: $main-1;
     display: block;
     text-align: center;
-    @media only screen and (min-width: 900px) {
+    @media only screen and (min-width: 992px) {
         display: inline-block;
         font-size: 60px;
     }
