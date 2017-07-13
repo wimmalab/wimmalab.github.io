@@ -10,20 +10,11 @@
     min-height: 100vh;
     margin-top: 80px;
     padding-bottom: 50px;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    .container {
-        // position: relative;
-    }
 
     // basic about content ===>
     .about-basic {
-
         display: flex;
-
         position: relative;
-
         padding-bottom: 50px;
     .about-info {
         padding: 50px 50px 50px 0px;
@@ -52,7 +43,7 @@
             height: inherit;
         }
     }
-}
+    }
     // switch-icons ===>
     .switch-icons {
         overflow: hidden;
@@ -86,29 +77,19 @@
                 opacity: 1;
             }
         }
-        .who-icon {
-        background-image:url(../img/weare.jpg);
 
-        }
-        .what-icon {
-        background-image:url(../img/wedo.jpg);
-        }
-        .projects-icon {
-        background-image:url(../img/projects.jpg);
-        }
     } // <=== switch-icon
     .switch-dots {
         list-style: none;
         display: block;
         text-align: center;
         margin-bottom: 50px;
-
         a {
             display: inline-block;
             text-decoration: none;
             margin: 0 10px;
             font-size: 26px;
-            color: $accent-2;
+            color: $accent-1;
         }
     }
 
