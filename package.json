@@ -19,6 +19,7 @@
   "homepage": "https://github.com/wimmalab/wimmalab.github.io#readme",
   "dependencies": {
     "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5",
     "react-scrollable-anchor": "^0.4.2"

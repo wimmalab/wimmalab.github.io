@@ -38,14 +38,7 @@ export default class Projects extends React.Component {
                     <a><div className="projects-icon"><img src={Contriboard} alt="contriboard"/><p>Contriboard</p></div></a>
                     <a><div className="projects-icon"><img src={Contriboard} alt="contriboard"/><p>Contriboard</p></div></a>
                 </div>
-                <h2>2013</h2>
-                <div className="projects-icons">
-                    <a><div className="projects-icon"><img src={Contriboard} alt="contriboard"/><p>Contriboard</p></div></a>
-                    <a><div className="projects-icon"><img src={Contriboard} alt="contriboard"/><p>Contriboard</p></div></a>
-                    <a><div className="projects-icon"><img src={Contriboard} alt="contriboard"/><p>Contriboard</p></div></a>
-                    <a><div className="projects-icon"><img src={Contriboard} alt="contriboard"/><p>Contriboard</p></div></a>
-                </div>
-                <h2>2012</h2>
+                <h2>2012 & 2013</h2>
                 <div className="projects-icons">
                     <a href="http://freenest.org/about">
                         <div className="projects-icon"><img src={Freenest} alt="Freenest"/>

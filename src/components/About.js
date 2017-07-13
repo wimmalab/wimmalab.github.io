@@ -9,7 +9,6 @@ import WeAreImg from '../img/weare.jpg';
 import WeDoImg from '../img/wedo.jpg';
 import ProjectImg from '../img/projects.jpg';
 
-
 export default class About extends React.Component {
     constructor(props) {
         super(props);
@@ -42,7 +41,8 @@ export default class About extends React.Component {
                         <a onClick={() => this.switchContent('who')}><div className="switch-icon what-icon"><h6>WHO?</h6></div></a>
                         <a onClick={() => this.switchContent('projects')}><div className="switch-icon projects-icon"><h6>PROJECTS</h6></div></a>
                     </div>
-                    {this.state.content === 'what' &&
+                    {
+                        this.state.content === 'what' &&
                         <What />
                     }
                     {this.state.content === 'who' &&
