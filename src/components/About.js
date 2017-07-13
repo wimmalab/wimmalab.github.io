@@ -14,7 +14,13 @@ import ProjectImg from '../img/projects.jpg';
 import MdTrendingUp from 'react-icons/lib/md/trending-up';
 import BackUp from 'react-icons/lib/md/backup';
 
+// offset anchor for better scrolling into view
 configureAnchors({offset: -40});
+// for inline styling
+const styles = {
+    accent2 : '#fc8f97',
+    scaleUp : 'scale(1.4)'
+}
 
 export default class About extends React.Component {
     constructor(props) {
@@ -44,11 +50,22 @@ export default class About extends React.Component {
                         </div>
                         <ScrollableAnchor id={'categories'}><div style={{position: 'absolute', bottom: '100px'}}></div></ScrollableAnchor>
                     </div>
-
                     <div className="switch-icons">
-                        <a onClick={() => this.switchContent('what')} href="#categories"><div className="switch-icon"><h2>WHAT?</h2></div></a>
-                        <a onClick={() => this.switchContent('who')} href="#categories"><div className="switch-icon"><h2>WHO?</h2></div></a>
-                        <a onClick={() => this.switchContent('projects')} href="#categories"><div className="switch-icon"><h2>PROJECTS</h2></div></a>
+                        <a onClick={() => this.switchContent('what')} href="#categories">
+                            <div className="switch-icon">
+                                <h6 style={(this.state.content === 'what') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHAT?</h6>
+                            </div>
+                        </a>
+                        <a onClick={() => this.switchContent('who')} href="#categories">
+                            <div className="switch-icon">
+                                <h6 style={(this.state.content === 'who') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHO?</h6>
+                            </div>
+                        </a>
+                        <a onClick={() => this.switchContent('projects')} href="#categories">
+                            <div className="switch-icon">
+                                <h6 style={(this.state.content === 'projects') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>PROJECTS</h6>
+                            </div>
+                        </a>
                     </div>
                     <ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={500} transitionLeave={false}>
                         {this.state.content === 'what' &&
@@ -62,9 +79,9 @@ export default class About extends React.Component {
                         }
                     </ReactCSSTransitionGroup>
                     <ul className="switch-dots">
-                        <a onClick={() => this.switchContent('what')} href="#categories"><li>&bull;</li></a>
-                        <a onClick={() => this.switchContent('who')} href="#categories"><li>&bull;</li></a>
-                        <a onClick={() => this.switchContent('projects')} href="#categories"><li>&bull;</li></a>
+                        <a onClick={() => this.switchContent('what')} href="#categories" style={(this.state.content === 'what') ? {color: styles.accent2} : {}}><li>&bull;</li></a>
+                        <a onClick={() => this.switchContent('who')} href="#categories" style={(this.state.content === 'who') ? {color: styles.accent2} : {}}><li>&bull;</li></a>
+                        <a onClick={() => this.switchContent('projects')} href="#categories" style={(this.state.content === 'projects') ? {color: styles.accent2} : {}}><li>&bull;</li></a>
                     </ul>
                     <div className="boxes">
                         <div className="visio">
@@ -72,27 +89,27 @@ export default class About extends React.Component {
                             <div className="p-italic">Our visio is to be universal learning method to any kind of students.</div>
                         </div>
                         <div className="missio">
-                        <h3>Missio</h3>
-                        <div className="p-italic">Our missio is to have two international WIMMA lab campukses in 2020.</div>
+                            <h3>Missio</h3>
+                            <div className="p-italic">Our missio is to have two international WIMMA lab campukses in 2020.</div>
                         </div>
                         <div className="methods">
                             <h3>Our methods</h3>
                             <div className="method-icons">
                                 <div className="method-icon">
-                                <p className="icon-font"><MdTrendingUp/></p>
-                                <p>Im trending</p>
+                                    <p className="icon-font"><MdTrendingUp/></p>
+                                    <p>Im trending</p>
                                 </div>
                                 <div className="method-icon">
-                                <p className="icon-font"><BackUp/></p>
-                                <p>Im back up</p>
+                                    <p className="icon-font"><BackUp/></p>
+                                    <p>Im back up</p>
                                 </div>
                                 <div className="method-icon">
-                                <p className="icon-font"><BackUp/></p>
-                                <p>Im back up</p>
+                                    <p className="icon-font"><BackUp/></p>
+                                    <p>Im back up</p>
                                 </div>
                                 <div className="method-icon">
-                                <p className="icon-font"><BackUp/></p>
-                                <p>Im IOT</p>
+                                    <p className="icon-font"><BackUp/></p>
+                                    <p>Im IOT</p>
                                 </div>
                             </div>
                         </div>
