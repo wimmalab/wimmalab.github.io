@@ -165,35 +165,57 @@
     .projects-content {
         min-height: 700px;
         padding: 20px 0px;
+        a{
+            text-decoration:none;
+            &:hover{
+            text-decoration: underline $accent-1;
+            }
+        }
         .projects-icons {
             margin: 10px;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-        @media only screen and (max-width: 992px) {
-            display: flex;
-            //flex-direction:column;
-            flex:1;
-            justify-content: center;
+                @media only screen and (max-width: 992px) {
+                display: flex;
+                //flex-direction:column;
+                flex:1;
+                justify-content: center;
+                }
         }
-        }
+
         .projects-icon {
+            position: relative;
             width: 220px;
-            height: 220px;
-            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
             img {
                 width: 220px;
-                //height:220px;
+                height:220px;
             }
-            .hover-projects {
-            transition: .5s ease;
-            &:hover {
-            }
-                p {
+                .hover-projects {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                    transition: .5s ease;
+                    background-color:white;
+                h5 {
+                margin-top: 50px;
+                position: absolute;
+                text-decoration: none;
                 text-align: center;
-                color: $accent-2;
+                color: $main-2;
                 }
+                &:hover {
+                    opacity: 0.8;
             }
+        }
+
         }
 
     } // <=== projects
