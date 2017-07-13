@@ -1,7 +1,10 @@
 // libs
 import React from 'react';
+// components
 import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, FaInstagram, FaYoutubeSquare } from 'react-icons/lib/fa';
+// assets
 import ContactUs from '../img/contact.us.jpg';
+
 export default class Contact extends React.Component {
     render() {
         return (
@@ -18,22 +21,17 @@ export default class Contact extends React.Component {
                             <p>lauri.makinen@jamk.fi</p>
                             <br />
                             <h3>Campus Dynamo</h3>
-                            <h3>Piippukatu 2
-
-                            </h3>
-                            <h3>40100 Jyväskylä
-                            Finland
-                            </h3>
+                            <h3>Piippukatu 2</h3>
+                            <h3>40100 Jyväskylä Finland</h3>
                             <p>wimmalab@gmail.com</p>
                         </div>
-
                         <div className="right-side">
-                        <img src={ContactUs} alt="ContactUs"></img>
+                            <img src={ContactUs} alt="ContactUs"></img>
                         </div>
                     </div>
                 </div>
                 <div className="footer">
-                <h5>You can also find us here</h5>
+                    <h5>You can also find us here</h5>
                     <div className="social-links">
                         <span><a href=""><FaGithubSquare /></a></span>
                         <span><a href=""><FaLinkedinSquare /></a></span>

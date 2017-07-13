@@ -1,5 +1,6 @@
 // libs
 import React from 'react';
+// assets
 import Contriboard from '../img/projects/contriboard.png';
 import Freenest from '../img/projects/whitetext_freenest_logo_vertical_rgb.png';
 
@@ -43,8 +44,7 @@ export default class Projects extends React.Component {
                     <a href="http://freenest.org/about">
                         <div className="projects-icon"><img src={Freenest} alt="Freenest"/>
                             <div className ="hover-projects">
-                                <h5>FreeNest is a team-oriented product development platform that is fast to deploy and easy to use.
-                                </h5>
+                                <h5>FreeNest is a team-oriented product development platform that is fast to deploy and easy to use.</h5>
                             </div>
                         </div>
                     </a>

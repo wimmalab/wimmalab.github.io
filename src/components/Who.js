@@ -1,10 +1,10 @@
 // libs
 import React from 'react';
-//img
+// assets
 import Laurimakinen from "../img/profile/Lauri_makinen.jpg";
 import Narsu from "../img/profile/Marko_rintamaki.jpg";
 import Paavonelimarkka from "../img/profile/Paavo_nelimarkka.jpg";
-//icons
+// components
 import LinkedIn from 'react-icons/lib/fa/linkedin-square';
 
 export default class Who extends React.Component {

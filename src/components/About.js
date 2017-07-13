@@ -4,10 +4,10 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 // components
-// components
 import Who from './Who';
 import What from './What';
 import Projects from './Projects';
+// assets
 import AboutImg from '../img/about.jpg';
 import WeAreImg from '../img/weare.jpg';
 import WeDoImg from '../img/wedo.jpg';
@@ -17,8 +17,8 @@ import ProjectImg from '../img/projects.jpg';
 configureAnchors({offset: -40});
 // for inline styling
 const styles = {
-    accent2: "#fc8f97",
-    scaleUp: "scale(1.4)"
+    accent2: '#fc8f97',
+    scaleUp: 'scale(1.4)'
 }
 
 export default class About extends React.Component {

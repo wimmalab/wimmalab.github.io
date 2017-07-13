@@ -1,10 +1,10 @@
 // libs
 import React from 'react';
+// assets
 import PengWinM from '../img/companies/pengWin_hero.png';
 import Overflow from '../img/companies/overflow_hero_2.png';
 import Mysticons from '../img/companies/mysticons_hero.png';
 import Iotitude from '../img/companies/iotitude.hero.png';
-
 
 export default class Companies extends React.Component {
     render() {

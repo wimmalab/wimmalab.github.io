@@ -1,4 +1,6 @@
+// libs
 import React from 'react';
+// assets
 import LogoImg from '../img/logo/WI.blackbox.png';
 
 export default class Nav extends React.Component {
