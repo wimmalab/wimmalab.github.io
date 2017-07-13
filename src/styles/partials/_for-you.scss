@@ -13,8 +13,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(../img/weare.jpg);
+    background-size: cover;
+    opacity: 0.5;
     .container {
         margin: 0 auto;
+        opacity: 0.92;
+        background-color: $main-3;
         // styles go in here
     }
 }

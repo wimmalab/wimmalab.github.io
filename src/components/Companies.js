@@ -12,13 +12,15 @@ export default class Companies extends React.Component {
             <section className="companies">
                 <div className="container">
                     <h2> Virtual Companies</h2>
+                    <hr />
+                    <h5>2017 Wimma companies</h5>
                     <div className="companies-container">
                         <div className="company-icon">
                             <a href="#"><img className="company-img" src={PengWinM} alt={'pengWin_hero'} />
                                 <div className="company-overlay">
                                     <div className="company-text">
-                                        <h1>COMPANY TITLE</h1>
-                                        <p>JEE</p>
+                                        <h1>PengWin Media</h1>
+                                        <p>Webdesign | Graphics | Webdesign</p>
                                     </div>
                                 </div>
                             </a>
@@ -27,8 +29,8 @@ export default class Companies extends React.Component {
                             <a href="#"><img className="company-img" src={Overflow} alt={'overflow_hero_2'} />
                                 <div className="company-overlay">
                                     <div className="company-text">
-                                        <h1>im chanpionn</h1>
-                                        <p>juups</p>
+                                        <h1>Overflow</h1>
+                                        <p>SDN | Cloud Services</p>
                                     </div>
                                 </div>
                             </a>
@@ -37,8 +39,8 @@ export default class Companies extends React.Component {
                             <a href="#"><img className="company-img" src={Mysticons} alt={'mysticons_hero'} />
                                 <div className="company-overlay">
                                     <div className="company-text">
-                                        <h1>im chanpionn</h1>
-                                        <p>juups</p>
+                                        <h1>Mysticons</h1>
+                                        <p>Data-analyzes | Iot-Scouts | AI-Scouts</p>
                                     </div>
                                 </div>
                             </a>
@@ -48,8 +50,19 @@ export default class Companies extends React.Component {
                                 <img className="company-img"src={Iotitude} alt={'iotitude.hero'} />
                                 <div className="company-overlay">
                                     <div className="company-text">
-                                        <h1>im chanpionn</h1>
-                                        <p>juups</p>
+                                        <h1>Iotitude</h1>
+                                        <p>Iot-product</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="company-icon">
+                            <a href="#">
+                                <img className="company-img"src={PengWinM} alt={'pengiwiing.hero'} />
+                                <div className="company-overlay">
+                                    <div className="company-text">
+                                        <h1>PengWin Game</h1>
+                                        <p>Game production</p>
                                     </div>
                                 </div>
                             </a>

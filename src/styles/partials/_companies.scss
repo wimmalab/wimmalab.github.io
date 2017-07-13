@@ -11,8 +11,13 @@
     padding-top: 70px;
     padding-bottom: 50px;
 
+    h5 {
+        color:$main-3;
+    }
+
     //Company boxes styles
     .companies-container {
+        margin-top:30px;
         display: -webkit-flex;
         display: flex;
         -webkit-flex-flow: row wrap;
@@ -28,10 +33,9 @@
             width: 445px;
             margin: 10px;
             &:hover .company-overlay {
-                opacity: 0.9;
+                opacity: 0.93;
             }
             .company-img {
-                display: block;
                 width: 100%;
             }
             .company-overlay {
@@ -44,21 +48,19 @@
                 width: 100%;
                 opacity: 0;
                 transition: .5s ease;
-                background-color: $accent-1;
+                background-color: $accent-2;
             }
             .company-text{
                 position: absolute;
-                top: 50%;
+                top: 60%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
-                color: $main-3;
                 h1 {
-                    font-family:$font-h1;
-                    font-size: 33px;
+                    font-size: 25px;
+                    color: $main-3;
                 }
                 p {
-                    font-family:$font-p;
                     font-size: 20px;
                 }
             }

@@ -1,31 +1,39 @@
 // libs
 import React from 'react';
 import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, FaInstagram, FaYoutubeSquare } from 'react-icons/lib/fa';
-
+import ContactUs from '../img/contact.us.jpg';
 export default class Contact extends React.Component {
     render() {
         return (
             <section className="contact">
                 <div className="container">
                     <h2>Contact</h2>
+                    <hr />
                     <div className="contact-container">
                         <div className="left-side">
                             <h3>Marko "Narsu" Rintamäki</h3>
                             <p>marko.rintamaki@jamk.fi</p>
+                            <br/>
                             <h3>Lauri Mäkinen</h3>
                             <p>lauri.makinen@jamk.fi</p>
-                        </div>
-                        <hr />
-                        <div className="right-side">
-                            <p>Campus Dynamo</p>
-                            <p>Piippukatu 2,
-                            40100 Jyväskylä
-                            Finland</p>
+                            <br />
+                            <h3>Campus Dynamo</h3>
+                            <h3>Piippukatu 2
+
+                            </h3>
+                            <h3>40100 Jyväskylä
+                            Finland
+                            </h3>
                             <p>wimmalab@gmail.com</p>
+                        </div>
+
+                        <div className="right-side">
+                        <img src={ContactUs} alt="ContactUs"></img>
                         </div>
                     </div>
                 </div>
                 <div className="footer">
+                <h5>You can also find us here</h5>
                     <div className="social-links">
                         <span><a href=""><FaGithubSquare /></a></span>
                         <span><a href=""><FaLinkedinSquare /></a></span>

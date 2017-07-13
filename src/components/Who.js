@@ -12,12 +12,21 @@ export default class Who extends React.Component {
         return (
             <div className="who-content">
                 <h2>Our Team</h2>
+                <hr />
                 <div className="team-container">
                     <div className="team-member">
                         <img src={Laurimakinen} alt={'lauri-makinen'} />
                         <div className="team-text">
                             <h4>Lauri Mäkinen</h4>
                             <p>Head Coach</p>
+                        </div>
+                        <h5><LinkedIn/></h5>
+                    </div>
+                    <div className="team-member">
+                        <img src={Narsu} alt={'narsu'} />
+                        <div className="team-text">
+                            <h4>Marko "Narsu" Rintamäki</h4>
+                            <p>Product Owner</p>
                         </div>
                         <h5><LinkedIn/></h5>
                     </div>
