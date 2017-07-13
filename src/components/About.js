@@ -8,18 +8,13 @@ import Who from './Who';
 import What from './What';
 import Projects from './Projects';
 import AboutImg from '../img/about.jpg';
-<<<<<<< Updated upstream
 import WeAreImg from '../img/weare.jpg';
 import WeDoImg from '../img/wedo.jpg';
 import ProjectImg from '../img/projects.jpg';
-import MdTrendingUp from 'react-icons/lib/md/trending-up'
-import BackUp from 'react-icons/lib/md/backup'
-=======
 import MdTrendingUp from 'react-icons/lib/md/trending-up';
 import BackUp from 'react-icons/lib/md/backup';
 
 configureAnchors({offset: -40});
->>>>>>> Stashed changes
 
 export default class About extends React.Component {
     constructor(props) {
@@ -51,15 +46,9 @@ export default class About extends React.Component {
                     </div>
 
                     <div className="switch-icons">
-<<<<<<< Updated upstream
-                        <a onClick={() => this.switchContent('what')}><div className="switch-icon who-icon"><h6>WHAT?</h6></div></a>
-                        <a onClick={() => this.switchContent('who')}><div className="switch-icon what-icon"><h6>WHO?</h6></div></a>
-                        <a onClick={() => this.switchContent('projects')}><div className="switch-icon projects-icon"><h6>PROJECTS</h6></div></a>
-=======
                         <a onClick={() => this.switchContent('what')} href="#categories"><div className="switch-icon"><h2>WHAT?</h2></div></a>
                         <a onClick={() => this.switchContent('who')} href="#categories"><div className="switch-icon"><h2>WHO?</h2></div></a>
                         <a onClick={() => this.switchContent('projects')} href="#categories"><div className="switch-icon"><h2>PROJECTS</h2></div></a>
->>>>>>> Stashed changes
                     </div>
                     <ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={500} transitionLeave={false}>
                         {this.state.content === 'what' &&
