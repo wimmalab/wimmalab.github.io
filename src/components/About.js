@@ -8,8 +8,7 @@ import AboutImg from '../img/about.jpg';
 import WeAreImg from '../img/weare.jpg';
 import WeDoImg from '../img/wedo.jpg';
 import ProjectImg from '../img/projects.jpg';
-import MdTrendingUp from 'react-icons/lib/md/trending-up'
-import BackUp from 'react-icons/lib/md/backup'
+
 
 export default class About extends React.Component {
     constructor(props) {
@@ -52,37 +51,6 @@ export default class About extends React.Component {
                     {this.state.content === 'projects' &&
                         <Projects />
                     }
-                    <div className="boxes">
-                        <div className="visio">
-                        <h3>Visio</h3>
-                            <div className="p-italic">Our visio is to be universal learning method to any kind of students.</div>
-                        </div>
-                        <div className="missio">
-                        <h3>Missio</h3>
-                        <div className="p-italic">Our missio is to have two international WIMMA lab campukses in 2020.</div>
-                        </div>
-                        <div className="methods">
-                            <h3>Our methods</h3>
-                            <div className="method-icons">
-                                <div className="method-icon">
-                                <p className="icon-font"><MdTrendingUp/></p>
-                                <p>Im trending</p>
-                                </div>
-                                <div className="method-icon">
-                                <p className="icon-font"><BackUp/></p>
-                                <p>Im back up</p>
-                                </div>
-                                <div className="method-icon">
-                                <p className="icon-font"><BackUp/></p>
-                                <p>Im back up</p>
-                                </div>
-                                <div className="method-icon">
-                                <p className="icon-font"><BackUp/></p>
-                                <p>Im IOT</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div className="latest-articles">
                         <h3>Here latest blog posts???</h3>
                     </div>

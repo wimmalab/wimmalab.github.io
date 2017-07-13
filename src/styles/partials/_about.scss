@@ -168,8 +168,10 @@
         .projects-icon {
             width: 220px;
             height: 220px;
+            background-color: black;
             img {
-                width: 100%;
+                width: 220px;
+                //height:220px;
             }
             .hover-projects {
             transition: .5s ease;

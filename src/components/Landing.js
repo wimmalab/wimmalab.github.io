@@ -5,7 +5,10 @@ export default class Landing extends React.Component {
     render() {
         return (
             <section className="landing">
-                <div className="container"><h1>Join Wimma</h1></div>
+                <div className="container"><h1>Join Wimma</h1>
+                    <div className="arrow>"><i className="down"></i>
+                    </div>
+                </div>
             </section>
         );
     }
