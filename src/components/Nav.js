@@ -65,7 +65,7 @@ export default class Nav extends React.Component {
                         <li><a href="https://wimmalab.github.io/blog/">BLOG</a></li>
                     </ul>
                     <ul className="social-media">
-                        <a href=""><FaGithubSquare /></a>
+                        <i><a href=""><FaGithubSquare /></a></i>
                         <a href=""><FaLinkedinSquare /></a>
                         <a href=""><FaFacebookSquare /></a>
                         <a href=""><FaTwitterSquare /></a>
