@@ -8,41 +8,42 @@
 .about {
     // basic styles to keep sections consistent
     min-height: 100vh;
-    margin-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
 
     // basic about content ===>
     .about-basic {
         display: flex;
         position: relative;
         padding-bottom: 50px;
-    .about-info {
-        padding: 50px 50px 50px 0px;
-        justify-content: space-between;
-        p {
-            margin-top: 20px;
-            margin-bottom: 0;
-            @media only screen and (min-width: 992px) {
-                max-width: 440px;
+        .about-info {
+            padding: 50px 50px 50px 0px;
+            justify-content: space-between;
+            p {
+                margin-top: 20px;
+                margin-bottom: 0;
+                @media only screen and (min-width: 992px) {
+                    max-width: 440px;
+                }
             }
         }
-    }
-    .about-img {
-        margin-left: 30px;
-        max-width: 700px;
-        display: none;
-        flex-direction: column;
-        justify-content: center;
-        img {
-            filter: grayscale(100%);
-            width: 100%;
+        .about-img {
+            margin-left: 30px;
+            max-width: 700px;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            img {
+                filter: grayscale(100%);
+                width: 100%;
+            }
+            @media only screen and (min-width: 992px) {
+                display: flex;
+                flex-direction:column;
+                height: inherit;
+            }
         }
-        @media only screen and (min-width: 992px) {
-            display: flex;
-            flex-direction:column;
-            height: inherit;
-        }
-    }
     }
     // switch-icons ===>
     .switch-icons {
@@ -79,7 +80,7 @@
         }
 
     } // <=== switch-icon
-    .switch-dots {
+    .switch-lower {
         list-style: none;
         display: block;
         text-align: center;
@@ -90,18 +91,34 @@
             margin: 0 10px;
             font-size: 26px;
             color: $accent-1;
+            transition:.5s ease;
+            &:hover {
+                color: $accent-2;
+                transform: scale(1.1);
+            }
         }
     }
 
     .fade-enter {
         opacity: 0;
-        right: 100px;
     }
     .fade-enter-active {
         opacity: 1;
         transition: .5s ease-in all;
     }
-
+    .arrow-down {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        a {
+            stroke: $accent-1;
+            transition: 0.5s ease;
+            &:hover {
+                stroke: $accent-2;
+            }
+        }
+    }
 
 
     // what ===>
@@ -109,9 +126,10 @@
         min-height: 700px;
         padding: 20px 0;
 
-        // <=== visio / mission
+        // <=== vision / mission
         .boxes {
-            margin-top: 100px;
+            margin-top: 50px;
+            margin-bottom: 30px;
             text-align: center;
             background-color: $accent-1;
             padding: 30px;
@@ -199,7 +217,7 @@
         a{
             text-decoration:none;
             &:hover{
-            text-decoration: underline $accent-1;
+                text-decoration: underline $accent-1;
             }
         }
         .projects-icons {
@@ -228,29 +246,29 @@
                     height:80%;
                 }
             }
-                .hover-projects {
-                    position: absolute;
-                    top: 0;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    height: 100%;
-                    width: 100%;
-                    opacity: 0;
-                    transition: .5s ease;
-                    background-color:$accent-2;
-                h5 {
+            .hover-projects {
                 position: absolute;
-                text-decoration: none;
-                text-align: center;
-                color: $main-2;
-                opacity: 1;
-                font-size: 90%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color:$accent-2;
+                h5 {
+                    position: absolute;
+                    text-decoration: none;
+                    text-align: center;
+                    color: $main-2;
+                    opacity: 1;
+                    font-size: 90%;
                 }
                 &:hover {
                     opacity: 0.8;
+                }
             }
-        }
 
         }
 

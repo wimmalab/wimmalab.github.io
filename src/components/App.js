@@ -35,25 +35,25 @@ export default class App extends React.Component {
                 <ScrollableAnchor id={'page-top'}><div></div></ScrollableAnchor>
                 <Waypoint onEnter={() => this.handleWaypointEnter('')} topOffset={'45%'} bottomOffset={'45%'}>
                     <div>
-                        <Landing />
+                        <Landing scrollSpy={this.state.scrollSpy} />
                     </div>
                 </Waypoint>
                 <ScrollableAnchor id={'about'}><div></div></ScrollableAnchor>
                 <Waypoint onEnter={() => this.handleWaypointEnter('about')} topOffset={'45%'} bottomOffset={'45%'}>
                     <div>
-                        <About />
+                        <About scrollSpy={this.state.scrollSpy} />
                     </div>
                 </Waypoint>
                 <ScrollableAnchor id={'for-you'}><div></div></ScrollableAnchor>
                 <Waypoint onEnter={() => this.handleWaypointEnter('for-you')} topOffset={'45%'} bottomOffset={'45%'}>
                     <div>
-                        <ForYou />
+                        <ForYou scrollSpy={this.state.scrollSpy} />
                     </div>
                 </Waypoint>
                 <ScrollableAnchor id={'companies'}><div></div></ScrollableAnchor>
                 <Waypoint onEnter={() => this.handleWaypointEnter('companies')} topOffset={'45%'} bottomOffset={'45%'}>
                     <div>
-                        <Companies />
+                        <Companies scrollSpy={this.state.scrollSpy} />
                     </div>
                 </Waypoint>
                 <ScrollableAnchor id={'contact'}><div></div></ScrollableAnchor>

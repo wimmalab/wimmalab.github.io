@@ -1,5 +1,6 @@
 // libs
 import React from 'react';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 // assets
 import PengWinM from '../img/companies/pengWin_hero.png';
 import Overflow from '../img/companies/overflow_hero_2.png';
@@ -20,7 +21,7 @@ export default class Companies extends React.Component {
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>PengWin Media</h1>
-                                        <p>Webdesign | Graphics | Webdesign</p>
+                                        <p>Web-Design | Graphics | Web-Development</p>
                                     </div>
                                 </div>
                             </a>
@@ -40,7 +41,7 @@ export default class Companies extends React.Component {
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>Mysticons</h1>
-                                        <p>Data-analyzes | Iot-Scouts | AI-Scouts</p>
+                                        <p>Data-analyzers | Iot-Scouts | AI-Scouts</p>
                                     </div>
                                 </div>
                             </a>
@@ -51,7 +52,7 @@ export default class Companies extends React.Component {
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>Iotitude</h1>
-                                        <p>Iot-product</p>
+                                        <p>Iot-products</p>
                                     </div>
                                 </div>
                             </a>
@@ -69,6 +70,28 @@ export default class Companies extends React.Component {
                         </div>
                     </div>
                 </div>
+                <ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={500} transitionLeave={false}>
+                    {this.props.scrollSpy === 'contact' &&
+                        <span className="arrow-down">
+                            <a href="#page-top">
+                                <svg width="40" height="40">
+                                    <path d="M1,40 20,0" strokeWidth="4" />
+                                    <path d="M20,0 39,40" strokeWidth="4" />
+                                </svg>
+                            </a>
+                        </span>
+                    }
+                    {this.props.scrollSpy !== 'contact' &&
+                        <span className="arrow-down">
+                            <a href="#contact">
+                                <svg width="40" height="40">
+                                    <path d="M1,0 20,40" strokeWidth="4" />
+                                    <path d="M20,40 39,0" strokeWidth="4" />
+                                </svg>
+                            </a>
+                        </span>
+                    }
+                </ReactCSSTransitionGroup>
             </section>
         );
     }

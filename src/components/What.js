@@ -17,11 +17,11 @@ export default class What extends React.Component {
                 <p>WIMMA Lab is all about building from idea to execution. Virtual companies are coached to deliver a working demo each sprint. However, the goal is not to build quick and dirty demos, but solutions that are production ready and can stand the test of time.</p>
                 <div className="boxes">
                     <div className="visio">
-                        <h3>Visio</h3>
+                        <h3>Vision</h3>
                         <div className="p-italic">Our visio is to be universal learning method to any kind of students.</div>
                     </div>
                     <div className="missio">
-                        <h3>Missio</h3>
+                        <h3>Mission</h3>
                         <div className="p-italic">Our missio is to have two international WIMMA lab campukses in 2020.</div>
                     </div>
                     <div className="methods">

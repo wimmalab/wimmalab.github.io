@@ -3,7 +3,7 @@ import React from 'react';
 // components
 import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, FaInstagram, FaYoutubeSquare } from 'react-icons/lib/fa';
 // assets
-import LogoImg from '../img/logo/WI.blackbox.png';
+import LogoImg from '../img/logo/WI.turqbox.png';
 
 const styles = {
     accent1 : '#a5e0df',
@@ -19,7 +19,7 @@ export default class Nav extends React.Component {
     }
     openSlideMenu() {
         this.setState({
-            slideNavWidth: '250px'
+            slideNavWidth: '100%'
         });
     }
     closeSlideMenu() {
@@ -58,19 +58,19 @@ export default class Nav extends React.Component {
                         </svg>
                     </a>
                     <ul>
-                        <li><a style={(this.props.scrollSpy === 'about') ? {color: styles.accent1} : {}} href="#about">ABOUT</a></li>
-                        <li><a style={(this.props.scrollSpy === 'for-you') ? {color: styles.accent1} : {}} href="#for-you">WIMMA FOR YOU</a></li>
-                        <li><a style={(this.props.scrollSpy === 'companies') ? {color: styles.accent1} : {}} href="#companies">VIRTUAL COMPANIES</a></li>
-                        <li><a style={(this.props.scrollSpy === 'contact') ? {color: styles.accent1} : {}} href="#contact">CONTACT</a></li>
+                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'about') ? {color: styles.accent1} : {}} href="#about">ABOUT</a></li>
+                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'for-you') ? {color: styles.accent1} : {}} href="#for-you">WIMMA FOR YOU</a></li>
+                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'companies') ? {color: styles.accent1} : {}} href="#companies">VIRTUAL COMPANIES</a></li>
+                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'contact') ? {color: styles.accent1} : {}} href="#contact">CONTACT</a></li>
                         <li><a href="https://wimmalab.github.io/blog/">BLOG</a></li>
                     </ul>
                     <ul className="social-media">
-                        <i><a href=""><FaGithubSquare /></a></i>
-                        <a href=""><FaLinkedinSquare /></a>
-                        <a href=""><FaFacebookSquare /></a>
-                        <a href=""><FaTwitterSquare /></a>
-                        <a href=""><FaInstagram /></a>
-                        <a href=""><FaYoutubeSquare /></a>
+                        <li><a href=""><FaGithubSquare /></a></li>
+                        <li><a href=""><FaLinkedinSquare /></a></li>
+                        <li><a href=""><FaFacebookSquare /></a></li>
+                        <li><a href=""><FaTwitterSquare /></a></li>
+                        <li><a href=""><FaInstagram /></a></li>
+                        <li><a href=""><FaYoutubeSquare /></a></li>
                     </ul>
                 </div>
             </div>

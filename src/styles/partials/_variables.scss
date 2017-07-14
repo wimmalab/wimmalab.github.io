@@ -13,10 +13,14 @@ $font-h2: 'Gothic', sans-serif;
 $font-h3: 'BaskVill', serif;
 $font-p: 'BaskVill', serif;
 
-h1{
+h1 {
+    font-size: 36px;
+    color: $accent-2;
     font-family: $font-h1;
-    font-size: 60px;
-    color: $main-2;
+    // color: $main-2;
+    @media only screen and (min-width: 992px) {
+        font-size: 60px;
+    }
 }
 
 h2 {
@@ -57,6 +61,7 @@ h5 {
     text-align: center;
     color:$main-3;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 h6 {
         font-family: $font-h2;

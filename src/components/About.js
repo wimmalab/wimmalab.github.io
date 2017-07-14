@@ -77,15 +77,25 @@ export default class About extends React.Component {
                            <Projects />
                        }
                    </ReactCSSTransitionGroup>
-                   <ul className="switch-dots">
-                       <a onClick={() => this.switchContent('what')} href="#categories" style={(this.state.content === 'what') ? {color: styles.accent2} : {}}><li>&bull;</li></a>
-                       <a onClick={() => this.switchContent('who')} href="#categories" style={(this.state.content === 'who') ? {color: styles.accent2} : {}}><li>&bull;</li></a>
-                       <a onClick={() => this.switchContent('projects')} href="#categories" style={(this.state.content === 'projects') ? {color: styles.accent2} : {}}><li>&bull;</li></a>
+                   <ul className="switch-lower">
+                       <a onClick={() => this.switchContent('what')} href="#categories" style={(this.state.content === 'what') ? {color: styles.accent2} : {}}><li>What?</li></a>
+                       <a onClick={() => this.switchContent('who')} href="#categories" style={(this.state.content === 'who') ? {color: styles.accent2} : {}}><li>Who?</li></a>
+                       <a onClick={() => this.switchContent('projects')} href="#categories" style={(this.state.content === 'projects') ? {color: styles.accent2} : {}}><li>Projects</li></a>
                    </ul>
+                   {/*
                    <div className="latest-articles">
                        <h3>Here latest blog posts???</h3>
                    </div>
+                   */}
                </div>
+               <span className="arrow-down">
+                   <a href="#for-you" style={(this.props.scrollSpy !== 'about') ? {opacity: 0, pointerEvents: 'none'} : {}}>
+                       <svg width="40" height="40">
+                           <path d="M1,0 19,40" strokeWidth="4" />
+                           <path d="M19,40 39,0" strokeWidth="4" />
+                       </svg>
+                   </a>
+               </span>
            </section>
        );
    }

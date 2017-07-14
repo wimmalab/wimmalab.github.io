@@ -24,7 +24,7 @@
             text-align: left;
         }
         .left-side{
-            width: 320px;
+            width: 290px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -43,21 +43,20 @@
         }
     }
     .footer {
-        // height: 300px;
         padding-top: 50px;
         padding-bottom: 50px;
         background-color: $main-2;
     }
     .social-links {
-        margin-top:30px;
+        margin-top: 30px;
         width: 320px;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         margin-left: auto;
         margin-right: auto;
-
         svg {
             font-size: 40px; // Dat de way to fix dem buttons
+            margin: 5px;
         }
         a {
             // font-size: 40px; // not a, but svg... coz a stands for "A" loser, haha hahaha heh...

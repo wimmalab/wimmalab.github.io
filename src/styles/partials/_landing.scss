@@ -10,6 +10,7 @@
     min-height: 100vh;
     padding-top: 70px;
     padding-bottom: 50px;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +20,18 @@
     background-attachment: fixed;
     .container {
         margin: 0 auto;
-        // styles go in here
+    }
+    .arrow-down {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        a {
+            stroke: $accent-1;
+            transition: 0.5s ease;
+            &:hover {
+                stroke: $accent-2;
+            }
+        }
     }
 }

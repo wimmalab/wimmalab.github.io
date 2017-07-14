@@ -8,16 +8,17 @@
 .companies {
     // basic styles to keep sections consistent
     min-height: 100vh;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
 
     h5 {
-        color:$main-3;
+        color:$main-1;
     }
 
     //Company boxes styles
     .companies-container {
-        margin-top:30px;
+        margin-top: 0px;
         display: -webkit-flex;
         display: flex;
         -webkit-flex-flow: row wrap;
@@ -26,12 +27,22 @@
         align-items: center;
         -webkit-justify-content: center;
         justify-content: center;
+        margin-bottom: 50px;
 
 
         .company-icon {
             position:relative;
-            width: 445px;
+            width: 100%;
             margin: 10px;
+            @media only screen and (min-width: 480px) {
+                width: 420px;
+            }
+            @media only screen and (min-width: 768px) {
+                width: 320px;
+            }
+            @media only screen and (min-width: 992px) {
+                width: 445px;
+            }
             &:hover .company-overlay {
                 opacity: 0.93;
             }
@@ -63,6 +74,26 @@
                 p {
                     font-size: 20px;
                 }
+            }
+        }
+    }
+    .fade-enter {
+        opacity: 0;
+    }
+    .fade-enter-active {
+        opacity: 1;
+        transition: .5s ease-in all;
+    }
+    .arrow-down {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        a {
+            stroke: $accent-1;
+            transition: 0.5s ease;
+            &:hover {
+                stroke: $accent-2;
             }
         }
     }
