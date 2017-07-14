@@ -1,7 +1,14 @@
 // libs
 import React from 'react';
+// components
+import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, FaInstagram, FaYoutubeSquare } from 'react-icons/lib/fa';
 // assets
 import LogoImg from '../img/logo/WI.blackbox.png';
+
+const styles = {
+    accent1 : '#a5e0df',
+    active : '0px -5px 0px #a5e0df inset'
+}
 
 export default class Nav extends React.Component {
     constructor(props) {
@@ -35,10 +42,10 @@ export default class Nav extends React.Component {
                         </a>
                     </span>
                     <ul className="navbar-nav">
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#for-you">WIMMA FOR YOU</a></li>
-                        <li><a href="#companies">VIRTUAL COMPANIES</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a style={(this.props.scrollSpy === 'about') ? {boxShadow: styles.active} : {}} href="#about">ABOUT</a></li>
+                        <li><a style={(this.props.scrollSpy === 'for-you') ? {boxShadow: styles.active} : {}} href="#for-you">WIMMA FOR YOU</a></li>
+                        <li><a style={(this.props.scrollSpy === 'companies') ? {boxShadow: styles.active} : {}} href="#companies">VIRTUAL COMPANIES</a></li>
+                        <li><a style={(this.props.scrollSpy === 'contact') ? {boxShadow: styles.active} : {}} href="#contact">CONTACT</a></li>
                         <li><a href="https://wimmalab.github.io/blog/" className="blog-link">BLOG</a></li>
                     </ul>
 
@@ -51,11 +58,19 @@ export default class Nav extends React.Component {
                         </svg>
                     </a>
                     <ul>
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#for-you">WIMMA FOR YOU</a></li>
-                        <li><a href="#companies">VIRTUAL COMPANIES</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a style={(this.props.scrollSpy === 'about') ? {color: styles.accent1} : {}} href="#about">ABOUT</a></li>
+                        <li><a style={(this.props.scrollSpy === 'for-you') ? {color: styles.accent1} : {}} href="#for-you">WIMMA FOR YOU</a></li>
+                        <li><a style={(this.props.scrollSpy === 'companies') ? {color: styles.accent1} : {}} href="#companies">VIRTUAL COMPANIES</a></li>
+                        <li><a style={(this.props.scrollSpy === 'contact') ? {color: styles.accent1} : {}} href="#contact">CONTACT</a></li>
                         <li><a href="https://wimmalab.github.io/blog/">BLOG</a></li>
+                    </ul>
+                    <ul className="social-media">
+                        <a href=""><FaGithubSquare /></a>
+                        <a href=""><FaLinkedinSquare /></a>
+                        <a href=""><FaFacebookSquare /></a>
+                        <a href=""><FaTwitterSquare /></a>
+                        <a href=""><FaInstagram /></a>
+                        <a href=""><FaYoutubeSquare /></a>
                     </ul>
                 </div>
             </div>

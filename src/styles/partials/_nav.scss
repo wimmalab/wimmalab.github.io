@@ -94,7 +94,7 @@
     overflow: hidden;
     padding-top: 10px;
     transition: 0.5s;
-    background-color: $main-1;
+    background-color: $main-2;
     ul {
         float: right;
         list-style: none;
@@ -125,5 +125,17 @@
         position: absolute;
         top: 20px;
         right: 30px;
+    }
+    .social-media {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        a {
+            font-size: 36px;
+        }
     }
 }
