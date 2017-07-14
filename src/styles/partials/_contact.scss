@@ -28,8 +28,9 @@
             width: 320px;
         }
         .right-side {
+            max-width:425px;
             img {
-                max-width:425px;
+                width: 100%;
                 filter:grayscale(90%);
             }
         }
