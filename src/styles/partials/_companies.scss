@@ -8,10 +8,12 @@
 .companies {
     // basic styles to keep sections consistent
     min-height: 100vh;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     position: relative;
-
+    @media (min-width: 768px) {
+        padding-bottom: 90px;
+    }
     h5 {
         color:$main-1;
     }
@@ -27,7 +29,7 @@
         align-items: center;
         -webkit-justify-content: center;
         justify-content: center;
-        margin-bottom: 50px;
+        // margin-bottom: 50px;
 
 
         .company-icon {
@@ -84,9 +86,13 @@
         opacity: 1;
         transition: .5s ease-in all;
     }
-    .arrow-down {
+    .arrow {
+        @media (max-width: 767px) {
+            display: none;
+        }
+        cursor: pointer;
         position: absolute;
-        bottom: 50px;
+        bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
         a {

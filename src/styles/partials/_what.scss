@@ -1,0 +1,38 @@
+// main: ../index.scss
+// =========================================================================
+// about > what
+// =========================================================================
+
+.what-content {
+    min-height: 700px;
+    padding: 20px 0;
+    
+    // vision / mission
+    .boxes {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+        background-color: $accent-1;
+        padding: 30px;
+        h3 {
+            color:$main-3;
+        }
+        .visio {
+            margin: 40px;
+        }
+        .missio {
+            margin: 40px;
+        }
+        .methods {
+            margin: 40px;
+            .method-icons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .icon-font {
+                    margin:0px 20px 0px 20px;
+                }
+            }
+        }
+    }
+}

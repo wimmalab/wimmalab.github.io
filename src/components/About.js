@@ -18,7 +18,7 @@ configureAnchors({offset: -40});
 // for inline styling
 const styles = {
     accent2: '#fc8f97',
-    scaleUp: 'scale(1.4)'
+    scaleUp: 'scale(1.2)'
 }
 
 export default class About extends React.Component {
@@ -88,8 +88,8 @@ export default class About extends React.Component {
                    </div>
                    */}
                </div>
-               <span className="arrow-down">
-                   <a href="#for-you" style={(this.props.scrollSpy !== 'about') ? {opacity: 0, pointerEvents: 'none'} : {}}>
+               <span className="arrow">
+                   <a href="#for-you" style={(this.props.scrollSpy !== 'about') ? {opacity: 0, pointerEvents: 'none'} : {cursor: 'pointer'}}>
                        <svg width="40" height="40">
                            <path d="M1,0 19,40" strokeWidth="4" />
                            <path d="M19,40 39,0" strokeWidth="4" />

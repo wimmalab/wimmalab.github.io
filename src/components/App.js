@@ -22,13 +22,11 @@ export default class App extends React.Component {
         }
     }
     handleWaypointEnter = (value) => {
-        console.log(value);
         this.setState({
             scrollSpy: value
         });
     }
     render() {
-        console.log('App state:', this.state.scrollSpy);
         return (
             <div className="wrapper">
                 <Nav scrollSpy={this.state.scrollSpy} />
@@ -57,7 +55,11 @@ export default class App extends React.Component {
                     </div>
                 </Waypoint>
                 <ScrollableAnchor id={'contact'}><div></div></ScrollableAnchor>
-                <Contact />
+                <Waypoint onEnter={() => this.handleWaypointEnter('contact')} bottomOffset={'45%'}>
+                    <div>
+                        <Contact />
+                    </div>
+                </Waypoint>
                 <Waypoint onEnter={() => this.handleWaypointEnter('contact')} />
             </div>
         );

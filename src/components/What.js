@@ -18,11 +18,11 @@ export default class What extends React.Component {
                 <div className="boxes">
                     <div className="visio">
                         <h3>Vision</h3>
-                        <div className="p-italic">Our visio is to be universal learning method to any kind of students.</div>
+                        <div className="p-italic">Our vision is to be universal learning method to any kind of students.</div>
                     </div>
                     <div className="missio">
                         <h3>Mission</h3>
-                        <div className="p-italic">Our missio is to have two international WIMMA lab campukses in 2020.</div>
+                        <div className="p-italic">Our mission is to have two international WIMMA lab campuses in 2020.</div>
                     </div>
                     <div className="methods">
                         <h3>Our methods</h3>

@@ -3,7 +3,7 @@ import React from 'react';
 // components
 import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, FaInstagram, FaYoutubeSquare } from 'react-icons/lib/fa';
 // assets
-import LogoImg from '../img/logo/WI.turqbox.png';
+import LogoImg from '../img/logo/WI.blackbox.png';
 
 const styles = {
     accent1 : '#a5e0df',
