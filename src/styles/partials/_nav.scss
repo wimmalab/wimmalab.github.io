@@ -13,7 +13,8 @@
     height: 70px;
     background-color: $main-2;
     a {
-        font-size: 16px;
+        font-size: 14px;
+        letter-spacing: 2px;
         text-decoration: none;
         color: $main-3;
         stroke: $main-3;
@@ -70,7 +71,7 @@
     }
     .blog-link {
         border: solid 4px $main-3;
-        padding: 15px 55px;
+        padding: 10px 55px;
         transition: .5s ease;
         &:hover {
             background-color: $main-3;

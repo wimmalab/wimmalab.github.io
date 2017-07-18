@@ -72,23 +72,19 @@ export default class Companies extends React.Component {
                 </div>
                 <ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={500} transitionLeave={false}>
                     {this.props.scrollSpy === 'contact' &&
-                        <span className="arrow">
+                        <span className="arrow-up">
                             <a href="#page-top">
-                                <svg width="40" height="40">
-                                    <path d="M1,40 20,0" strokeWidth="4" />
-                                    <path d="M20,0 39,40" strokeWidth="4" />
-                                </svg>
-                            </a>
+                            <i>
+                            </i>
+                        </a>
                         </span>
                     }
                     {this.props.scrollSpy !== 'contact' &&
                         <span className="arrow">
                             <a href="#contact">
-                                <svg width="40" height="40">
-                                    <path d="M1,0 20,40" strokeWidth="4" />
-                                    <path d="M20,40 39,0" strokeWidth="4" />
-                                </svg>
-                            </a>
+                            <i>
+                            </i>
+                        </a>
                         </span>
                     }
                 </ReactCSSTransitionGroup>

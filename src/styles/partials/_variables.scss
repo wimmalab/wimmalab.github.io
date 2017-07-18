@@ -15,6 +15,7 @@ $font-p: 'BaskVill', serif;
 
 h1 {
     font-size: 36px;
+    letter-spacing: 2px;
     color: $accent-2;
     font-family: $font-h1;
     // color: $main-2;
@@ -23,6 +24,7 @@ h1 {
     }
 }
 h2 {
+    letter-spacing: 2px;
     font-family: $font-h1;
     font-size: 30px;
     text-align: center;
@@ -42,6 +44,7 @@ hr {
     width: 30px;
 }
 h3 {
+    letter-spacing: 2px;
     font-family: $font-h1;
     color: $main-1;
     text-transform: uppercase;
@@ -52,14 +55,16 @@ h4 {
 
 }
 h5 {
+    letter-spacing: 2px;
     font-family: $font-h1;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     color:$main-3;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 h6 {
+    letter-spacing: 2px;
     font-family: $font-h2;
     font-size: 25px;
     text-decoration: none;
@@ -80,7 +85,7 @@ p {
 }
 .p-italic {
     font-family: $font-h3;
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
     text-align: center;
     // margin-bottom: 30px;
