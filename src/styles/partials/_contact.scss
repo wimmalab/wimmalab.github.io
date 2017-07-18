@@ -46,9 +46,20 @@
         padding-top: 50px;
         padding-bottom: 50px;
         background-color: $main-2;
+        .wimmalogo {
+            width: 200px;
+            margin-bottom: 20px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            &:hover {
+                opacity: 0.5;
+                cursor: pointer;
+            }
+        }
     }
     .social-links {
-        margin-top: 30px;
+        margin-top: 20px;
         width: 320px;
         display: flex;
         justify-content: center;

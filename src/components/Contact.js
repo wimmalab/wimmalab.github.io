@@ -4,6 +4,7 @@ import React from 'react';
 import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, FaInstagram, FaYoutubeSquare } from 'react-icons/lib/fa';
 // assets
 import ContactUs from '../img/contact.us.jpg';
+import WimmaLogo from '../img/logo/WIMMA.blackcircle.png';
 
 export default class Contact extends React.Component {
     render() {
@@ -31,6 +32,7 @@ export default class Contact extends React.Component {
                     </div>
                 </div>
                 <div className="footer">
+                    <a href="#page-top"><img className="wimmalogo" src={WimmaLogo} alt='logo'></img></a>
                     <h5>You can also find us here</h5>
                     <div className="social-links">
                         <span><a href=""><FaGithubSquare /></a></span>
