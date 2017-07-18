@@ -17,7 +17,7 @@ export default class Companies extends React.Component {
                     <h5>2017 Wimma companies</h5>
                     <div className="companies-container">
                         <div className="company-icon">
-                            <a href="#"><img className="company-img" src={PengWinM} alt={'pengWin_hero'} />
+                            <a href="#"><img className="company-img" src={PengWinM} alt='pengWin_hero' />
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>PengWin Media</h1>
@@ -27,7 +27,7 @@ export default class Companies extends React.Component {
                             </a>
                         </div>
                         <div className="company-icon">
-                            <a href="#"><img className="company-img" src={Overflow} alt={'overflow_hero_2'} />
+                            <a href="#"><img className="company-img" src={Overflow} alt='overflow_hero_2'/>
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>Overflow</h1>
@@ -37,7 +37,7 @@ export default class Companies extends React.Component {
                             </a>
                         </div>
                         <div className="company-icon">
-                            <a href="#"><img className="company-img" src={Mysticons} alt={'mysticons_hero'} />
+                            <a href="#"><img className="company-img" src={Mysticons} alt='mysticons_hero' />
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>Mysticons</h1>
@@ -48,7 +48,7 @@ export default class Companies extends React.Component {
                         </div>
                         <div className="company-icon">
                             <a href="#">
-                                <img className="company-img"src={Iotitude} alt={'iotitude.hero'} />
+                                <img className="company-img"src={Iotitude} alt='iotitude.hero' />
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>Iotitude</h1>
@@ -59,7 +59,7 @@ export default class Companies extends React.Component {
                         </div>
                         <div className="company-icon">
                             <a href="#">
-                                <img className="company-img"src={PengWinM} alt={'pengiwiing.hero'} />
+                                <img className="company-img"src={PengWinM} alt='pengiwiing.hero' />
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>PengWin Game</h1>

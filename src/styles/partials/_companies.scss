@@ -35,7 +35,7 @@
         .company-icon {
             position:relative;
             width: 100%;
-            margin: 10px;
+            margin: 5px;
             @media only screen and (min-width: 480px) {
                 width: 420px;
             }
@@ -61,7 +61,7 @@
                 width: 100%;
                 opacity: 0;
                 transition: .5s ease;
-                background-color: $accent-2;
+                background-color: $main-1;
             }
             .company-text{
                 position: absolute;
@@ -71,9 +71,10 @@
                 -ms-transform: translate(-50%, -50%);
                 h1 {
                     font-size: 25px;
-                    color: $main-3;
+                    color: $accent-2;
                 }
                 p {
+                    color: $main-3;
                     font-size: 20px;
                 }
             }
