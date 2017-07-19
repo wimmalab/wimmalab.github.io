@@ -26,49 +26,59 @@ export default class Projects extends React.Component {
                 <div className="projects">
                     <h3>2017 - WIMMA Lab</h3>
                     <div className="project">
-                        <div href="#" className="icon">
+                    <a href="#">
+                        <div className="icon">
                             <img src={Overflow} alt="Overflow"/>
                         </div>
                         <div className ="projects-text">
                             <p>Overflow builds a Software Defined Network to Challenge Factory 2016.
                             </p>
                         </div>
+                    </a>
                     </div>
                     <div className="project">
-                        <div href="#" className="icon">
+                    <a href="https://iotitude.gitlab.io" target="_blank">
+                        <div className="icon">
                             <img src={IoTitude} alt="IoTitude"/>
                         </div>
                         <div className ="projects-text">
                             <p> With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
                             </p>
                         </div>
+                    </a>
                     </div>
                     <div className="project">
-                        <div href="#" className="icon">
+                    <a href="#">
+                        <div className="icon">
                             <img src={PengWinGame} alt="PengWinGame"/>
                         </div>
                         <div className ="projects-text">
                             <p>#wine #game #mobile #unity #pixelart
                             </p>
                         </div>
+                    </a>
                     </div>
                     <div className="project">
-                        <div href="#" className="icon">
+                    <a href="#">
+                        <div className="icon">
                             <img src={PengWinMedia} alt="PengWinMedia"/>
                         </div>
                         <div className ="projects-text">
                             <p>Media production, web-design solutions, graphics and more.
                             </p>
                         </div>
+                    </a>
                     </div>
                     <div className="project">
-                        <div href="#" className="icon">
-                            <img src={MystiCons} alt="MystiCons"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Mystical hagravens of the Dynamo tower.
-                            </p>
-                        </div>
+                        <a href="#">
+                            <div className="icon">
+                                <img src={MystiCons} alt="MystiCons"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Mystical hagravens of the Dynamo tower.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="projects">
@@ -76,31 +86,37 @@ export default class Projects extends React.Component {
                         <h3>2016 - Challenge Factory</h3>
                     </a>
                     <div className="project">
-                        <div href="http://kumos.github.io/" className="icon">
-                            <img src={Kumos} alt="Kumos"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Kumos is all about the Cloud. We aim to provide YOU the best Cloud you have ever had.
-                            </p>
-                        </div>
+                        <a href="http://kumos.github.io/" target="_blank">
+                            <div className="icon">
+                                <img src={Kumos} alt="Kumos"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Kumos is all about the Cloud. We aim to provide YOU the best Cloud you have ever had.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
-                        <div href="https://overflowjamk.github.io/" className="icon">
-                            <img src={Overflow} alt="Overflow"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Overflow builds a Software Defined Network to Challenge Factory 2016.
-                            </p>
-                        </div>
+                        <a href="https://overflowjamk.github.io/" target="_blank">
+                            <div className="icon">
+                                <img src={Overflow} alt="Overflow"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Overflow builds a Software Defined Network to Challenge Factory 2016.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
-                        <div href="https://iotitude.github.io/" className="icon">
-                            <img src={IoTitude} alt="IoTitude"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p> With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
-                            </p>
-                        </div>
+                        <a href="https://iotitude.github.io/" target="_blank">
+                            <div className="icon">
+                                <img src={IoTitude} alt="IoTitude"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p> With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="projects">
@@ -108,31 +124,37 @@ export default class Projects extends React.Component {
                         <h3>2015 - Challenge Factory</h3>
                     </a>
                     <div className="project">
-                        <div href="http://n4sjamk.github.io/contriboard/" className="icon">
-                            <img src={Contriboard} alt="contriboard"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Think about the person writing down the various handwritten tickets! With Contriboard your ideas will be in digital form from the beginnig to the end of the storm session.
-                            </p>
-                        </div>
+                        <a href="http://n4sjamk.github.io/contriboard/" target="_blank">
+                            <div className="icon">
+                                <img src={Contriboard} alt="contriboard"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Think about the person writing down the various handwritten tickets! With Contriboard your ideas will be in digital form from the beginnig to the end of the storm session.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
-                        <div href="https://n4sjamk.github.io/jarmo/" className="icon">
-                            <img src={Jarmo} alt="Jarmo"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Jarmo is a simple system for application health monitoring.
-                            </p>
-                        </div>
+                        <a href="https://n4sjamk.github.io/jarmo/" target="_blank">
+                            <div className="icon">
+                                <img src={Jarmo} alt="Jarmo"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Jarmo is a simple system for application health monitoring.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
-                        <div href="https://n4sjamk.github.io/challenge-factory-2015.html" className="icon">
-                            <img src={Noise} alt="Noise"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Simulate different network conditions
-                            </p>
-                        </div>
+                        <a href="https://n4sjamk.github.io/challenge-factory-2015.html" target="_blank">
+                            <div className="icon">
+                                <img src={Noise} alt="Noise"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Simulate different network conditions
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="projects">
@@ -140,42 +162,50 @@ export default class Projects extends React.Component {
                         <h3>2014 - Summer Factory </h3>
                     </a>
                     <div className="project">
-                        <div href="https://n4sjamk.github.io/challenge-factory-2014.html" className="icon">
-                            <img src={Toolbar} alt="Toolbar"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Collect and share sites and tools your team needs speeding up the working environment setup process.
-                            </p>
-                        </div>
+                        <a href="https://n4sjamk.github.io/challenge-factory-2014.html" target="_blank">
+                            <div className="icon">
+                                <img src={Toolbar} alt="Toolbar"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Collect and share sites and tools your team needs speeding up the working environment setup process.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
-                        <div href="https://n4sjamk.github.io/challenge-factory-2014.html" className="icon">
-                            <img src={Fbmt} alt="Fbmt"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Collect and share sites and tools your team needs speeding up the working environment setup process.
-                            </p>
-                        </div>
+                        <a href="https://n4sjamk.github.io/challenge-factory-2014.html" target="_blank">
+                            <div className="icon">
+                                <img src={Fbmt} alt="Fbmt"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Collect and share sites and tools your team needs speeding up the working environment setup process.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
-                        <div href="https://www.youtube.com/watch?v=jvpoDnsj280&feature=youtu.be" className="icon">
-                            <img src={Unity} alt="Unity"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Simulation of prototypes in a natural environment using Unity3D as the rendering engine.
-                            </p>
-                        </div>
+                        <a href="https://www.youtube.com/watch?v=jvpoDnsj280&feature=youtu.be" target="_blank">
+                            <div className="icon">
+                                <img src={Unity} alt="Unity"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Simulation of prototypes in a natural environment using Unity3D as the rendering engine.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="projects">
                     <h3>2012 & 2013 - Summer Factory</h3>
                     <div className="project">
-                        <div href="http://freenest.org/about" className="icon">
-                            <img src={Freenest} alt="Freenest"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>FreeNest is a team-oriented product development platform that is fast to deploy and easy to use.</p>
-                        </div>
+                        <a href="http://freenest.org/about" target="_blank">
+                            <div className="icon">
+                                <img src={Freenest} alt="Freenest"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>FreeNest is a team-oriented product development platform that is fast to deploy and easy to use.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 </div>
