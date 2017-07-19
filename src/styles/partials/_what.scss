@@ -6,7 +6,9 @@
 .what-content {
     min-height: 700px;
     padding: 20px 0;
-
+    li {
+        color: $main-1;
+    }
     // vision / mission
     .boxes {
         min-width: 100%;
@@ -16,7 +18,7 @@
         background-color: $main-2;
         padding: 30px;
         h3 {
-            color:$main-3;
+            color:$accent-2;
         }
         .visio {
             margin: 40px;
@@ -24,15 +26,13 @@
         .missio {
             margin: 40px;
         }
-        .methods {
-            margin: 40px;
+        .methods{
+            margin: 60px;
+            color: $main-3;
             .method-icons {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-around;
-                .icon-font {
-                    margin:0px 20px 0px 20px;
-                }
+                justify-content: space-between;
             }
         }
     }

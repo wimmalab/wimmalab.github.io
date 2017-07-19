@@ -11,34 +11,35 @@ export default class ForYou extends React.Component {
                             <h2>For Students</h2>
                             <hr />
                             <p>You're not a lazy ass who wants to just chill during summer times and yet you failed to get a real jarb?
-                            Cry no more! This is what we can offer to you:</p>
+                            Cry no more! This is what we can offer to you:
+                            <br/>OBS! This text may need some improve... Do you have any ideas?</p>
                         </div>
                         <div className="row">
                             <ul>
-                                <li>- Opportunity to feel important</li>
-                                <li>- Get shit done (or at least participate)</li>
-                                <li>- Get up to 15 points off your practice quota</li>
-                                <li>- Possibly get connected with some people in worklife from your field</li>
+                                <li className="list">Real challenges from companies and research programs</li>
+                                <li className="list">Find your place in a agile project team and improve your professional skillset</li>
+                                <li className="list">Earn up to 15 study credits</li>
+                                <li className="list">Network with your future employer</li>
                             </ul>
-                            <a href="" className="for-you-btn">APPLY NOW!</a>
+                            <a href="#contact" className="for-you-btn">APPLY NOW!</a>
                         </div>
                     </div>
                     <div className="for-employers">
                         <div className="row">
-                            <h2>For Employers</h2>
+                            <h2>For Companies</h2>
                             <hr />
                             <p>As you well know, students are a great resource as future employees. You have a stellar opportunity to meet future talents
                             (or simply decent employees) here at WIMMA. Students who are hungry to get a foothold in worklife in their respective fields.
-                            Why not get connected? See what we're doing here and maybe benefit?</p>
+                            Why not get connected? See what we're doing here and maybe benefit?
+                            <br/>OBS! This text may need some improve.. Do you have any ideas? </p>
                         </div>
                         <div className="row">
                             <ul>
-                                <li>- Get connected with future assets to your company</li>
-                                <li>- Free slave labor (if you want to be a "challenge giver")</li>
-                                <li>- Some other spectacular benefits we are not disclosing at this stage</li>
-                                <li>- And more!</li>
+                                <li className="list">Test bold ideas and build proof of concepts</li>
+                                <li className="list">Find new talents from University students</li>
+                                <li className="list">Fresh insights from students to reignite your business</li>
                             </ul>
-                            <a href="" className="for-you-btn">FIND OUT MORE!</a>
+                            <a href="#contact" className="for-you-btn">FIND OUT MORE!</a>
                         </div>
                     </div>
                 </div>

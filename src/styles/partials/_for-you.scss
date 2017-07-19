@@ -11,7 +11,7 @@
     padding-top: 0;
     padding-bottom: 0;
     display: flex;
-    // position: relative;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     background-image: url(../img/weare.jpg);
@@ -29,7 +29,7 @@
         min-height: 100vh;
         padding-top: 60px;
         padding-bottom: 40px;
-        background-color: rgba($accent-1, .85);
+        background-color: rgba($accent-1, .92);
 
         display: flex;
         flex-direction: column;
@@ -61,6 +61,7 @@
     }
     p {
         margin: 0 60px;
+        color: $main-2;
     }
     hr {
         margin: 0 auto;
@@ -68,13 +69,23 @@
     }
     ul {
         margin: 30px 60px;
-        list-style: none;
         min-height: 200px;
-        li {
+        .list {
+            list-style: inherit;
             margin: 10px 0;
+            text-align: left;
         }
     }
-
+    @media (min-width: 1600px) {
+        .for-students, .for-employers {
+        padding: 150px;
+        }
+    }
+    @media (max-width: 500px) {
+         p {
+             margin: 10px;
+         }
+    }
     @media (max-width: 768px) {
         .for-students {
             float: none;
@@ -98,6 +109,7 @@
         display: block;
         margin: auto;
         width: 160px;
+        padding: 10px;
         text-align: center;
         border: solid 5px $main-3;
         text-decoration: none;
@@ -128,7 +140,7 @@
             transition: 0.5s ease;
             &:hover {
                 text-decoration: none;
-                border: solid $accent-2;
+                border: solid $main-1;
                 transform: rotate(45deg);
                 -webkit-transform: rotate(45deg);
                 border-width: 0 3px 3px 0;

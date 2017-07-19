@@ -8,7 +8,7 @@ import Who from './Who';
 import What from './What';
 import Projects from './Projects';
 // assets
-import AboutImg from '../img/about.jpg';
+import AboutImg from '../img/landingimg.jpg';
 import WeAreImg from '../img/weare.jpg';
 import WeDoImg from '../img/wedo.jpg';
 import ProjectImg from '../img/projects.jpg';
@@ -42,7 +42,10 @@ export default class About extends React.Component {
                    <div className="about-basic">
                        <div className="about-info">
                            <h3>OUR STORY</h3>
-                           <p>WIMMA Lab is a concept based on the challenge centered learning. It is run as 2,5 months long project which students join as trainees for their bachelor degree programme. WIMMA Lab introduces students to different research and development challenges. Challenges are presented from companies, research programs and universities. At the start of the project, students form virtual companies. During the project students develop concepts, proof-of-concepts or production ready solutions.</p>
+                           <p>
+                           WIMMA Lab runs as a 2,5-month project, which students participate as trainees.
+                           During the project, students form "virtual company" teams and solve challenges. Challenges are given by companies, research programs and universities. Students develop proof-of-concepts and even production ready solutions.
+                          </p>
                        </div>
                        <div className="about-img">
                            <img src={AboutImg} alt={'about-img'} />

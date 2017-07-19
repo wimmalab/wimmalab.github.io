@@ -9,15 +9,31 @@
     // basic styles to keep sections consistent
     min-height: 100vh;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: black;
     background-image: url("../img/landingimg.jpg");
     background-size: cover;
     background-position: 50% 50%;
     background-attachment: fixed;
+
+/*    @media (max-width: 767px) {
+        background-image: url("../img/landingimg.jpg");
+        background-color: none;
+        video: none;
+    }
+    import Video from '../img/wimma_animaatio_pidennetty.mp4';
+    <video id="background-video" loop autoPlay>
+        <source src={Video} type="video/mp4" />
+        <source src={Video} type="video/ogg" />
+        Your browser does not support the video tag.
+    </video>
+
+
+*/
     .container {
         margin: 0 auto;
     }
