@@ -10,11 +10,8 @@
     min-height: 100vh;
     padding-top: 0;
     padding-bottom: 0;
-    @media (min-width: 768px) {
-        padding-bottom: 0;
-    }
     display: flex;
-    position: relative;
+    // position: relative;
     flex-direction: column;
     justify-content: center;
     background-image: url(../img/weare.jpg);
@@ -61,7 +58,6 @@
     }
     h2 {
         color: $main-3;
-        font-size: 16px;
     }
     p {
         margin: 0 60px;
@@ -78,22 +74,38 @@
             margin: 10px 0;
         }
     }
+
+    @media (max-width: 768px) {
+        .for-students {
+            float: none;
+            width: 100%;
+            min-height: auto;
+        }
+        .for-employers {
+            float: none;
+            width: 100%;
+            min-height: auto;
+        }
+        .row {
+            min-height: auto;
+        }
+        ul {
+            min-height: auto;
+            margin-bottom: 60px;
+        }
+    }
     .for-you-btn {
-        display: inline;
-        margin-left: 60px;
-        width: 100px;
+        display: block;
+        margin: auto;
+        width: 160px;
         text-align: center;
         border: solid 5px $main-3;
         text-decoration: none;
         color: $main-3;
-        border: solid 4px $main-3;
-        padding: 15px 55px;
         transition: .5s ease;
         &:hover {
             background-color: $main-3;
-            color:$main-2;
-            border: solid 4px $main-3;
-            box-shadow: none;
+            color: $main-2;
         }
     }
 
