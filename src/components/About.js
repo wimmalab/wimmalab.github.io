@@ -9,9 +9,9 @@ import What from './What';
 import Projects from './Projects';
 // assets
 import AboutImg from '../img/landingimg.jpg';
-import WeAreImg from '../img/weare.jpg';
-import WeDoImg from '../img/wedo.jpg';
-import ProjectImg from '../img/projects.jpg';
+
+import Cogwheel from '../img/cogwheelicon.svg';
+
 
 // offset anchor for better scrolling into view
 configureAnchors({offset: -40});
@@ -48,23 +48,23 @@ export default class About extends React.Component {
                           </p>
                        </div>
                        <div className="about-img">
-                           <img src={AboutImg} alt={'about-img'} />
+                           <img src={AboutImg} alt='about-img'/>
                        </div>
                        <ScrollableAnchor id={'categories'}><div style={{position: 'absolute', bottom: '100px'}}></div></ScrollableAnchor>
                    </div>
                    <div className="switch-icons">
                        <a onClick={() => this.switchContent('what')} href="#categories">
-                           <div className="switch-icon">
+                           <div className="switch-icon whaticon">
                                <h6 style={(this.state.content === 'what') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHAT?</h6>
                            </div>
                        </a>
                        <a onClick={() => this.switchContent('who')} href="#categories">
-                           <div className="switch-icon">
+                           <div className="switch-icon whoicon">
                                <h6 style={(this.state.content === 'who') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHO?</h6>
                            </div>
                        </a>
                        <a onClick={() => this.switchContent('projects')} href="#categories">
-                           <div className="switch-icon">
+                           <div className="switch-icon projecticon">
                                <h6 style={(this.state.content === 'projects') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>PROJECTS</h6>
                            </div>
                        </a>

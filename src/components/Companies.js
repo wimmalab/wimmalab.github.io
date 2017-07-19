@@ -3,7 +3,7 @@ import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 // assets
 import PengWinM from '../img/companies/pengWin_hero.png';
-import Overflow from '../img/companies/overflow_hero_2.png';
+import Overflow from '../img/companies/overflow_hero.jpg';
 import Mysticons from '../img/companies/mysticons_hero.png';
 import Iotitude from '../img/companies/iotitude.hero.png';
 
