@@ -17,7 +17,7 @@ export default class Who extends React.Component {
                 <hr />
                 <div className="team-container">
                     <div className="team-member">
-                        <div className="team-img">
+                        <div className="team-header">
                             <img src={Pasihyytiainen} alt={'Pasi Hyytiäinen'} />
                             <span className="team-icon"><LinkedIn/></span>
                         </div>
@@ -27,7 +27,7 @@ export default class Who extends React.Component {
                         </div>
                     </div>
                     <div className="team-member">
-                        <div className="team-img">
+                        <div className="team-header">
                             <img src={Laurimakinen} alt={'Lauri Mäkinen'} />
                             <span className="team-icon"><LinkedIn/></span>
                         </div>
@@ -37,7 +37,7 @@ export default class Who extends React.Component {
                         </div>
                     </div>
                     <div className="team-member">
-                        <div className="team-img">
+                        <div className="team-header">
                             <img src={Paavonelimarkka} alt={'paavo-nelimarkka'} />
                             <span className="team-icon"><LinkedIn/></span>
                         </div>
@@ -47,7 +47,7 @@ export default class Who extends React.Component {
                         </div>
                     </div>
                     <div className="team-member">
-                        <div className="team-img">
+                        <div className="team-header">
                             <img src={Juhopekki} alt={'Juho Pekki'} />
                             <span className="team-icon"><LinkedIn/></span>
                         </div>
@@ -57,7 +57,7 @@ export default class Who extends React.Component {
                         </div>
                     </div>
                     <div className="team-member">
-                        <div className="team-img">
+                        <div className="team-header">
                             <img src={Narsu} alt={'narsu'} />
                             <span className="team-icon"><LinkedIn/></span>
                         </div>

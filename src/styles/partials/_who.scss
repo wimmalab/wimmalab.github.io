@@ -9,39 +9,39 @@
     padding: 20px 0;
 }
 .team-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-basis: 1;
     font-size: 16px;
 }
 .team-member {
-    width: 300px;
-    margin: 10px 0;
-    .team-img {
-        width: 65px;
-        float: left;
-        position: relative;
-        cursor: pointer;
+    overflow: hidden;
+    min-height: 100px;
+    max-width: 400px;
+    box-shadow: 1px 2px 5px $main-1;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    .team-header {
+        max-height: 90px;
+        overflow: hidden;
+        padding: 15px;
+        border-bottom: 1px solid $accent-1;
         img {
-            width: 100%;
+            height: 60px;
             border-radius: 50%;
+            display: block;
+            float: left;
         }
         .team-icon {
-            opacity: 0;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translateX(-50%) translateY(-50%);
-            color: $main-3;
+            display: block;
+            float: right;
+            color: $main-1;
             transition: .5s ease;
+            cursor: pointer;
+            margin-top: 10px;
             svg {
-                font-size: 36px;
+                font-size: 40px;
             }
-        }
-        &:hover {
-            .team-icon {
-                opacity: 0.9;
+            &:hover {
+                color: $accent-2;
             }
         }
     }
@@ -50,35 +50,11 @@
     }
     p {
         margin: 0;
+        font-family: $font-p-alt;
+        font-size: 1em;
     }
     .team-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-        float: left;
-        padding: 0 0 0 15px;
-    }
-
-    // team-member media queries
-    @media (min-width: 480px) {
-        .team-img {
-            width: 90px;
-        }
-    }
-    @media (min-width: 645px) {
-        width: 200px;
-        .team-img {
-            float: none;
-            width: 140px;
-            margin: 0 auto;
-        }
-        .team-text {
-            float: none;
-            display: block;
-            padding: 15px 0 0 0;
-            text-align: center;
-        }
+        padding: 15px;
     }
 }
 .who-text {
