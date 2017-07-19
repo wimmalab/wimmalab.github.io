@@ -24,8 +24,6 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h4>Pasi Hyytiäinen</h4>
                             <p>Team Coach</p>
-                            <p>Pasi has seen the good and the bad of software development and helps students with his decades of experience.
-                            </p>
                         </div>
                     </div>
                     <div className="team-member">
@@ -36,8 +34,6 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h4>Lauri Mäkinen</h4>
                             <p>Head Coach</p>
-                            <p>Lauri has also been a trainee and now head coach focusing on agile development and team-building
-                            </p>
                         </div>
                     </div>
                     <div className="team-member">
@@ -48,8 +44,6 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h4>Paavo Nelimarkka</h4>
                             <p>Team Coach</p>
-                            <p>Paavo is a former trainee and now lecturer at JAMK specialized in game-development
-                            </p>
                         </div>
                     </div>
                     <div className="team-member">
@@ -60,8 +54,6 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h4>Juho Pekki</h4>
                             <p>Team Coach</p>
-                            <p>Juho is bringing technical superpowers to the coaching team. Juho is fluent in container technologies and test automation
-                            </p>
                         </div>
                     </div>
                     <div className="team-member">
@@ -72,8 +64,6 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h4>Marko "Narsu" Rintamäki</h4>
                             <p>Product Owner</p>
-                            <p>Narsu has set the foundations for the concept and drives the Lab
-                            </p>
                         </div>
                     </div>
                 </div>

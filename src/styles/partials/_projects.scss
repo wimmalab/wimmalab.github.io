@@ -6,62 +6,65 @@
 .projects-content {
     min-height: 700px;
     padding: 20px 0px;
-    @media only screen and (max-width: 992px) {
-        padding: 0px;
-    }
+    // display: flex;
     a{
         text-decoration:none;
         &:hover{
-            text-decoration: underline $accent-1;
+
         }
     }
-    .projects-icons {
-        margin-bottom: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: initial;
+    .projects {
+        h3 {
+            text-align: center;
+        }
+        margin-bottom: 30px;
     }
-    .projects-icon {
-        opacity: 0.5;
-        background-color: $accent-1;
-        padding: 20px;
-        margin: 20px;
-        position: relative;
-        width: 150px;
-        height:150px;
+    .project {
+    overflow: hidden;
+    min-height: 100px;
+    max-width: 400px;
+    box-shadow: 1px 2px 5px $main-1;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+        .icon {
+            max-height: 90px;
+            overflow: hidden;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
         img {
-            margin-right: 30px;
-            height: 100%;
-            width: 100%;
-            &:hover {
-            }
-            @media only screen and (max-width: 992px){
-                width:80%;
-                height:80%;
+            margin: 0 auto;
+            display: block;
+            max-height: 60px;
+        }
+        .projects-text {
+            padding: 15px;
+            p {
+                margin: 0;
+                font-family: $font-p-alt;
+                font-size: 1em;
             }
         }
-        .hover-projects {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
-            opacity: 0;
-            transition: .5s ease;
-            background-color:$accent-2;
-            h5 {
-                position: absolute;
-                text-decoration: none;
-                text-align: center;
-                color: $main-2;
-                opacity: 1;
-                font-size: 90%;
+    }
+
+    @media (min-width: 480px) {
+        .project {
+            img {
+                margin: 0;
             }
-            &:hover {
-                opacity: 0.8;
-            }
+        }
+    }
+    @media (min-width: 992px) {
+        .projects-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .projects {
+            width: 420px;
+            // float: left;
         }
     }
 }
