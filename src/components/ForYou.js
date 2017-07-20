@@ -21,7 +21,7 @@ export default class ForYou extends React.Component {
                                 <li className="list">Earn up to 15 study credits</li>
                                 <li className="list">Network with your future employer</li>
                             </ul>
-                            <a href="#contact" className="for-you-btn">APPLY NOW!</a>
+                            <a href="https://asio.jamk.fi/pls/asio/asio_ectskuv1.kurssin_ks?ktun=TTVW0110&knro=&noclose=%20&lan=e" className="for-you-btn">APPLY NOW!</a>
                         </div>
                     </div>
                     <div className="for-employers">

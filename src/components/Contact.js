@@ -16,15 +16,15 @@ export default class Contact extends React.Component {
                     <div className="contact-container">
                         <div className="left-side">
                             <h3>Marko "Narsu" Rintamäki</h3>
-                            <p>marko.rintamaki@jamk.fi</p>
+                            <p>marko.rintamaki (at) jamk.fi</p>
                             <br/>
                             <h3>Lauri Mäkinen</h3>
-                            <p>lauri.makinen@jamk.fi</p>
+                            <p>lauri.makinen (at) jamk.fi</p>
                             <br />
                             <h3>Campus Dynamo</h3>
                             <h3>Piippukatu 2</h3>
                             <h3>40100 Jyväskylä Finland</h3>
-                            <p>wimmalab@gmail.com</p>
+                            <p>wimmalab (at) gmail.com</p>
                         </div>
                         <div className="right-side">
                             <img src={ContactUs} alt="ContactUs"></img>
@@ -35,12 +35,12 @@ export default class Contact extends React.Component {
                     <a href="#page-top"><img className="wimmalogo" src={WimmaLogo} alt='logo'></img></a>
                     <h5>You can also find us here</h5>
                     <div className="social-links">
-                        <span><a href=""><FaGithubSquare /></a></span>
-                        <span><a href=""><FaLinkedinSquare /></a></span>
-                        <span><a href=""><FaFacebookSquare /></a></span>
-                        <span><a href=""><FaTwitterSquare /></a></span>
-                        <span><a href=""><FaInstagram /></a></span>
-                        <span><a href=""><FaYoutubeSquare /></a></span>
+                        <span><a href="https://github.com/wimmalab"><FaGithubSquare /></a></span>
+                        <span><a href="https://www.linkedin.com/company-beta/22308846/"><FaLinkedinSquare /></a></span>
+                        <span><a href="https://www.facebook.com/wimmalab/"><FaFacebookSquare /></a></span>
+                        <span><a href="https://twitter.com/wimmalab"><FaTwitterSquare /></a></span>
+                        <span><a href="https://www.instagram.com/wimmalab/"><FaInstagram /></a></span>
+                        <span><a href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw"><FaYoutubeSquare /></a></span>
                     </div>
                 </div>
             </section>
