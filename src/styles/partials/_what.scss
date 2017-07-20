@@ -34,10 +34,12 @@
         .methods{
             margin: 60px;
             color: $main-3;
-            .method-icons {
+            .method-icons, h5 {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-left: 10px;
+                margin-right: 10px;
             }
         }
     }

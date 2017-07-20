@@ -11,7 +11,7 @@ $accent-2: #fc8f97;
 $font-h1: 'GothicB', sans-serif;
 $font-h2: 'Gothic', sans-serif;
 $font-h3: 'BaskVill', serif;
-$font-p: 'BaskVill', serif;
+$font-p: 'Open Sans', serif;
 $font-p-alt: 'Gothic', sans-serif;
 
 h1 {
@@ -55,7 +55,7 @@ h3 {
 h4 {
 
 }
-h5, .list, .switch-lower {
+h5, .list, .switch-lower, .for-you-btn {
     letter-spacing: 2px;
     font-family: $font-h1;
     font-size: 14px;
@@ -81,8 +81,7 @@ h6 {
 p {
     font-family: $font-p;
     color: $main-1;
-    letter-spacing: 0.5px;
-    font-size: 18nppx;
+    font-size: 16px;
     margin-bottom: 30px;
 }
 

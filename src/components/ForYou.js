@@ -8,13 +8,9 @@ export default class ForYou extends React.Component {
                 <div className="container">
                     <div className="for-students">
                         <div className="row">
-                            <h2>For Students</h2>
-                            <hr />
-                            <p>You're not a lazy ass who wants to just chill during summer times and yet you failed to get a real jarb?
-                            Cry no more! This is what we can offer to you:
-                            <br/>OBS! This text may need some improve... Do you have any ideas?</p>
-                        </div>
-                        <div className="row">
+                        <h2>Looking for internship position?</h2>
+                        <hr />
+                        <p>This is what we offer for students:</p>
                             <ul>
                                 <li className="list">Real challenges from companies and research programs</li>
                                 <li className="list">Find your place in a agile project team and improve your professional skillset</li>
@@ -26,14 +22,9 @@ export default class ForYou extends React.Component {
                     </div>
                     <div className="for-employers">
                         <div className="row">
-                            <h2>For Companies</h2>
-                            <hr />
-                            <p>As you well know, students are a great resource as future employees. You have a stellar opportunity to meet future talents
-                            (or simply decent employees) here at WIMMA. Students who are hungry to get a foothold in worklife in their respective fields.
-                            Why not get connected? See what we're doing here and maybe benefit?
-                            <br/>OBS! This text may need some improve.. Do you have any ideas? </p>
-                        </div>
-                        <div className="row">
+                        <h2>Hunting for talents?</h2>
+                        <hr />
+                        <p>This you could get as Wimma partner Company</p>
                             <ul>
                                 <li className="list">Test bold ideas and build proof of concepts</li>
                                 <li className="list">Find new talents from University students</li>
