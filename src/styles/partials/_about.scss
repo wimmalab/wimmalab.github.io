@@ -100,47 +100,52 @@
     }
     .switch-icon {
         float: left;
-        // display: flex;
-        // flex-direction: column;
+        display: flex;
+        flex-direction: column;
         position: relative;
-        width: 80px;
-        // height: 80px;
+        width: 90px;
+        height: 90px;
         border-radius: 50%;
-    //    background-color: $main-2;
+        //background-color: $main-2;
         text-align: center;
         cursor: pointer;
         transition:.5s ease;
 
-        h6 {
-            line-height: 80px;
-            font-size: 15px;
-            &:hover {
-                transform: scale(1.2);
-                opacity: 1;
-            }
+        h5 {
+            opacity: 0;
+
         }
         @media (min-width: 480px) {
+            background-color: $main-2;
             width: 140px;
-            // height: 140px;
+            height: 140px;
             border-radius: 0%;
-            h6 {
-                font-size: 17px;
-                line-height: 140px;
+            h5 {
+                opacity: 1;
+                color: $main-3;
+                font-size: 15px;
+                line-height: 200px;
+                transition: .5s ease;
+                &:hover {
+                    transform: scale(1.2);
+                    opacity: 1;
+                }
             }
         }
         @media (min-width: 768px) {
             width: 220px;
-            // height: 220px;
-            h6 {
+            height: 220px;
+            h5 {
                 font-size: 22px;
-                line-height: 220px;
+                line-height: 320px;
             }
         }
         @media (min-width: 992px) {
             width: 250px;
-            // height: 250px;
-            h6 {
-                line-height: 250px;
+            height: 250px;
+            h5 {
+                line-height: 350px;
+                font-size: 25px;
             }
         }
     }

@@ -6,8 +6,8 @@ import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, Fa
 import LogoImg from '../img/logo/Wilogo.nav.png';
 
 const styles = {
-    accent1 : '#a5e0df',
-    active : '0px -5px 0px #a5e0df inset'
+    accent2 : '#fc8f97',
+    active : '0px -5px 0px #fc8f97 inset'
 }
 
 export default class Nav extends React.Component {
@@ -58,10 +58,10 @@ export default class Nav extends React.Component {
                         </svg>
                     </a>
                     <ul>
-                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'about') ? {color: styles.accent1} : {}} href="#about">ABOUT</a></li>
-                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'for-you') ? {color: styles.accent1} : {}} href="#for-you">WIMMA FOR YOU</a></li>
-                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'companies') ? {color: styles.accent1} : {}} href="#companies">VIRTUAL COMPANIES</a></li>
-                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'contact') ? {color: styles.accent1} : {}} href="#contact">CONTACT</a></li>
+                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'about') ? {color: styles.accent2} : {}} href="#about">ABOUT</a></li>
+                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'for-you') ? {color: styles.accent2} : {}} href="#for-you">WIMMA FOR YOU</a></li>
+                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'companies') ? {color: styles.accent2} : {}} href="#companies">VIRTUAL COMPANIES</a></li>
+                        <li><a onClick={() => this.closeSlideMenu()} style={(this.props.scrollSpy === 'contact') ? {color: styles.accent2} : {}} href="#contact">CONTACT</a></li>
                         <li><a href="https://wimmalab.github.io/blog/">BLOG</a></li>
                     </ul>
                     <ul className="social-media">

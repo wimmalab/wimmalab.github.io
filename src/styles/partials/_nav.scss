@@ -22,8 +22,8 @@
         padding: 15px 0;
         cursor: pointer;
         &:hover {
-            box-shadow: 0px -5px 0px $accent-1 inset;
-            stroke: $accent-1;
+            box-shadow: 0px -5px 0px $accent-2 inset;
+            stroke: $accent-2;
         }
     }
     .open-slide {
@@ -116,8 +116,8 @@
         stroke: $main-3;
         transition: 0.5s;
         &:hover {
-            color: $accent-1;
-            stroke: $accent-1;
+            color: $accent-2;
+            stroke: $accent-2;
         }
     }
     .btn-close {

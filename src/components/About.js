@@ -11,6 +11,7 @@ import Projects from './Projects';
 import AboutImg from '../img/landingimg.jpg';
 
 import Cogwheel from '../img/cogwheelicon.svg';
+import { FaCogs, FaGroup, FaQuestion } from 'react-icons/lib/fa/';
 
 
 // offset anchor for better scrolling into view
@@ -48,24 +49,26 @@ export default class About extends React.Component {
                           </p>
                        </div>
                        <div className="about-img">
-                           <img src={AboutImg} alt='about-img'/>
                        </div>
                        <ScrollableAnchor id={'categories'}><div style={{position: 'absolute', bottom: '100px'}}></div></ScrollableAnchor>
                    </div>
                    <div className="switch-icons">
                        <a onClick={() => this.switchContent('what')} href="#categories">
-                           <div className="switch-icon whaticon">
-                               <h6 style={(this.state.content === 'what') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHAT?</h6>
+                           <div className="switch-icon">
+                                <div className="about-icons" style={(this.state.content === 'what') ? {transform: styles.scaleUp, color: styles.accent2} : {} }><FaQuestion /></div>
+                               <h5 style={(this.state.content === 'what') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHAT?</h5>
                            </div>
                        </a>
                        <a onClick={() => this.switchContent('who')} href="#categories">
-                           <div className="switch-icon whoicon">
-                               <h6 style={(this.state.content === 'who') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHO?</h6>
+                           <div className="switch-icon ">
+                           <div className="about-icons" style={(this.state.content === 'who') ? {transform: styles.scaleUp, color: styles.accent2} : {} }   ><FaGroup /></div>
+                               <h5 style={(this.state.content === 'who') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHO?</h5>
                            </div>
                        </a>
                        <a onClick={() => this.switchContent('projects')} href="#categories">
-                           <div className="switch-icon projecticon">
-                               <h6 style={(this.state.content === 'projects') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>PROJECTS</h6>
+                           <div className="switch-icon ">
+                           <div className="about-icons" style={(this.state.content === 'projects') ? {transform: styles.scaleUp, color: styles.accent2} : {} }><FaCogs /></div>
+                               <h5 style={(this.state.content === 'projects') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>PROJECTS</h5>
                            </div>
                        </a>
                    </div>
