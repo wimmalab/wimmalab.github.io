@@ -26,48 +26,48 @@ export default class Projects extends React.Component {
                 <div className="projects">
                     <h3>2017 - WIMMA Lab</h3>
                     <div className="project">
-                    <a href="#">
-                        <div className="icon">
-                            <img src={Overflow} alt="Overflow"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Overflow builds a Software Defined Network to Challenge Factory 2016.
-                            </p>
-                        </div>
-                    </a>
+                        <a href="#">
+                            <div className="icon">
+                                <img src={Overflow} alt="Overflow"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Overflow builds a Software Defined Network to Challenge Factory 2016.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
-                    <a href="https://iotitude.gitlab.io" target="_blank">
-                        <div className="icon">
-                            <img src={IoTitude} alt="IoTitude"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p> With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
-                            </p>
-                        </div>
-                    </a>
+                        <a href="https://iotitude.gitlab.io" target="_blank">
+                            <div className="icon">
+                                <img src={IoTitude} alt="IoTitude"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p> With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
-                    <a href="#">
-                        <div className="icon">
-                            <img src={PengWinGame} alt="PengWinGame"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>#wine #game #mobile #unity #pixelart
-                            </p>
-                        </div>
-                    </a>
+                        <a href="#">
+                            <div className="icon">
+                                <img src={PengWinGame} alt="PengWinGame"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>#wine #game #mobile #unity #pixelart
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
-                    <a href="#">
-                        <div className="icon">
-                            <img src={PengWinMedia} alt="PengWinMedia"/>
-                        </div>
-                        <div className ="projects-text">
-                            <p>Media production, web-design solutions, graphics and more.
-                            </p>
-                        </div>
-                    </a>
+                        <a href="#">
+                            <div className="icon">
+                                <img src={PengWinMedia} alt="PengWinMedia"/>
+                            </div>
+                            <div className ="projects-text">
+                                <p>Media production, web-design solutions, graphics and more.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div className="project">
                         <a href="#">

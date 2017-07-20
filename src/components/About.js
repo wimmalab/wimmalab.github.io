@@ -88,18 +88,12 @@ export default class About extends React.Component {
                        <a onClick={() => this.switchContent('who')} href="#categories" style={(this.state.content === 'who') ? {color: styles.accent2} : {}}><li>Who?</li></a>
                        <a onClick={() => this.switchContent('projects')} href="#categories" style={(this.state.content === 'projects') ? {color: styles.accent2} : {}}><li>Projects</li></a>
                    </ul>
-                   {/*
-                   <div className="latest-articles">
-                       <h3>Here latest blog posts???</h3>
-                   </div>
-                   */}
                </div>
                <span className="arrow">
-                   <a href="#for-you" style={(this.props.scrollSpy !== 'about') ? {opacity: 0, pointerEvents: 'none'} : {cursor: 'pointer'}}>
-                   <i>
-                   </i>
-               </a>
-           </span>
+                  <a href="#for-you" style={(this.props.scrollSpy !== 'about') ? {opacity: 0, pointerEvents: 'none'} : {cursor: 'pointer'}}>
+                     <i></i>
+                  </a>
+               </span>
            </section>
        );
    }
