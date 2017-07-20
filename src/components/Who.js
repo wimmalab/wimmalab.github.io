@@ -18,12 +18,12 @@ export default class Who extends React.Component {
                 <div className="team-container">
                     <div className="team-member">
                         <div className="team-header">
-                            <img src={Pasihyytiainen} alt={'Pasi Hyytiäinen'} />
+                            <img src={Narsu} alt={'narsu'} />
                         </div>
                         <div className="team-text">
-                            <h4>Pasi Hyytiäinen</h4>
-                            <p>Team Coach</p>
-                            <span className="team-icon"><a href="https://www.linkedin.com/in/pasihyytiainenfi/" target="_blank"><LinkedIn/></a></span>
+                            <h4>Marko "Narsu" Rintamäki</h4>
+                            <p>Product Owner</p>
+                            <span className="team-icon"><a href="https://www.linkedin.com/in/narsuman/?ppe=1" target="_blank"><LinkedIn/></a></span>
                         </div>
                     </div>
                     <div className="team-member">
@@ -58,12 +58,12 @@ export default class Who extends React.Component {
                     </div>
                     <div className="team-member">
                         <div className="team-header">
-                            <img src={Narsu} alt={'narsu'} />
+                            <img src={Pasihyytiainen} alt={'Pasi Hyytiäinen'} />
                         </div>
                         <div className="team-text">
-                            <h4>Marko "Narsu" Rintamäki</h4>
-                            <p>Product Owner</p>
-                            <span className="team-icon"><a href="https://www.linkedin.com/in/narsuman/?ppe=1" target="_blank"><LinkedIn/></a></span>
+                            <h4>Pasi Hyytiäinen</h4>
+                            <p>Team Coach</p>
+                            <span className="team-icon"><a href="https://www.linkedin.com/in/pasihyytiainenfi/" target="_blank"><LinkedIn/></a></span>
                         </div>
                     </div>
                 </div>

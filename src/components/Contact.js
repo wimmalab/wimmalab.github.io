@@ -32,7 +32,7 @@ export default class Contact extends React.Component {
                     </div>
                 </div>
                 <div className="footer">
-                    <a href="#page-top"><img className="wimmalogo" src={WimmaLogo} alt='logo'></img></a>
+                    <a className="wimmalogo" href="#page-top"><img src={WimmaLogo} alt='logo'></img></a>
                     <h5>You can also find us here</h5>
                     <div className="social-links">
                         <span><a href="https://github.com/wimmalab"><FaGithubSquare /></a></span>

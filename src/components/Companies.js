@@ -2,10 +2,11 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 // assets
-import PengWinM from '../img/companies/pengWin_hero.png';
-import Overflow from '../img/companies/overflow_hero.jpg';
-import Mysticons from '../img/companies/mysticons_hero.png';
-import Iotitude from '../img/companies/iotitude.hero.png';
+import PengWinM from '../img/companies/media-hero.png';
+import Overflow from '../img/companies/overflow-hero.jpg';
+import Mysticons from '../img/companies/mysticons-hero.png';
+import Iotitude from '../img/companies/iotitude-hero.png';
+import PengWinG from '../img/companies/game-hero.png';
 
 export default class Companies extends React.Component {
     render() {
@@ -16,17 +17,17 @@ export default class Companies extends React.Component {
                     <hr />
                     <h5>2017 Wimma companies</h5>
                     <div className="companies-container">
-                    <div className="company-icon">
+                    <div className="company-icon pengwin-media">
                         <a href="https://wimmalab.github.io/pengwinmedia">
-                            <img className="company-img" src={PengWinM} alt='pengWin_hero' />
-                                <div className="company-overlay">
-                                    <div className="company-text">
-                                        <h1>PengWin Media</h1>
-                                        <p>Web-Design | Graphics | Web-Development</p>
-                                    </div>
+                        <img className="company-img" src={PengWinM} alt='pengWin_hero' />
+                            <div className="company-overlay">
+                                <div className="company-text">
+                                    <h1>PengWin Media</h1>
+                                    <p>Web-Design | Graphics | Web-Development</p>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
+                    </div>
                     <div className="company-icon">
                         <a href="https://wimmalab.github.io/overflow">
                             <img className="company-img" src={Overflow} alt='overflow_hero_2'/>
@@ -61,7 +62,7 @@ export default class Companies extends React.Component {
                         </div>
                         <div className="company-icon">
                             <a href="https://wimmalab.github.io/pengwingame">
-                                <img className="company-img"src={PengWinM} alt='pengiwiing.hero' />
+                                <img className="company-img"src={PengWinG} alt='pengiwiing.hero' />
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>PengWin Game</h1>
