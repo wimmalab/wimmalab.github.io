@@ -24,7 +24,7 @@ export default class ForYou extends React.Component {
                         <div className="row">
                         <h2>Hunting for talents?</h2>
                         <hr />
-                        <p>This you could get as Wimma partner Company</p>
+                        <p>This you could get as Wimma lab partner company:</p>
                             <ul>
                                 <li className="list">Test bold ideas and build proof of concepts</li>
                                 <li className="list">Find new talents from University students</li>

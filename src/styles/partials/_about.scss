@@ -70,34 +70,7 @@
             justify-content: space-between;
         }
     }
-    .projecticon {
-        background-position: center;
-        background-size: cover;
-        background: url('../img/cogwheelicon.svg');
-        background-repeat: no-repeat;
-        &:hover {
-            // transform: rotate(-5deg);
-        }
-    }
-    .whoicon {
-        background-position: center;
-        background-size: cover;
-        background: url('../img/persons.svg');
-        background-repeat: no-repeat;
-        &:hover {
-            // transform:translate(1px);
-        }
-    }
-    .whaticon {
-        background-position: 90% 50%;
-        background-size: cover;
-        background: url('../img/guestionmark.svg');
-        background-repeat: no-repeat;
-        // transform:translateX(10px);
-        &:hover {
-            // transform: scale(1.01);
-        }
-    }
+
     .switch-icon {
         float: left;
         display: flex;

@@ -3,8 +3,8 @@ import React from 'react';
 // components
 import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, FaInstagram, FaYoutubeSquare } from 'react-icons/lib/fa';
 // assets
-import ContactUs from '../img/contact.us.jpg';
-import WimmaLogo from '../img/logo/WIMMA.blackcircle.png';
+import ContactUs from '../img/landingimg.jpg';
+import WimmaLogo from '../img/logo/wimmalablogo.png';
 
 export default class Contact extends React.Component {
     render() {
