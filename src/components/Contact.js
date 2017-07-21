@@ -5,6 +5,8 @@ import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, Fa
 // assets
 import ContactUs from '../img/landingimg.jpg';
 import WimmaLogo from '../img/logo/wimmalablogo.png';
+import CyberTrust from '../img/logo/cyber-trust-jamk.png';
+import JAMK from '../img/logo/jamk-logo.png';
 
 export default class Contact extends React.Component {
     render() {
@@ -29,10 +31,22 @@ export default class Contact extends React.Component {
                         <div className="right-side">
                             <img src={ContactUs} alt="ContactUs"></img>
                         </div>
+                        <span className="arrow-up">
+                            <a href="#page-top">
+                                <i></i>
+                            </a>
+                        </span>
                     </div>
                 </div>
+
                 <div className="footer">
                     <a className="wimmalogo" href="#page-top"><img src={WimmaLogo} alt='logo'></img></a>
+                    <h5>Supported by</h5>
+                    <div className="supported-by">
+                        <div className="supported-by-logo"><img src={CyberTrust} alt='cybertrust'/></div>
+                        <div className="supported-by-logo"><img src={JAMK} alt='jamk' /></div>
+                    </div>
+
                     <h5>You can also find us here</h5>
                     <div className="social-links">
                         <span><a href="https://github.com/wimmalab"><FaGithubSquare /></a></span>

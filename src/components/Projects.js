@@ -33,8 +33,7 @@ export default class Projects extends React.Component {
                                 <img src={Overflow} alt="Overflow"/>
                             </div>
                             <div className ="projects-text">
-                                <h5>Overflow
-                                </h5>
+                                <h5>Overflow</h5>
                                 <p>Builds a Software Defined Network - Puikkari</p>
                             </div>
                         </a>
@@ -45,7 +44,7 @@ export default class Projects extends React.Component {
                                 <img src={IoTitude} alt="IoTitude"/>
                             </div>
                             <div className ="projects-text">
-                            <h5>IoTitude</h5>
+                                <h5>IoTitude</h5>
                                 <p> With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
                                 </p>
                             </div>
@@ -57,6 +56,7 @@ export default class Projects extends React.Component {
                                 <img src={PengWinGame} alt="PengWinGame"/>
                             </div>
                             <div className ="projects-text">
+                                <h5>PengWin Game</h5>
                                 <p>#wine #game #mobile #unity #pixelart
                                 </p>
                             </div>
@@ -68,6 +68,7 @@ export default class Projects extends React.Component {
                                 <img src={PengWinMedia} alt="PengWinMedia"/>
                             </div>
                             <div className ="projects-text">
+                                <h5>PengWin Media</h5>
                                 <p>Media production, web-design solutions, graphics and more.
                                 </p>
                             </div>
@@ -79,6 +80,7 @@ export default class Projects extends React.Component {
                                 <img src={MystiCons} alt="MystiCons"/>
                             </div>
                             <div className ="projects-text">
+                                <h5>Mysticons</h5>
                                 <p>Mystical hagravens of the Dynamo tower.
                                 </p>
                             </div>
@@ -96,6 +98,7 @@ export default class Projects extends React.Component {
                                 <img src={Kumos} alt="Kumos"/>
                             </div>
                             <div className ="projects-text">
+                                <h5>Kumos</h5>
                                 <p>Kumos is all about the Cloud. We aim to provide YOU the best Cloud you have ever had.
                                 </p>
                             </div>
@@ -107,6 +110,7 @@ export default class Projects extends React.Component {
                                 <img src={Overflow} alt="Overflow"/>
                             </div>
                             <div className ="projects-text">
+                                <h5>Overflow</h5>
                                 <p>Overflow builds a Software Defined Network to Challenge Factory 2016.
                                 </p>
                             </div>
@@ -118,7 +122,8 @@ export default class Projects extends React.Component {
                                 <img src={IoTitude} alt="IoTitude"/>
                             </div>
                             <div className ="projects-text">
-                                <p> With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
+                                <h5>Iotitude</h5>
+                                <p>With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
                                 </p>
                             </div>
                         </a>
@@ -135,6 +140,7 @@ export default class Projects extends React.Component {
                                 <img src={Contriboard} alt="contriboard"/>
                             </div>
                             <div className ="projects-text">
+                                <h5>Contriboard</h5>
                                 <p>Think about the person writing down the various handwritten tickets! With Contriboard your ideas will be in digital form from the beginnig to the end of the storm session.
                                 </p>
                             </div>
@@ -146,7 +152,8 @@ export default class Projects extends React.Component {
                                 <img src={Jarmo} alt="Jarmo"/>
                             </div>
                             <div className ="projects-text">
-                                <p>Jarmo is a simple system for application health monitoring.
+                                <h5>Jarmo</h5>
+                                <p>A simple system for application health monitoring.
                                 </p>
                             </div>
                         </a>
@@ -189,7 +196,8 @@ export default class Projects extends React.Component {
                                 <img src={Freenest} alt="Freenest"/>
                             </div>
                             <div className ="projects-text">
-                                <p>FreeNest is a team-oriented product development platform that is fast to deploy and easy to use.</p>
+                                <h5>Freenest</h5>
+                                <p>A team-oriented product development platform that is fast to deploy and easy to use.</p>
                             </div>
                         </a>
                     </div>

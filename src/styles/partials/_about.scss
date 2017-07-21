@@ -74,7 +74,7 @@
     }
     // section switches ===>
     .switch-icons {
-        bottom: -70px;
+        bottom: -45px;
         left: 0;
         right: 0;
         position:absolute;
@@ -84,10 +84,10 @@
         justify-content: space-around;
         font-family: $font-h3;
         @media (min-width: 480px) {
-
+            bottom: -70px;
         }
         @media (min-width: 768px) {
-            justify-content: center;
+            justify-content: space-around;
         }
         @media (min-width: 992px) {
             justify-content: space-between;
@@ -194,7 +194,7 @@
         }
         i {
             text-decoration: none;
-            border: solid $main-2;
+            border: solid $main-3;
             transform: rotate(45deg);
             -webkit-transform: rotate(45deg);
             border-width: 0 4px 4px 0;

@@ -19,7 +19,7 @@
         color:$main-1;
     }
 
-    //Company boxes styles
+    // company boxes styles
     .companies-container {
         margin-top: 0px;
         display: -webkit-flex;
@@ -75,18 +75,22 @@
             }
             .company-text{
                 position: absolute;
+                width: 100%;
                 top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
+                // left: 50%;
+                text-align: center;
+                transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
                 h1 {
                     font-size: 25px;
                     color: $accent-2;
+                    padding: 5px;
                 }
                 p {
                     color: $main-3;
                     font-size: 20px;
                     margin: 0;
+                    padding: 5px;
                 }
             }
         }
@@ -123,38 +127,6 @@
             border: solid $main-2;
             transform: rotate(45deg);
             -webkit-transform: rotate(45deg);
-            border-width: 0 4px 4px 0;
-            display: inline-block;
-            padding: 5px;
-            transition: 0.5s ease;
-
-        }
-    }
-    .arrow-up{
-        @media (max-width: 767px) {
-            display: none;
-        }
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        a{
-            padding: 30px;
-            &:hover i {
-                text-decoration: none;
-                border: solid $accent-2;
-                transform: rotate(-135deg);
-                -webkit-transform: rotate(-135deg);
-                border-width: 0 4px 4px 0;
-                display: inline-block;
-                padding: 5px;
-            }
-        }
-        i {
-            text-decoration: none;
-            border: solid $main-2;
-            transform: rotate(-135deg);
-            -webkit-transform: rotate(-135deg);
             border-width: 0 4px 4px 0;
             display: inline-block;
             padding: 5px;
