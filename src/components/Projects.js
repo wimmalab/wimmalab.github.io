@@ -84,8 +84,7 @@ export default class Projects extends React.Component {
                             </div>
                         </a>
                     </div>
-                </div>
-                <div className="projects">
+                    {/* 2016 ==> */}
                     <div className="project projects-year">
                         <a href="https://n4sjamk.github.io/challenge-factory-2016.html">
                             <h3>2016 - Challenge Factory</h3>
@@ -124,8 +123,7 @@ export default class Projects extends React.Component {
                             </div>
                         </a>
                     </div>
-                </div>
-                <div className="projects">
+                    {/* 2015 ==> */}
                     <div className="project projects-year">
                         <a href="https://n4sjamk.github.io/challenge-factory-2015.html">
                             <h3>2015 - Challenge Factory</h3>
@@ -164,8 +162,7 @@ export default class Projects extends React.Component {
                             </div>
                         </a>
                     </div>
-                </div>
-                <div className="projects">
+                    {/* 2014 ==> */}
                     <div className="project projects-year">
                         <a href="https://n4sjamk.github.io/challenge-factory-2014.html">
                             <h3>2014 - Summer Factory </h3>
@@ -204,8 +201,7 @@ export default class Projects extends React.Component {
                             </div>
                         </a>
                     </div>
-                </div>
-                <div className="projects">
+                    {/* 2012 - 2013 ==> */}
                     <div className="project projects-year">
                         <h3>2012 & 2013 - Summer Factory</h3>
                     </div>

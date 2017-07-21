@@ -7,12 +7,16 @@
     min-height: 700px;
     padding: 20px 0px;
     .projects-wrapper {
-        display: flex;
+        // display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
     .projects {
-        width: 280px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
 
         a {
             text-decoration: none;
@@ -43,6 +47,7 @@
         }
         .projects-text {
             background-color: $main-1;
+            min-height: 170px;
             padding: 15px;
             h5 {
                 margin: 0;
@@ -51,6 +56,9 @@
         }
     }
     .projects-year {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 30px;
         background-color: $accent-2;
     }
