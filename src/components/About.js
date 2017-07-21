@@ -73,28 +73,32 @@ export default class About extends React.Component {
                            </div>
                        </a>
                    </div>
-                   <ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={500} transitionLeave={false}>
-                       {this.state.content === 'what' &&
-                           <What />
-                       }
-                       {this.state.content === 'who' &&
-                           <Who />
-                       }
-                       {this.state.content === 'projects' &&
-                           <Projects />
-                       }
-                   </ReactCSSTransitionGroup>
-                   <ul className="switch-lower">
-                       <a onClick={() => this.switchContent('what')} href="#categories" style={(this.state.content === 'what') ? {color: styles.accent2} : {}}><li>What?</li></a>
-                       <a onClick={() => this.switchContent('who')} href="#categories" style={(this.state.content === 'who') ? {color: styles.accent2} : {}}><li>Who?</li></a>
-                       <a onClick={() => this.switchContent('projects')} href="#categories" style={(this.state.content === 'projects') ? {color: styles.accent2} : {}}><li>Projects</li></a>
-                   </ul>
+                   </div>
+                   <div className="background-wrapper">
+                       <div className="content-container">
+                       <ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={500} transitionLeave={false}>
+                           {this.state.content === 'what' &&
+                               <What />
+                           }
+                           {this.state.content === 'who' &&
+                               <Who />
+                           }
+                           {this.state.content === 'projects' &&
+                               <Projects />
+                           }
+                       </ReactCSSTransitionGroup>
+                       <ul className="switch-lower">
+                           <a onClick={() => this.switchContent('what')} href="#categories" style={(this.state.content === 'what') ? {color: styles.accent2} : {}}><li>What?</li></a>
+                           <a onClick={() => this.switchContent('who')} href="#categories" style={(this.state.content === 'who') ? {color: styles.accent2} : {}}><li>Who?</li></a>
+                           <a onClick={() => this.switchContent('projects')} href="#categories" style={(this.state.content === 'projects') ? {color: styles.accent2} : {}}><li>Projects</li></a>
+                       </ul>
+                       <span className="arrow">
+                      <a href="#for-you" style={(this.props.scrollSpy !== 'about') ? {opacity: 0, pointerEvents: 'none'} : {cursor: 'pointer'}}>
+                         <i></i>
+                      </a>
+                   </span>
+                   </div>
                </div>
-               <span className="arrow">
-                  <a href="#for-you" style={(this.props.scrollSpy !== 'about') ? {opacity: 0, pointerEvents: 'none'} : {cursor: 'pointer'}}>
-                     <i></i>
-                  </a>
-               </span>
            </section>
        );
    }

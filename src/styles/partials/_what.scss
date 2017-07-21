@@ -6,8 +6,11 @@
 .what-content {
     min-height: 700px;
     padding: 20px 0;
-    li {
-        color: $main-1;
+    h3 {
+        color: $main-3;
+    }
+    p {
+        color: $main-3;
     }
     // vision / mission
     .boxes {
@@ -15,7 +18,7 @@
         margin-top: 50px;
         margin-bottom: 30px;
         text-align: center;
-        background-color: $main-2;
+        border: 5px solid $main-3;
         padding: 30px;
         h3 {
             color:$accent-1;

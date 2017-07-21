@@ -6,14 +6,33 @@
 @import 'variables.scss';
 
 .about {
+    .container {
+        position:relative;
+        padding-bottom: 70px;
+        @media (min-width: 768px) {
+            padding-bottom: 250px;
+        }
+    }
+        .background-wrapper {
+            padding-top: 100px;
+            background-color: $main-2;
+            padding-bottom: 40px;
+            @media (min-width: 768px) {
+                padding-bottom: 90px;
+            }
+        }
+        .content-container {
+            margin: 0 auto;
+            max-width: 960px;
+            padding-left: 15px;
+            padding-right: 15px;
+            // font-family: $font-h2;
+            // font-size: 100px;
+        }
     // basic styles to keep sections consistent
     min-height: 100vh;
     padding-top: 60px;
-    padding-bottom: 40px;
     position: relative;
-    @media (min-width: 768px) {
-        padding-bottom: 90px;
-    }
     // basic about content ===>
     .about-basic {
         display: flex;
@@ -55,6 +74,10 @@
     }
     // section switches ===>
     .switch-icons {
+        bottom: -70px;
+        left: 0;
+        right: 0;
+        position:absolute;
         overflow: hidden;
         width: 100%;
         display: flex;
@@ -64,7 +87,7 @@
 
         }
         @media (min-width: 768px) {
-            justify-content: space-between;
+            justify-content: center;
         }
         @media (min-width: 992px) {
             justify-content: space-between;
@@ -157,24 +180,28 @@
         bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
+        a{
+            padding: 30px;
+            &:hover i {
+                text-decoration: none;
+                border: solid $accent-2;
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                border-width: 0 4px 4px 0;
+                display: inline-block;
+                padding: 5px;
+            }
+        }
         i {
             text-decoration: none;
             border: solid $main-2;
             transform: rotate(45deg);
             -webkit-transform: rotate(45deg);
-            border-width: 0 3px 3px 0;
+            border-width: 0 4px 4px 0;
             display: inline-block;
-            padding: 3px;
+            padding: 5px;
             transition: 0.5s ease;
-            &:hover {
-                text-decoration: none;
-                border: solid $accent-2;
-                transform: rotate(45deg);
-                -webkit-transform: rotate(45deg);
-                border-width: 0 3px 3px 0;
-                display: inline-block;
-                padding: 3px;
-            }
+
         }
     } // <=== section transitions
 
