@@ -4,8 +4,10 @@
 // =========================================================================
 
 @import 'variables.scss';
-
 .companies {
+    .container {
+        max-width: none;
+    }
     // basic styles to keep sections consistent
     min-height: 100vh;
     padding-top: 60px;
@@ -40,13 +42,22 @@
                 width: 320px;
             }
             @media only screen and (min-width: 992px) {
-                width: 445px;
+                width: 420px;
             }
             &:hover .company-overlay {
                 opacity: 0.93;
             }
-            .company-img {
+            .company-img, .company-overlay {
                 width: 100%;
+            @media only screen and (min-width: 480px) {
+                width: 450px;
+            }
+            @media only screen and (min-width: 768px) {
+                width: 320px;
+            }
+            @media only screen and (min-width: 992px) {
+                width: 420px;
+            }
             }
             .company-overlay {
                 position: absolute;
@@ -54,7 +65,6 @@
                 bottom: 4px;
                 left: 0;
                 right: 0;
-                width: 100%;
                 opacity: 0;
                 transition: .5s ease;
                 background-color: $main-1;
