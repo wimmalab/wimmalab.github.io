@@ -10,7 +10,6 @@ import About from './About';
 import ForYou from './ForYou';
 import Companies from './Companies';
 import Contact from './Contact';
-import Meta from './Meta';
 
 configureAnchors({scrollDuration: 400});
 
