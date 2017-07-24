@@ -11,7 +11,6 @@ import Projects from './Projects';
 import AboutImg from '../img/contact.us.jpg';
 import { FaCogs, FaGroup, FaQuestion } from 'react-icons/lib/fa/';
 
-
 // offset anchor for better scrolling into view
 configureAnchors({offset: -40});
 // for inline styling

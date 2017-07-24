@@ -18,20 +18,21 @@
     background-image: url("../img/landingimg.jpg");
     background-size: cover;
     background-position: 50% 50%;
-    background-attachment: fixed;
-/*    @media (max-width: 767px) {
-        background-image: url("../img/landingimg.jpg");
-        background-color: none;
-        video: none;
+    background-attachment: inherit;
+    @media (min-width: 1024px) {
+        background-attachment: fixed;
+        // animation: zoomin 20s 1;
     }
-    import Video from '../img/wimma_animaatio_pidennetty.mp4';
-    <video id="background-video" loop autoPlay>
-        <source src={Video} type="video/mp4" />
-        <source src={Video} type="video/ogg" />
-        Your browser does not support the video tag.
-    </video>
-*/
+    @keyframes zoomin {
+        0% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
     .container {
+        // z-index: 1;
         margin: 0 auto;
         text-align: center;
     }
