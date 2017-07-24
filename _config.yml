@@ -1,5 +1,0 @@
-title: WIMMA Lab
-baseurl: ""
-exclude: ['README.md']
-
-markdown: kramdown
