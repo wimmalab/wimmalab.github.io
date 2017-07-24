@@ -14,16 +14,16 @@
     "url": "git+https://github.com/wimmalab/wimmalab.github.io.git"
   },
   "homepage": "https://wimmalab.github.io",
-  "author": "Artur Veselovski, Maiju Shcreck",
+  "author": "Artur Veselovski, Maiju Schreck",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wimmalab/wimmalab.github.io/issues"
   },
-  "homepage": "https://github.com/wimmalab/wimmalab.github.io#readme",
   "dependencies": {
     "react": "^15.6.1",
     "react-addons-css-transition-group": "^15.6.0",
     "react-dom": "^15.6.1",
+    "react-helmet": "^5.1.3",
     "react-icons": "^2.2.5",
     "react-scrollable-anchor": "^0.4.2",
     "react-waypoint": "^7.0.4"

@@ -10,6 +10,7 @@ import About from './About';
 import ForYou from './ForYou';
 import Companies from './Companies';
 import Contact from './Contact';
+import Meta from './Meta';
 
 configureAnchors({scrollDuration: 400});
 
@@ -28,6 +29,7 @@ export default class App extends React.Component {
     render() {
         return (
             <div className="wrapper">
+                <Meta />
                 <Nav scrollSpy={this.state.scrollSpy} />
                 <ScrollableAnchor id={'page-top'}><div></div></ScrollableAnchor>
                 <Waypoint onEnter={() => this.handleWaypointEnter('')} topOffset={'45%'} bottomOffset={'45%'}>
