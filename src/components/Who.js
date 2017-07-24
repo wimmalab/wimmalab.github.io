@@ -23,7 +23,7 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h5>Marko "Narsu" Rintamäki</h5>
                             <p>Product Owner</p>
-                            <span className="team-icon"><a href="https://www.linkedin.com/in/narsuman/?ppe=1" target="_blank"><LinkedIn/></a></span>
+                            <span className="team-icon"><a href="https://www.linkedin.com/in/narsuman/?ppe=1" target="_blank" rel="noopener noreferrer"><LinkedIn/></a></span>
                         </div>
                     </div>
                     <div className="team-member">
@@ -33,7 +33,7 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h5>Lauri Mäkinen</h5>
                             <p>Head Coach</p>
-                            <span className="team-icon"><a href="https://www.linkedin.com/in/lauri-m%C3%A4kinen-8aa6a311b/" target="_blank"><LinkedIn/></a></span>
+                            <span className="team-icon"><a href="https://www.linkedin.com/in/lauri-m%C3%A4kinen-8aa6a311b/" target="_blank" rel="noopener noreferrer"><LinkedIn/></a></span>
                         </div>
                     </div>
                     <div className="team-member">
@@ -43,7 +43,7 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h5>Paavo Nelimarkka</h5>
                             <p>Team Coach</p>
-                            <span className="team-icon"><a href="https://www.linkedin.com/in/paavonelimarkka/?ppe=1" target="_blank"><LinkedIn/></a></span>
+                            <span className="team-icon"><a href="https://www.linkedin.com/in/paavonelimarkka/?ppe=1" target="_blank" rel="noopener noreferrer"><LinkedIn/></a></span>
                         </div>
                     </div>
                     <div className="team-member">
@@ -53,7 +53,7 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h5>Juho Pekki</h5>
                             <p>Team Coach</p>
-                            <span className="team-icon"><a href="https://www.linkedin.com/in/juho-pekki-bb3801144/" target="_blank"><LinkedIn/></a></span>
+                            <span className="team-icon"><a href="https://www.linkedin.com/in/juho-pekki-bb3801144/" target="_blank" rel="noopener noreferrer"><LinkedIn/></a></span>
                         </div>
                     </div>
                     <div className="team-member">
@@ -63,7 +63,7 @@ export default class Who extends React.Component {
                         <div className="team-text">
                             <h5>Pasi Hyytiäinen</h5>
                             <p>Team Coach</p>
-                            <span className="team-icon"><a href="https://www.linkedin.com/in/pasihyytiainenfi/" target="_blank"><LinkedIn/></a></span>
+                            <span className="team-icon"><a href="https://www.linkedin.com/in/pasihyytiainenfi/" target="_blank" rel="noopener noreferrer"><LinkedIn/></a></span>
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ export default class Landing extends React.Component {
         return (
             <section className="landing">
                 <div className="container">
-                <h1>We want to learn by doing things what matters
+                <h1>We want to learn by doing things that matter
                 </h1>
                 </div>
                 <span className="arrow">

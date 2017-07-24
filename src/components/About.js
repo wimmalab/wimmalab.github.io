@@ -9,8 +9,6 @@ import What from './What';
 import Projects from './Projects';
 // assets
 import AboutImg from '../img/contact.us.jpg';
-
-import Cogwheel from '../img/cogwheelicon.svg';
 import { FaCogs, FaGroup, FaQuestion } from 'react-icons/lib/fa/';
 
 

@@ -8,12 +8,12 @@ export default class ForYou extends React.Component {
                 <div className="container">
                     <div className="for-students">
                         <div className="row">
-                        <h2>Looking for internship position?</h2>
+                        <h2>Looking for an internship position?</h2>
                         <hr />
                         <p>This is what we offer for students:</p>
                             <ul>
                                 <li className="list">Real challenges from companies and research programs</li>
-                                <li className="list">Find your place in a agile project team and improve your professional skillset</li>
+                                <li className="list">Find your place in an agile project team and improve your professional skillset</li>
                                 <li className="list">Earn up to 15 study credits</li>
                                 <li className="list">Network with your future employer</li>
                             </ul>
@@ -24,7 +24,7 @@ export default class ForYou extends React.Component {
                         <div className="row">
                         <h2>Hunting for talents?</h2>
                         <hr />
-                        <p>This you could get as Wimma lab partner company:</p>
+                        <p>This you could get as a Wimma lab partner company:</p>
                             <ul>
                                 <li className="list">Test bold ideas and build proof of concepts</li>
                                 <li className="list">Find new talents from University students</li>

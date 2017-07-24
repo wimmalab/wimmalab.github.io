@@ -2,7 +2,6 @@
 import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
-import { removeHash } from 'react-scrollable-anchor';
 import Waypoint from 'react-waypoint';
 // components
 import Nav from './Nav';

@@ -18,7 +18,7 @@ export default class What extends React.Component {
                 <p>
                 At WIMMA Lab students gain experience on project-based teamwork in multi-functional teams. Students are guided to build culture and rules that enable their team to succeed.</p>
                 <h3>We teach to execute</h3>
-                <p>WIMMA Lab is all about building from idea to execution. Virtual companies are coached to deliver a working demo each sprint. However, the goal is not to build quick and dirty demos, but solutions that can be tested in a production environment.</p>
+                <p>WIMMA Lab is all about building from an idea to execution. Virtual companies are coached to deliver a working demo each sprint. However, the goal is not to build quick and dirty demos, but solutions that can be tested in a production environment.</p>
                 <div className="boxes">
                     <div className="visio">
                         <h3>Vision</h3>
@@ -26,9 +26,9 @@ export default class What extends React.Component {
                     </div>
                     <div className="missio">
                         <h3>Mission</h3>
-                        <h5>WIMMA Lab's Missio is to offer students a chance to work on bigger and more challenging projects than in typical University course.</h5>
+                        <h5>WIMMA Lab's Mission is to offer students a chance to work on bigger and more challenging projects than in a typical University course.</h5>
                         <h5>
-                        We provide a better overview of project-based team work, agile development methodologies and network student with companies.
+                        We provide a better overview of project-based team work, agile development methodologies and network students with companies.
                         </h5>
                     </div>
                     <div className="methods">

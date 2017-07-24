@@ -1,6 +1,5 @@
 // libs
 import React from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 // assets
 import PengWinM from '../img/companies/media-hero.png';
 import Overflow from '../img/companies/overflow-hero.png';
