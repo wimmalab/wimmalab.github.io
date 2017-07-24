@@ -106,7 +106,15 @@
         text-align: center;
         cursor: pointer;
         transition:.5s ease;
-
+        svg {
+            transition: .5s ease;
+        }
+        &:hover {
+            svg {
+                color: $accent-2;
+                transform: scale(1.1);
+            }
+        }
         h5 {
             opacity: 0;
 
@@ -125,6 +133,7 @@
                 &:hover {
                     transform: scale(1.2);
                     opacity: 1;
+                    color: $accent-2;
                 }
             }
         }

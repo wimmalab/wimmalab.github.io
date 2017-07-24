@@ -55,7 +55,7 @@ export default class Projects extends React.Component {
                             </div>
                             <div className ="projects-text">
                                 <h5>PengWin Game</h5>
-                                <p>#wine #game #mobile #unity #pixelart
+                                <p>Products pixelart mobilegame for hospitality students with Unity gamemotor.
                                 </p>
                             </div>
                         </a>
@@ -67,7 +67,7 @@ export default class Projects extends React.Component {
                             </div>
                             <div className ="projects-text">
                                 <h5>PengWin Media</h5>
-                                <p>Media production, web-design solutions, graphics and more.
+                                <p>Provides Media production, Web-Design solutions, Graphic-Design, Video producions and UX-Design consulting for Wimma Lab brand and Virtual Companies.
                                 </p>
                             </div>
                         </a>
@@ -150,7 +150,7 @@ export default class Projects extends React.Component {
                                 <img src={Jarmo} alt="Jarmo"/>
                             </div>
                             <div className ="projects-text">
-                                <h5>Jarmo</h5>
+                                <h5>Jarmo - Application Monitoring System</h5>
                                 <p>A simple system for application health monitoring.
                                 </p>
                             </div>
@@ -162,6 +162,7 @@ export default class Projects extends React.Component {
                                 <img src={Noise} alt="Noise"/>
                             </div>
                             <div className ="projects-text">
+                            <h5>Noise Generator</h5>
                                 <p>Simulate different network conditions
                                 </p>
                             </div>
@@ -179,6 +180,7 @@ export default class Projects extends React.Component {
                                 <img src={Toolbar} alt="Toolbar"/>
                             </div>
                             <div className ="projects-text">
+                            <h5>Toolbar</h5>
                                 <p>Collect and share sites and tools your team needs speeding up the working environment setup process.
                                 </p>
                             </div>

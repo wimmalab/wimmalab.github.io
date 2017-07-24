@@ -43,8 +43,8 @@ export default class Contact extends React.Component {
                     <a className="wimmalogo" href="#page-top"><img src={WimmaLogo} alt='logo'></img></a>
                     <h5>Supported by</h5>
                     <div className="supported-by">
-                        <div className="supported-by-logo"><img src={CyberTrust} alt='cybertrust'/></div>
-                        <div className="supported-by-logo"><img src={JAMK} alt='jamk' /></div>
+                        <div className="supported-by-logo"><a href="http://cybertrust.fi/"><img src={CyberTrust} alt='cybertrust'/></a></div>
+                        <div className="supported-by-logo"><a href="https://www.jamk.fi/en/Home/"><img src={JAMK} alt='jamk' /></a></div>
                     </div>
 
                     <h5>You can also find us here</h5>

@@ -55,7 +55,7 @@ export default class Companies extends React.Component {
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>Iotitude</h1>
-                                        <p>Iot-products</p>
+                                        <p>IOT sevice product</p>
                                     </div>
                                 </div>
                             </a>

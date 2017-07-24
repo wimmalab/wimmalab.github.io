@@ -16,27 +16,27 @@ export default class What extends React.Component {
                 <p>Our students solve challenges and deliver prototypes in fast moving teams while learning the dynamics of team work and value of collaboration.</p>
                 <h3>Unique opportunity to learn</h3>
                 <p>
-                At WIMMA Lab students gain experience on project-based teamwork in multi-functional teams. Students are guided to build culture and rules that enable their team to succeed.</p>
+                At WIMMA Lab, students gain experience on project-based teamwork in multi-functional teams. Students are guided to build culture and rules that enable their team to succeed.</p>
                 <h3>We teach to execute</h3>
-                <p>WIMMA Lab is all about building from an idea to execution. Virtual companies are coached to deliver a working demo each sprint. However, the goal is not to build quick and dirty demos, but solutions that can be tested in a production environment.</p>
+                <p>WIMMA Lab is all about building from an idea to execution. Virtual companies are coached to deliver a working demo each sprint; However, the goal is not to build quick and dirty demos, but solutions that can be tested in a production environment.</p>
                 <div className="boxes">
                     <div className="visio">
                         <h3>Vision</h3>
-                        <h5>Our vision is to be the challenge-centered learning platform for higher education students around the world.</h5>
+                        <p>Our vision is to be the challenge-centered learning platform for higher education students around the world.</p>
                     </div>
                     <div className="missio">
                         <h3>Mission</h3>
-                        <h5>WIMMA Lab's Mission is to offer students a chance to work on bigger and more challenging projects than in a typical University course.</h5>
-                        <h5>
-                        We provide a better overview of project-based team work, agile development methodologies and network students with companies.
-                        </h5>
+                        <p>WIMMA Lab's Mission is to offer students a chance to work on bigger and more challenging projects than in a typical University course.</p>
+                        <p>
+                        We strive to provide a better overview of project-based teamwork, agile development methodologies and network students with companies.
+                        </p>
                     </div>
                     <div className="methods">
                         <h3>Our methods</h3>
                         <div className="method-icons">
                             <div className="method-icon">
                                 <p className="icon-font"><MdTrendingUp/></p>
-                                <h5>Fast development</h5>
+                                <h5>Iterative development</h5>
                             </div>
                             <div className="method-icon">
                                 <p className="icon-font"><Comment/></p>
