@@ -12,6 +12,8 @@ import IoTitude from '../img/projects/iotitude2016.png';
 import PengWinGame from '../img/projects/PengWinGame.png';
 import PengWinMedia from '../img/projects/PengWinMedia.png';
 import MystiCons from '../img/projects/mysticons2017.png';
+import { FaArrowCircleRight } from 'react-icons/lib/fa/';
+
 
 
 export default class Projects extends React.Component {
@@ -32,7 +34,9 @@ export default class Projects extends React.Component {
                             </div>
                             <div className ="projects-text">
                                 <h5>Overflow</h5>
-                                <p>Builds a Software Defined Network - Puikkari</p>
+                                <p>Builds a Software Defined Network - Puikkari
+                                </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -43,8 +47,9 @@ export default class Projects extends React.Component {
                             </div>
                             <div className ="projects-text">
                                 <h5>IoTitude</h5>
-                                <p> With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
+                                <p> Our goal was to develop an IoT-solution for study purpose. Requirements of the solution were to handle large amounts of various data and the platform to be stable, tested and secure.
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -57,6 +62,7 @@ export default class Projects extends React.Component {
                                 <h5>PengWin Game</h5>
                                 <p>Products pixelart mobilegame for hospitality students with Unity gamemotor.
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -69,6 +75,7 @@ export default class Projects extends React.Component {
                                 <h5>PengWin Media</h5>
                                 <p>Provides Media production, Web-Design solutions, Graphic-Design, Video producions and UX-Design consulting for Wimma Lab brand and Virtual Companies.
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -81,6 +88,7 @@ export default class Projects extends React.Component {
                                 <h5>Mysticons</h5>
                                 <p>Mystical hagravens of the Dynamo tower.
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -99,6 +107,7 @@ export default class Projects extends React.Component {
                                 <h5>Kumos</h5>
                                 <p>Kumos is all about the Cloud. We aim to provide YOU the best Cloud you have ever had.
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -111,6 +120,7 @@ export default class Projects extends React.Component {
                                 <h5>Overflow</h5>
                                 <p>Overflow builds a Software Defined Network to Challenge Factory 2016.
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -123,6 +133,7 @@ export default class Projects extends React.Component {
                                 <h5>Iotitude</h5>
                                 <p>With our service you can maintain and monitor your pipe network and collect accurate data from water flow to water levels and much more!
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -141,6 +152,7 @@ export default class Projects extends React.Component {
                                 <h5>Contriboard</h5>
                                 <p>Think about the person writing down the various handwritten tickets! With Contriboard your ideas will be in digital form from the beginnig to the end of the storm session.
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -153,6 +165,7 @@ export default class Projects extends React.Component {
                                 <h5>Jarmo - Application Monitoring System</h5>
                                 <p>A simple system for application health monitoring.
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -165,6 +178,7 @@ export default class Projects extends React.Component {
                             <h5>Noise Generator</h5>
                                 <p>Simulate different network conditions
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -183,6 +197,7 @@ export default class Projects extends React.Component {
                             <h5>Toolbar</h5>
                                 <p>Collect and share sites and tools your team needs speeding up the working environment setup process.
                                 </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>
@@ -197,7 +212,9 @@ export default class Projects extends React.Component {
                             </div>
                             <div className ="projects-text">
                                 <h5>Freenest</h5>
-                                <p>A team-oriented product development platform that is fast to deploy and easy to use.</p>
+                                <p>A team-oriented product development platform that is fast to deploy and easy to use.
+                                </p>
+                                <div className="readmore"><FaArrowCircleRight /></div>
                             </div>
                         </a>
                     </div>

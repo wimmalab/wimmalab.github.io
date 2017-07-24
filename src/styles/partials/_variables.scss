@@ -19,6 +19,7 @@ h1 {
     letter-spacing: 2px;
     color: $accent-2;
     font-family: $font-h1;
+    text-align: left;
     // color: $main-2;
     @media only screen and (min-width: 992px) {
         font-size: 70px;
@@ -55,7 +56,12 @@ h3 {
     margin-bottom: 30px;
 }
 h4 {
-
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: $accent-2;
+    font-family: $font-h1;
+    text-align: center;
+    padding: 5px;
 }
 h5, .list, .switch-lower, .for-you-btn {
     letter-spacing: 2px;
@@ -104,4 +110,30 @@ p {
     @media (min-width: 992px) {
         font-size: 120px;
     }
+}
+.team-icon {
+    cursor: pointer;
+    a {
+        color: $main-1;
+    }
+    svg {
+        transition: .5s ease;
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        &:hover {
+            color: $accent-2;
+        }
+    }
+}
+.readmore {
+    text-decoration: none;
+    margin-top: 5px;
+    color: $main-1;
+}
+.readmorecompany {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    color: $main-3;
 }

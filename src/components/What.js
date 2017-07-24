@@ -3,7 +3,7 @@ import React from 'react';
 // components
 import MdTrendingUp from 'react-icons/lib/md/trending-up';
 import Comment from 'react-icons/lib/go/comment-discussion';
-import Calendar from 'react-icons/lib/go/calendar';
+import FaRocket from 'react-icons/lib/fa/rocket';
 import Beer from 'react-icons/lib/go/beer';
 
 export default class What extends React.Component {
@@ -22,13 +22,13 @@ export default class What extends React.Component {
                 <div className="boxes">
                     <div className="visio">
                         <h3>Vision</h3>
-                        <p>Our vision is to be the challenge-centered learning platform for higher education students around the world.</p>
+                        <p>To be the challenge-centered learning platform for higher education students around the world.</p>
                     </div>
                     <div className="missio">
                         <h3>Mission</h3>
-                        <p>WIMMA Lab's Mission is to offer students a chance to work on bigger and more challenging projects than in a typical University course.</p>
+                        <p>To offer students a chance to work on bigger and more challenging projects than in a typical University course.</p>
                         <p>
-                        We strive to provide a better overview of project-based teamwork, agile development methodologies and network students with companies.
+                        WIMMA Lab strives to provide a better overview of project-based teamwork, agile development methodologies and network students with companies.
                         </p>
                     </div>
                     <div className="methods">
@@ -43,13 +43,14 @@ export default class What extends React.Component {
                                 <h5>Daily Scrum meetings</h5>
                             </div>
                             <div className="method-icon">
-                                <p className="icon-font"><Calendar/></p>
-                                <h5>6 sprints</h5>
+                                <p className="icon-font"><FaRocket/></p>
+                                <h5>Personal and team development</h5>
                             </div>
 
                             <div className="method-icon">
                                 <p className="icon-font"><Beer/></p>
-                                <h5>Getting together</h5>
+                                <h5>Creating culture
+                                </h5>
                             </div>
                         </div>
                     </div>

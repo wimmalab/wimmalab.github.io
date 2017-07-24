@@ -16,7 +16,7 @@ configureAnchors({offset: -40});
 // for inline styling
 const styles = {
     accent2: '#E47A5D',
-    scaleUp: 'scale(1.2)'
+    scaleUp: 'scale(1.1)'
 }
 
 export default class About extends React.Component {
@@ -41,8 +41,8 @@ export default class About extends React.Component {
                        <div className="about-info">
                            <h3>OUR STORY</h3>
                            <p>
-                           WIMMA Lab runs as a 2,5-month project, which students participate as trainees.
-                           During the project, students form Virtual Companies to solve challenges. Challenges are given by companies, research programs or Universities. Students develop proof-of-concepts or even production-ready solutions.
+                           WIMMA Lab runs as a two and a half month project, which students participate as trainees.
+                           During the project, students form virtual companies to solve challenges. Challenges are given by companies, research programs or Universities. Students develop production-ready solutions or proof-of-concepts.
                           </p>
                        </div>
                        <div className="about-img">

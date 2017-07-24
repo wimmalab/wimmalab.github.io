@@ -16,9 +16,14 @@
         justify-content: space-between;
         margin-bottom: 50px;
         text-align: center;
-        h3, p {
-            font-size: 18px;
-            margin-bottom: 10px;
+        h5 {
+            color:$main-1;
+            text-align: left;
+            margin-bottom: 2px;
+        }
+        hr {
+            margin: 10px 0px 10px 0px;
+            width:auto;
         }
         @media only screen and (min-width: 992px) {
             display: flex;
