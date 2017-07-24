@@ -6,8 +6,8 @@ import { FaGithubSquare, FaLinkedinSquare, FaFacebookSquare, FaTwitterSquare, Fa
 import LogoImg from '../img/logo/Wilogo.nav.png';
 
 const styles = {
-    accent2 : '#fc8f97',
-    active : '0px -5px 0px #fc8f97 inset'
+    accent2 : '#E47A5D',
+    active : '0px -5px 0px #E47A5D inset'
 }
 
 export default class Nav extends React.Component {

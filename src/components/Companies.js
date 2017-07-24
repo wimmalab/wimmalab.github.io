@@ -23,7 +23,7 @@ export default class Companies extends React.Component {
                             <div className="company-overlay">
                                 <div className="company-text">
                                     <h1>PengWin Media</h1>
-                                    <p>Web-Design | Graphics | Web-Development</p>
+                                    <p>Web-Design | Graphics | Web-Development | Video editing | UX-Design | Social Media</p>
                                 </div>
                             </div>
                         </a>
@@ -45,7 +45,7 @@ export default class Companies extends React.Component {
                                 <div className="company-overlay">
                                     <div className="company-text">
                                         <h1>Mysticons</h1>
-                                        <p>Data-analyzers | Iot-Scouts | AI-Scouts</p>
+                                        <p>Data-analyzing | Iot-Scouts | AI-Scouts</p>
                                     </div>
                                 </div>
                             </a>

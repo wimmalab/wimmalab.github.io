@@ -18,7 +18,7 @@ import { FaCogs, FaGroup, FaQuestion } from 'react-icons/lib/fa/';
 configureAnchors({offset: -40});
 // for inline styling
 const styles = {
-    accent2: '#fc8f97',
+    accent2: '#E47A5D',
     scaleUp: 'scale(1.2)'
 }
 

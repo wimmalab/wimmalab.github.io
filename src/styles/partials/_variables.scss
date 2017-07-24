@@ -7,7 +7,7 @@ $main-2: #171a1f;
 $main-3: #fefffa;
 $main-4: #ffffff;
 $accent-1: #a5e0df;
-$accent-2: #fc8f97;
+$accent-2: #E47A5D;
 $font-h1: 'GothicB', sans-serif;
 $font-h2: 'Gothic', sans-serif;
 $font-h3: 'BaskVill', serif;
@@ -17,12 +17,13 @@ $font-p-alt: 'Gothic', sans-serif;
 h1 {
     font-size: 36px;
     letter-spacing: 2px;
-    color: $accent-1;
+    color: $accent-2;
     font-family: $font-h1;
     // color: $main-2;
     @media only screen and (min-width: 992px) {
-        font-size: 60px;
+        font-size: 70px;
     }
+
 }
 h2 {
     letter-spacing: 2px;
@@ -82,7 +83,7 @@ h6 {
 p {
     font-family: $font-p;
     color: $main-2;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
@@ -94,7 +95,7 @@ p {
     margin-top: 20px;
 
     @media (min-width: 480px) {
-        color: $main-3;
+        color: $main-1;
         font-size: 80px;
     }
     @media (min-width: 768px) {

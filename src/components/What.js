@@ -22,11 +22,14 @@ export default class What extends React.Component {
                 <div className="boxes">
                     <div className="visio">
                         <h3>Vision</h3>
-                        <h5>Our vision is to be universal learning method to any kind of students.</h5>
+                        <h5>Our vision is to be the challenge-centered learning platform for higher education students around the world.</h5>
                     </div>
                     <div className="missio">
                         <h3>Mission</h3>
-                        <h5>Our mission is to have two international WIMMA lab campuses in 2020.</h5>
+                        <h5>WIMMA Lab's Missio is to offer students a chance to work on bigger and more challenging projects than in typical University course.</h5>
+                        <h5>
+                        We provide a better overview of project-based team work, agile development methodologies and network student with companies.
+                        </h5>
                     </div>
                     <div className="methods">
                         <h3>Our methods</h3>
