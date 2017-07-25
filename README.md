@@ -159,11 +159,11 @@ import ExampleCompany from '../img/companies/example-hero.png';
 public > index.html
 
 # For the future
-### Adviced improvments
+### Adviced improvements
 * Clean code, more organized sass workflow. (variables, config.scss file etc...) 
 * Some kind of content management (not hardcoded into components) 
 * Add PropTypes (React good practice)
-* Web Analyse reports has more improvments: 
+* Web Analyzing reports have more improvements: 
     * https://www.freeseoreport.com/en/reports/seo-report-wimmalab-github-io-25-7-2017
     * http://www.seoptimer.com/wimmalab.github.io#recommendation
     
