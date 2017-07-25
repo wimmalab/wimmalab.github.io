@@ -13,22 +13,20 @@
             padding-bottom: 250px;
         }
     }
-        .background-wrapper {
-            padding-top: 100px;
-            background-color: $main-2;
-            padding-bottom: 40px;
-            @media (min-width: 768px) {
-                padding-bottom: 90px;
-            }
+    .background-wrapper {
+        padding-top: 100px;
+        background-color: $main-2;
+        padding-bottom: 40px;
+        @media (min-width: 768px) {
+            padding-bottom: 90px;
         }
-        .content-container {
-            margin: 0 auto;
-            max-width: 960px;
-            padding-left: 15px;
-            padding-right: 15px;
-            // font-family: $font-h2;
-            // font-size: 100px;
-        }
+    }
+    .content-container {
+        margin: 0 auto;
+        max-width: 960px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     // basic styles to keep sections consistent
     min-height: 100vh;
     padding-top: 60px;
@@ -74,7 +72,7 @@
     }
     // section switches ===>
     .switch-icons {
-        bottom: -45px;
+        bottom: -55px;
         left: 0;
         right: 0;
         position:absolute;
@@ -84,16 +82,16 @@
         justify-content: space-around;
         font-family: $font-h3;
         @media (min-width: 480px) {
-            bottom: -70px;
+            bottom: -35px;
         }
         @media (min-width: 768px) {
             justify-content: space-around;
+            bottom: -80px;
         }
         @media (min-width: 992px) {
             justify-content: space-between;
         }
     }
-
     .switch-icon {
         float: left;
         display: flex;
@@ -101,8 +99,6 @@
         position: relative;
         width: 90px;
         height: 90px;
-        border-radius: 50%;
-        //background-color: $main-2;
         text-align: center;
         cursor: pointer;
         transition:.5s ease;
@@ -116,24 +112,23 @@
             }
         }
         h5 {
-            opacity: 0;
-
+            display: none;
         }
         @media (min-width: 480px) {
             background-color: $main-2;
             width: 140px;
             height: 140px;
-            border-radius: 0%;
             h5 {
-                opacity: 1;
+                display: block;
                 color: $main-1;
                 font-size: 15px;
-                line-height: 200px;
+                margin-top: 20px;
                 transition: .5s ease;
-                &:hover {
-                    transform: scale(1.2);
-                    opacity: 1;
+            }
+            &:hover {
+                h5 {
                     color: $accent-2;
+                    transform: scale(1.1);
                 }
             }
         }
@@ -142,16 +137,29 @@
             height: 220px;
             h5 {
                 font-size: 22px;
-                line-height: 320px;
+                margin-top: 40px;
             }
         }
         @media (min-width: 992px) {
             width: 250px;
             height: 250px;
             h5 {
-                line-height: 350px;
+                margin-top: 50px;
                 font-size: 25px;
             }
+        }
+    }
+    .about-icons {
+        color:$main-1;
+        font-size: 50px;
+        @media (min-width: 480px) {
+            font-size: 80px;
+        }
+        @media (min-width: 768px) {
+            font-size: 100px;
+        }
+        @media (min-width: 992px) {
+            font-size: 120px;
         }
     }
     .switch-lower {
@@ -172,7 +180,6 @@
             }
         }
     } // <=== switches
-
     // ===> section transitions
     .fade-enter {
         opacity: 0;
@@ -181,6 +188,7 @@
         opacity: 1;
         transition: .5s ease-in all;
     }
+    // ===> navigation arrow
     .arrow {
         @media (max-width: 767px) {
             display: none;
@@ -189,7 +197,7 @@
         bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
-        a{
+        a {
             padding: 30px;
             &:hover i {
                 text-decoration: none;
@@ -210,9 +218,8 @@
             display: inline-block;
             padding: 5px;
             transition: 0.5s ease;
-
         }
-    } // <=== section transitions
+    }
 
     // What section here //////
     @import "what.scss"; //////

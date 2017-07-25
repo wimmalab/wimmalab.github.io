@@ -15,27 +15,21 @@
     flex-direction: column;
     justify-content: center;
     background-color: black;
-    background-image: url("../img/landingimg.jpg");
+    background-image: url("../img/landingimg-small.jpg");
     background-size: cover;
     background-position: 50% 50%;
     background-attachment: inherit;
+    @media (min-width: 768px) {
+        background-image: url("../img/landingimg.jpg"); 
+    }
     @media (min-width: 1025px) {
         background-attachment: fixed;
-        // animation: zoomin 20s 1;
-    }
-    @keyframes zoomin {
-        0% {
-            transform: scale(1.2);
-        }
-        100% {
-            transform: scale(1);
-        }
     }
     .container {
-        // z-index: 1;
         margin: 0 auto;
         text-align: center;
     }
+    // ===> navigation arrow
     .arrow {
         @media (max-width: 767px) {
             display: none;

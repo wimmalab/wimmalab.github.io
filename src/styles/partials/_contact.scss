@@ -7,7 +7,6 @@
 
 .contact {
     // basic styles to keep sections consistent
-    // min-height: 100vh;
     padding-top: 60px;
     .contact-container {
         display: block;
@@ -54,6 +53,7 @@
             }
         }
     }
+    // ===> navigation arrow
     .arrow-up{
         @media (max-width: 767px) {
             display: none;
@@ -62,7 +62,7 @@
         bottom: -70px;
         left: 50%;
         transform: translateX(-50%);
-        a{
+        a {
             padding: 30px;
             &:hover i {
                 text-decoration: none;
@@ -85,7 +85,8 @@
             transition: 0.5s ease;
 
         }
-    }
+    } // <=== navigation arrow
+    // ===> footer content
     .footer {
         .supported-by {
             display: flex;
@@ -126,16 +127,15 @@
         margin-left: auto;
         margin-right: auto;
         svg {
-            font-size: 40px; // Dat de way to fix dem buttons
+            font-size: 40px;
             margin: 5px;
         }
         a {
-            // font-size: 40px; // not a, but svg... coz a stands for "A" loser, haha hahaha heh...
             color: $main-3;
             transition: 0.5s;
             &:hover {
                 color: $accent-2;
             }
         }
-    }
+    } // <=== footer content
 }

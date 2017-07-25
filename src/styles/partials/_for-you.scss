@@ -14,8 +14,10 @@
     position: relative;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../img/weare.jpg);
-    background-size: cover;
+    @media (min-width: 768px) {
+        background-image: url(../img/weare.jpg);
+        background-size: cover;
+    }
     opacity: 0.8;
     .container {
         margin: 0;
@@ -30,7 +32,6 @@
         padding-top: 60px;
         padding-bottom: 40px;
         background-color: rgba($main-1, .94);
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -42,11 +43,9 @@
         padding-top: 60px;
         padding-bottom: 40px;
         background-color: ($accent-2);
-
         display: flex;
         flex-direction: column;
         justify-content: center;
-
     }
     .row {
         min-height: 300px;
@@ -76,15 +75,14 @@
     }
     @media (min-width: 1600px) {
         .for-students, .for-employers {
-        padding-left: 150px;
-        padding-right: 150px;
+            padding-left: 150px;
+            padding-right: 150px;
         }
     }
-
     @media (max-width: 500px) {
-         p {
-             margin: 10px;
-         }
+        p {
+            margin: 10px;
+        }
     }
     @media (max-width: 768px), (orientation: portrait) {
         .for-students {
@@ -118,11 +116,11 @@
         color: $main-3;
         transition: .5s ease;
         &:hover {
-        color: $main-2;
-        background-color: $main-3;
+            color: $main-2;
+            background-color: $main-3;
         }
     }
-
+    // ===> navigation arrow
     .arrow {
         @media (max-width: 767px) {
             display: none;
@@ -131,7 +129,7 @@
         bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
-        a{
+        a {
             padding: 30px;
             &:hover i {
                 text-decoration: none;
@@ -152,7 +150,6 @@
             display: inline-block;
             padding: 5px;
             transition: 0.5s ease;
-
         }
-    }
+    } // <=== nagigation arrow
 }

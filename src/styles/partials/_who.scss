@@ -18,10 +18,10 @@
     justify-content: center;
     margin-bottom: 30px;
 }
+// ===> team member card
 .team-member {
     overflow: hidden;
     width: 270px;
-    // box-shadow: 1px 1px 7px $main-1;
     border-radius: 2px;
     margin: 5px;
     background-color: $main-3;
@@ -34,26 +34,25 @@
             filter: grayscale(100%);
         }
     }
-.team-text {
-    .team-icon {
-        svg {
-            margin-top: 15px;
+    .team-text {
+        .team-icon {
+            svg {
+                margin-top: 15px;
+            }
         }
-    }
-    h5 {
-        margin-top: 18px;
-        margin-bottom: 5px;
-        text-align: left;
-        color: $main-1;
-    }
-    p {
-        color: $main-1;
-        margin: 0;
-        font-family: $font-p-alt;
-        font-size: 15px;
-    }
-
+        h5 {
+            margin-top: 18px;
+            margin-bottom: 5px;
+            text-align: left;
+            color: $main-1;
+        }
+        p {
+            color: $main-1;
+            margin: 0;
+            font-family: $font-p-alt;
+            font-size: 15px;
+        }
         padding: 15px;
         text-align: left;
     }
-}
+} // <=== team member card

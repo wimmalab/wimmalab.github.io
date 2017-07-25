@@ -35,68 +35,68 @@ export default class About extends React.Component {
     }
     render() {
         return (
-           <section className="about">
-               <div className="container">
-                   <div className="about-basic">
-                       <div className="about-info">
-                           <h3>OUR STORY</h3>
-                           <p>
-                           WIMMA Lab is a two and a half month project, where students participate as trainees.
-                           Project challenges are given by partner companies, research programs or Universities. Goal of the project is to develop production-ready solutions or proof-of-concepts.
-                          </p>
-                       </div>
-                       <div className="about-img">
-                       <img src={AboutImg} alt="Borhan&Juho"></img>
-                       </div>
-                       <ScrollableAnchor id={'categories'}><div style={{position: 'absolute', bottom: '100px'}}></div></ScrollableAnchor>
-                   </div>
-                   <div className="switch-icons">
-                       <a onClick={() => this.switchContent('what')} href="#categories">
-                           <div className="switch-icon">
+            <section className="about">
+                <div className="container">
+                    <div className="about-basic">
+                        <div className="about-info">
+                            <h3>OUR STORY</h3>
+                            <p>
+                                WIMMA Lab is a two and a half month project, where students participate as trainees.
+                                Project challenges are given by partner companies, research programs or Universities. Goal of the project is to develop production-ready solutions or proof-of-concepts.
+                            </p>
+                        </div>
+                        <div className="about-img">
+                            <img src={AboutImg} alt="Borhan&Juho"></img>
+                        </div>
+                        <ScrollableAnchor id={'categories'}><div style={{position: 'absolute', bottom: '100px'}}></div></ScrollableAnchor>
+                    </div>
+                    <div className="switch-icons">
+                        <a onClick={() => this.switchContent('what')} href="#categories">
+                            <div className="switch-icon">
                                 <div className="about-icons" style={(this.state.content === 'what') ? {transform: styles.scaleUp, color: styles.accent2} : {} }><FaQuestion /></div>
-                               <h5 style={(this.state.content === 'what') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHAT?</h5>
-                           </div>
-                       </a>
-                       <a onClick={() => this.switchContent('who')} href="#categories">
-                           <div className="switch-icon ">
-                           <div className="about-icons" style={(this.state.content === 'who') ? {transform: styles.scaleUp, color: styles.accent2} : {} }   ><FaGroup /></div>
-                               <h5 style={(this.state.content === 'who') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHO?</h5>
-                           </div>
-                       </a>
-                       <a onClick={() => this.switchContent('projects')} href="#categories">
-                           <div className="switch-icon ">
-                           <div className="about-icons" style={(this.state.content === 'projects') ? {transform: styles.scaleUp, color: styles.accent2} : {} }><FaCogs /></div>
-                               <h5 style={(this.state.content === 'projects') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>PROJECTS</h5>
-                           </div>
-                       </a>
-                   </div>
-                   </div>
-                   <div className="background-wrapper">
-                       <div className="content-container">
-                       <ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={500} transitionLeave={false}>
-                           {this.state.content === 'what' &&
-                               <What />
-                           }
-                           {this.state.content === 'who' &&
-                               <Who />
-                           }
-                           {this.state.content === 'projects' &&
-                               <Projects />
-                           }
-                       </ReactCSSTransitionGroup>
-                       <ul className="switch-lower">
-                           <a onClick={() => this.switchContent('what')} href="#categories" style={(this.state.content === 'what') ? {color: styles.accent2} : {}}><li>What?</li></a>
-                           <a onClick={() => this.switchContent('who')} href="#categories" style={(this.state.content === 'who') ? {color: styles.accent2} : {}}><li>Who?</li></a>
-                           <a onClick={() => this.switchContent('projects')} href="#categories" style={(this.state.content === 'projects') ? {color: styles.accent2} : {}}><li>Projects</li></a>
-                       </ul>
-                       <span className="arrow">
-                      <a href="#for-you" style={(this.props.scrollSpy !== 'about') ? {opacity: 0, pointerEvents: 'none'} : {cursor: 'pointer'}}>
-                         <i></i>
-                      </a>
-                   </span>
-                   </div>
-               </div>
-           </section>
-       );
-   }
+                                <h5 style={(this.state.content === 'what') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHAT?</h5>
+                            </div>
+                        </a>
+                        <a onClick={() => this.switchContent('who')} href="#categories">
+                            <div className="switch-icon ">
+                                <div className="about-icons" style={(this.state.content === 'who') ? {transform: styles.scaleUp, color: styles.accent2} : {} }><FaGroup /></div>
+                                <h5 style={(this.state.content === 'who') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>WHO?</h5>
+                            </div>
+                        </a>
+                        <a onClick={() => this.switchContent('projects')} href="#categories">
+                            <div className="switch-icon ">
+                                <div className="about-icons" style={(this.state.content === 'projects') ? {transform: styles.scaleUp, color: styles.accent2} : {} }><FaCogs /></div>
+                                <h5 style={(this.state.content === 'projects') ? {transform: styles.scaleUp, color: styles.accent2} : {} }>PROJECTS</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="background-wrapper">
+                    <div className="content-container">
+                        <ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={500} transitionLeave={false}>
+                            {this.state.content === 'what' &&
+                                <What />
+                            }
+                            {this.state.content === 'who' &&
+                                <Who />
+                            }
+                            {this.state.content === 'projects' &&
+                                <Projects />
+                            }
+                        </ReactCSSTransitionGroup>
+                        <ul className="switch-lower">
+                            <a onClick={() => this.switchContent('what')} href="#categories" style={(this.state.content === 'what') ? {color: styles.accent2} : {}}><li>What?</li></a>
+                            <a onClick={() => this.switchContent('who')} href="#categories" style={(this.state.content === 'who') ? {color: styles.accent2} : {}}><li>Who?</li></a>
+                            <a onClick={() => this.switchContent('projects')} href="#categories" style={(this.state.content === 'projects') ? {color: styles.accent2} : {}}><li>Projects</li></a>
+                        </ul>
+                        <span className="arrow">
+                            <a href="#for-you" style={(this.props.scrollSpy !== 'about') ? {opacity: 0, pointerEvents: 'none'} : {cursor: 'pointer'}}>
+                                <i></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </section>
+        );
+    }
 }

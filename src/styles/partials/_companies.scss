@@ -18,8 +18,7 @@
     h5 {
         color:$main-1;
     }
-
-    // company boxes styles
+    // ===> company boxes styles
     .companies-container {
         margin-top: 0px;
         display: -webkit-flex;
@@ -30,7 +29,6 @@
         align-items: center;
         -webkit-justify-content: center;
         justify-content: center;
-
         .company-icon {
             position: relative;
             width: 100%;
@@ -49,15 +47,15 @@
             }
             .company-img, .company-overlay {
                 width: 100%;
-            @media only screen and (min-width: 480px) {
-                width: 450px;
-            }
-            @media only screen and (min-width: 768px) {
-                width: 320px;
-            }
-            @media only screen and (min-width: 992px) {
-                width: 420px;
-            }
+                @media only screen and (min-width: 480px) {
+                    width: 450px;
+                }
+                @media only screen and (min-width: 768px) {
+                    width: 320px;
+                }
+                @media only screen and (min-width: 992px) {
+                    width: 420px;
+                }
             }
             .company-overlay {
                 position: absolute;
@@ -77,7 +75,6 @@
                 position: absolute;
                 width: 100%;
                 top: 50%;
-                // left: 50%;
                 text-align: center;
                 transform: translateY(-50%);
                 -ms-transform: translateY(-50%);
@@ -89,14 +86,8 @@
                 }
             }
         }
-    }
-    .fade-enter {
-        opacity: 0;
-    }
-    .fade-enter-active {
-        opacity: 1;
-        transition: .5s ease-in all;
-    }
+    } // <=== companies styles
+    // ===> navigation arrow
     .arrow {
         @media (max-width: 767px) {
             display: none;
@@ -105,7 +96,7 @@
         bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
-        a{
+        a {
             padding: 30px;
             &:hover i {
                 text-decoration: none;
@@ -126,7 +117,6 @@
             display: inline-block;
             padding: 5px;
             transition: 0.5s ease;
-
         }
     }
 }

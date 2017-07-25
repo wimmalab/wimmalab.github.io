@@ -6,18 +6,12 @@
 .projects-content {
     min-height: 700px;
     padding: 20px 0px;
-    .projects-wrapper {
-        // display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
     .projects {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
-
         a {
             text-decoration: none;
         }
@@ -27,33 +21,39 @@
         }
         margin-bottom: 30px;
     }
+    // project card
     .project {
-    overflow: hidden;
-    min-height: 100px;
-    max-width: 270px;
-    //box-shadow: 1px 1px 7px $main-1;
-    border-radius: 2px;
-    margin: 5px 5px 20px 5px;
-    background-color: $main-3;
+        overflow: hidden;
+        min-height: 100px;
+        max-width: 270px;
+        border-radius: 2px;
+        margin: 5px 5px 20px 5px;
+        background-color: $main-3;
         .icon {
             height: 270px;
             overflow: hidden;
             border-bottom: 10px solid $main-2;
-            // padding: 15px;
-            // border-bottom: 1px solid $accent-1;
         }
         img {
-            // margin: 0 auto;
             display: block;
             max-height: 270px;
             max-width: 270px;
             justify-content: center;
             align-content: center;
+        }
+        &:hover {
+            .projects-text {
+                background-color: $accent-2;
             }
-
+            .readmore {
+                color: $main-3;
+            }
+        }
         .projects-text {
             min-height: 180px;
             padding: 15px;
+            height: 100%;
+            transition: .5s ease;
             h5 {
                 color: $main-1;
                 margin-top: 18px;
@@ -66,15 +66,9 @@
                 font-family: $font-p-alt;
                 font-size: 15px;
             }
-            &:hover {
-                height: 100%;
-                background-color: $accent-2;
-                .readmore {
-                    color: $main-3;
-                }
-            }
         }
     }
+    // year card
     .projects-year {
         display: flex;
         flex-direction: column;
@@ -89,15 +83,6 @@
             background-color: $accent-2;
             h3 {
                 color: $main-3;
-            }
-
-        }
-    }
-
-    @media (min-width: 480px) {
-        .project {
-            img {
-                margin: 0;
             }
         }
     }

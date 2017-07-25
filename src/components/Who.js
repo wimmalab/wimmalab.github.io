@@ -13,7 +13,7 @@ export default class Who extends React.Component {
     render() {
         return (
             <div className="who-content">
-                <h2>Wimma Coaches</h2>
+                <h2>WIMMA Coaches</h2>
                 <hr />
                 <h5>We kickstart future talents</h5>
                 <div className="team-container">
