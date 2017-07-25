@@ -81,7 +81,7 @@
     }
     // section switches ===>
     .switch-icons {
-        bottom: -55px;
+        bottom: -45px;
         left: 0;
         right: 0;
         position:absolute;
@@ -91,14 +91,15 @@
         justify-content: space-around;
         font-family: $font-h3;
         @media (min-width: 480px) {
-            bottom: -35px;
+            bottom: -30px;
         }
         @media (min-width: 768px) {
             justify-content: space-around;
-            bottom: -80px;
+            bottom: -70px;
         }
         @media (min-width: 992px) {
             justify-content: space-between;
+            bottom: -75px;
         }
     }
     .switch-icon {
@@ -114,7 +115,7 @@
         border-radius: 50%;
         transition:.5s ease;
         svg {
-            margin-top: 10px;
+            margin-top: 15px;
             transition: .5s ease;
         }
         &:hover {
