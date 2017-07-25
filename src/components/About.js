@@ -41,8 +41,8 @@ export default class About extends React.Component {
                        <div className="about-info">
                            <h3>OUR STORY</h3>
                            <p>
-                           WIMMA Lab runs as a two and a half month project, which students participate as trainees.
-                           During the project, students form virtual companies to solve challenges. Challenges are given by companies, research programs or Universities. Students develop production-ready solutions or proof-of-concepts.
+                           WIMMA Lab is a two and a half month project, where students participate as trainees.
+                           Project challenges are given by partner companies, research programs or Universities. Goal of the project is to develop production-ready solutions or proof-of-concepts.
                           </p>
                        </div>
                        <div className="about-img">

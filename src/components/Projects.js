@@ -24,22 +24,22 @@ export default class Projects extends React.Component {
                 <hr />
                 <div className="projects-wrapper">
                 <div className="projects">
-                    <div className="project projects-year">
-                        <h3>2017 - WIMMA Lab</h3>
-                    </div>
-                    <div className="project">
-                        <a href="https://wimmalab.github.io/overflow" target="_blank" rel="noopener noreferrer">
-                            <div className="icon">
-                                <img src={Overflow} alt="Overflow"/>
-                            </div>
-                            <div className ="projects-text">
-                                <h5>Overflow</h5>
-                                <p>Builds a Software Defined Network - Puikkari
-                                </p>
-                                <div className="readmore"><FaArrowCircleRight /></div>
-                            </div>
-                        </a>
-                    </div>
+                <div className="project projects-year">
+                    <h3>2017 - WIMMA Lab</h3>
+                </div>
+                <div className="project">
+                    <a href="https://wimmalab.github.io/overflow" target="_blank" rel="noopener noreferrer">
+                        <div className="icon">
+                            <img src={Overflow} alt="Overflow"/>
+                        </div>
+                        <div className ="projects-text">
+                            <h5>Overflow</h5>
+                            <p>Builds a Software Defined Network - Puikkari
+                            </p>
+                            <div className="readmore"><FaArrowCircleRight /></div>
+                        </div>
+                    </a>
+                </div>
                     <div className="project">
                         <a href="https://wimmalab.github.io/iotitude" target="_blank" rel="noopener noreferrer">
                             <div className="icon">

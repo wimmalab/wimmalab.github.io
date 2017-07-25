@@ -28,9 +28,9 @@ export default class ForYou extends React.Component {
                         <p>As a WIMMA Lab partner:</p>
                             <ul>
                                 <li className="list">Test bold ideas and build proof of concepts</li>
-                                <li className="list">Find new talents from University students</li>
+                                <li className="list">Find new talents from engineer students</li>
                                 <li className="list">Fresh insights from students to reignite your business</li>
-                                <li className="list">Share your passion to Technology with enthuastic audience</li>
+                                <li className="list">Share your passion to Technology with enthusiastic audience</li>
                             </ul>
                             <a href="#contact" className="for-you-btn">FIND OUT MORE!</a>
                         </div>

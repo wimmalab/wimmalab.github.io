@@ -19,14 +19,15 @@ export default class Contact extends React.Component {
                     <div className="contact-container">
                         <div className="left-side">
                             <h5>Marko "Narsu" Rintamäki</h5>
-                                <h5>marko.rintamaki (at) jamk.fi</h5>
+                                <p>marko.rintamaki (at) jamk.fi</p>
                                 <span className="team-icon">
                                     <a href="https://www.linkedin.com/in/narsuman/?ppe=1" target="_blank" rel="noopener noreferrer">
                                     <LinkedIn/>
                                     </a>
                                 </span>
                                 <hr />
-                            <h5>Lauri Mäkinen</h5>                                <h5>lauri.makinen (at) jamk.fi</h5>
+                            <h5>Lauri Mäkinen</h5>
+                            <p>lauri.makinen (at) jamk.fi</p>
                                 <span className="team-icon">
                                     <a href="https://www.linkedin.com/in/lauri-m%C3%A4kinen-8aa6a311b/" target="_blank" rel="noopener noreferrer">
                                     <LinkedIn/>
@@ -37,7 +38,7 @@ export default class Contact extends React.Component {
                             <h5>Piippukatu 2</h5>
                             <h5>40100 Jyväskylä Finland</h5>
                             <br />
-                                <h5>wimmalab (at) gmail.com</h5>
+                                <p>wimmalab (at) gmail.com</p>
                         </div>
                         <div className="right-side">
                             <img src={ContactUs} alt="ContactUs"></img>
