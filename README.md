@@ -45,7 +45,10 @@ import Example from "../img/profile/example.jpg";
         <p>Title</p>
         <p>Description</p>
         <span className="team-icon">
-        <a href="https://www.linkedin.com/example" target="_blank" rel="noopener noreferrer"><LinkedIn/></a></span>
+        <a href="https://www.linkedin.com/example" target="_blank" rel="noopener noreferrer">
+            <LinkedIn/>
+        </a>
+        </span>
     </div>
 </div>
 ```
