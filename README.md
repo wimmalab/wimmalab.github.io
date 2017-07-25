@@ -14,36 +14,82 @@ After pushing to development branch:
 
 # Testing
 
-Overall performance on desktop and mobile is as expected.
+Overall performance on desktop and mobile devices is as expected.
 
 ### Desktop
 
-All browses perform within acceptable expetations.
-* Chrome OK 
-* IE not supported (positioning is off, landing- and about pages) 
-* Edge partial support. (positioning in about page sligthly off, titles below icons are off) 
-* Mozilla OK (titles below icons are off)
+All browsers perform within acceptable expetations.
+* Chrome - OK 
+* IE - not supported (content positioning is off, landing- and about pages) 
+* Edge - partial support (positioning in about page sligthly off, about icon/button texts are not showing) 
+* Mozilla - OK (about icon/button texts are off)
 
 ### Tablets
 
-* Ipad Safari partly OK (Contact and langing arrow positioning off - in portrait view. Titles below icons are partly visible) 
-* Ipad Chrome partly OK ( Titles below icons are partly visible ) 
-* Android-tablet Chrome OK.
+* Ipad Safari - semi OK (Contact and landing arrows positioning off in portrait view. About icon/button texts are off) 
+* Ipad Chrome - semi OK ( About icon/button texts are off ) 
+* Android tablet Chrome - OK.
 
 ### Mobile Android
 
-* Native browsers OK. (LG-G4, Honor7, Samsung Galaxy Note3) 
-* Chrome OK.
+* Native browsers - OK. (LG-G4, Honor7, Samsung Galaxy Note3) 
+* Chrome - OK.
 
 # Bugs
-* About Icons, text below is not showing. Reason: Texts have line-height which does not perform properly in many browsers.
-* Fonts do not display correctly in Linux.
-* `background-attachment: fixed; ` is not working on IOS tablets. Work around: not using `background-attachment: fixed; ` on mobile devices. 
-* 
+* About Icons, icon-text below is not showing. Reason: Texts have line-height which does not align properly in many browsers.
+* Fonts do not display correctly on Linux.
+* `background-attachment: fixed; ` is not working on IOS tablets. Workaround: not using `background-attachment: fixed; ` on mobile devices.
 
-# Adding content
-## Some Examples
+# App structure
+```
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── landingimg.jpg
+└── src
+    ├── components
+    │   ├── About.js
+    │   ├── App.js
+    │   ├── Companies.js
+    │   ├── Contact.js
+    │   ├── ForYou.js
+    │   ├── Landing.js
+    │   ├── Nav.js
+    │   ├── Projects.js
+    │   ├── What.js
+    │   └── Who.js
+    ├── fonts
+    ├── img
+    │   ├── companies
+    │   ├── logo
+    │   ├── profile
+    │   ├── projects
+    ├── index.js
+    └── styles
+        ├── index.css.map
+        ├── index.min.css
+        ├── index.min.css.map
+        ├── index.scss
+        └── partials
+            ├── _about.scss
+            ├── _companies.scss
+            ├── _contact.scss
+            ├── _for-you.scss
+            ├── _global.scss
+            ├── _landing.scss
+            ├── _nav.scss
+            ├── _projects.scss
+            ├── _variables.scss
+            ├── _what.scss
+            └── _who.scss
+
+```
+
+# Adding content (some examples)
 ### WIMMA Coaches
+src > components > Who.js
+images into src > img > profile
 ```
 import Example from "../img/profile/example.jpg";
 .
@@ -66,7 +112,8 @@ import Example from "../img/profile/example.jpg";
 ```
 
 ### Projects
-
+src > components > Projects.js
+images into src > img > projects
 ```
 import Example from '../img/projects/example.png';
 .
@@ -89,6 +136,8 @@ import Example from '../img/projects/example.png';
 ```
 
 ### Virtual Companies
+src > components > Companies.js
+images into src > img > companies
 ```
 import ExampleCompany from '../img/companies/example-hero.png';
 .
@@ -108,25 +157,24 @@ import ExampleCompany from '../img/companies/example-hero.png';
 ```
 
 # For the future
-
 ### Adviced improvments
-* Clean code, more organized sass workflow. (variables, config file etc...) 
-* Some kind of content management (not hardcoded) 
-* PropTypes (Add PropTypes)
+* Clean code, more organized sass workflow. (variables, config.scss file etc...) 
+* Some kind of content management (not hardcoded into components) 
+* Add PropTypes (React good practice) 
 
 ### Suggested features
 * Scroll Jacker between pages. 
 * Video background for landing. 
-* Reveal on scroll
+* Reveal elements on scroll
 
 ### Blog
-
 * Contents to Image cards 
 * Scale hover effects to images, text shows up. 
 * Unlimited scrolling
 
 ### Google Analytics
-* Track Google Analytics traffic. Improve filters in Google Analytics more specific data.
+* Track Google Analytics traffic. 
+* Improve filters in Google Analytics for more detailed data.
 
 ### Optimization
-* Meta tag improvment.
+* Meta tag improvements.
