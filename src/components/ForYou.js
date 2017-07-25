@@ -8,9 +8,9 @@ export default class ForYou extends React.Component {
                 <div className="container">
                     <div className="for-students">
                         <div className="row">
-                        <h2>Looking for an internship position?</h2>
-                        <hr />
-                        <p>We offer for students:</p>
+                            <h2>Looking for an internship position?</h2>
+                            <hr />
+                            <p>We offer for students:</p>
                             <ul>
                                 <li className="list">Real challenges from companies and research programs</li>
                                 <li className="list">Find your place in an agile project team and improve your professional skillset</li>
@@ -23,9 +23,9 @@ export default class ForYou extends React.Component {
                     </div>
                     <div className="for-employers">
                         <div className="row">
-                        <h2>Hunting for talents?</h2>
-                        <hr />
-                        <p>As a WIMMA Lab partner:</p>
+                            <h2>Hunting for talents?</h2>
+                            <hr />
+                            <p>As a WIMMA Lab partner:</p>
                             <ul>
                                 <li className="list">Test bold ideas and build proof of concepts</li>
                                 <li className="list">Find new talents from engineer students</li>
@@ -38,9 +38,9 @@ export default class ForYou extends React.Component {
                 </div>
                 <span className="arrow">
                     <a href="#companies" style={(this.props.scrollSpy !== 'for-you') ? {opacity: 0, pointerEvents: 'none'} : {cursor: 'pointer'}}>
-                    <i>
-                    </i>
-                </a>
+                        <i>
+                        </i>
+                    </a>
                 </span>
             </section>
         );

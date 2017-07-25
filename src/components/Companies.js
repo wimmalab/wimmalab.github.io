@@ -17,30 +17,30 @@ export default class Companies extends React.Component {
                     <hr />
                     <h5>2017 Wimma companies</h5>
                     <div className="companies-container">
-                    <div className="company-icon pengwin-media">
-                        <a href="https://wimmalab.github.io/pengwinmedia">
-                            <img className="company-img" src={PengWinM} alt='pengWin_hero' />
-                            <div className="company-overlay">
-                                <div className="company-text">
-                                    <h4>PengWin Media</h4>
-                                    <p>Web-Design | Graphics | Web-Development | Video editing | UX-Design | Social Media</p>
-                                    <div className="readmorecompany"><FaArrowCircleRight /></div>
+                        <div className="company-icon pengwin-media">
+                            <a href="https://wimmalab.github.io/pengwinmedia">
+                                <img className="company-img" src={PengWinM} alt='pengWin_hero' />
+                                <div className="company-overlay">
+                                    <div className="company-text">
+                                        <h4>PengWin Media</h4>
+                                        <p>Web-Design | Graphics | Web-Development | Video editing | UX-Design | Social Media</p>
+                                        <div className="readmorecompany"><FaArrowCircleRight /></div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="company-icon">
-                        <a href="https://wimmalab.github.io/overflow">
-                            <img className="company-img" src={Overflow} alt='overflow_hero_2'/>
-                            <div className="company-overlay">
-                                <div className="company-text">
-                                    <h4>Overflow</h4>
-                                    <p>Network Solutions | Software Defined Networks | Cloud Services</p>
-                                    <div className="readmorecompany"><FaArrowCircleRight /></div>
+                            </a>
+                        </div>
+                        <div className="company-icon">
+                            <a href="https://wimmalab.github.io/overflow">
+                                <img className="company-img" src={Overflow} alt='overflow_hero_2'/>
+                                <div className="company-overlay">
+                                    <div className="company-text">
+                                        <h4>Overflow</h4>
+                                        <p>Network Solutions | Software Defined Networks | Cloud Services</p>
+                                        <div className="readmorecompany"><FaArrowCircleRight /></div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
                         <div className="company-icon">
                             <a href="https://wimmalab.github.io/mysticons">
                                 <img className="company-img" src={Mysticons} alt='mysticons_hero' />
@@ -50,7 +50,7 @@ export default class Companies extends React.Component {
                                         <p>Data-analyzing | Iot-Scouts | AI-Scouts</p>
                                         <div className="readmorecompany"><FaArrowCircleRight /></div>
                                     </div>
-                                    </div>
+                                </div>
                             </a>
                         </div>
                         <div className="company-icon">

@@ -19,26 +19,26 @@ export default class Contact extends React.Component {
                     <div className="contact-container">
                         <div className="left-side">
                             <h5>Marko "Narsu" Rintamäki</h5>
-                                <p>marko.rintamaki (at) jamk.fi</p>
-                                <span className="team-icon">
-                                    <a href="https://www.linkedin.com/in/narsuman/?ppe=1" target="_blank" rel="noopener noreferrer">
+                            <p>marko.rintamaki (at) jamk.fi</p>
+                            <span className="team-icon">
+                                <a href="https://www.linkedin.com/in/narsuman/?ppe=1" target="_blank" rel="noopener noreferrer">
                                     <LinkedIn/>
-                                    </a>
-                                </span>
-                                <hr />
+                                </a>
+                            </span>
+                            <hr />
                             <h5>Lauri Mäkinen</h5>
                             <p>lauri.makinen (at) jamk.fi</p>
-                                <span className="team-icon">
-                                    <a href="https://www.linkedin.com/in/lauri-m%C3%A4kinen-8aa6a311b/" target="_blank" rel="noopener noreferrer">
+                            <span className="team-icon">
+                                <a href="https://www.linkedin.com/in/lauri-m%C3%A4kinen-8aa6a311b/" target="_blank" rel="noopener noreferrer">
                                     <LinkedIn/>
-                                    </a>
-                                </span>
-                                <hr />
+                                </a>
+                            </span>
+                            <hr />
                             <h5>Campus Dynamo</h5>
                             <h5>Piippukatu 2</h5>
                             <h5>40100 Jyväskylä Finland</h5>
                             <br />
-                                <p>wimmalab (at) gmail.com</p>
+                            <p>wimmalab (at) gmail.com</p>
                         </div>
                         <div className="right-side">
                             <img src={ContactUs} alt="ContactUs"></img>
@@ -50,7 +50,6 @@ export default class Contact extends React.Component {
                         </span>
                     </div>
                 </div>
-
                 <div className="footer">
                     <a className="wimmalogo" href="#page-top"><img src={WimmaLogo} alt='logo'></img></a>
                     <h5>Supported by</h5>
@@ -58,7 +57,6 @@ export default class Contact extends React.Component {
                         <div className="supported-by-logo"><a href="http://cybertrust.fi/"><img src={CyberTrust} alt='cybertrust'/></a></div>
                         <div className="supported-by-logo"><a href="https://www.jamk.fi/en/Home/"><img src={JAMK} alt='jamk' /></a></div>
                     </div>
-
                     <h5>You can also find us here</h5>
                     <div className="social-links">
                         <span><a href="https://github.com/wimmalab"><FaGithubSquare /></a></span>
