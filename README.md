@@ -88,7 +88,7 @@ All browsers perform within acceptable expetations.
 
 # Adding content (some examples)
 ### WIMMA Coaches
-src > components > Who.js
+src > components > Who.js  
 images into src > img > profile
 ```
 import Example from "../img/profile/example.jpg";
@@ -112,7 +112,7 @@ import Example from "../img/profile/example.jpg";
 ```
 
 ### Projects
-src > components > Projects.js
+src > components > Projects.js  
 images into src > img > projects
 ```
 import Example from '../img/projects/example.png';
@@ -136,7 +136,7 @@ import Example from '../img/projects/example.png';
 ```
 
 ### Virtual Companies
-src > components > Companies.js
+src > components > Companies.js  
 images into src > img > companies
 ```
 import ExampleCompany from '../img/companies/example-hero.png';
