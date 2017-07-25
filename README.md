@@ -30,6 +30,25 @@ All browses perform within acceptable expetations.
 
 
 # Adding content
+## Some Examples
+### WIMMA Coaches
+```
+import Example from "../img/profile/example.jpg";
+.
+.
+<div className="team-member">
+    <div className="team-header">
+        <img src={Example} alt={'example'} />
+    </div>
+    <div className="team-text">
+        <h5>Name</h5>
+        <p>Title</p>
+        <p>Description</p>
+        <span className="team-icon">
+        <a href="https://www.linkedin.com/example" target="_blank" rel="noopener noreferrer"><LinkedIn/></a></span>
+    </div>
+</div>
+```
 
 ### Projects
 
@@ -54,7 +73,26 @@ import Example from '../img/projects/example.png';
 </div>
 ```
 
-# For future
+### Virtual Companies
+```
+import ExampleCompany from '../img/companies/example-hero.png';
+.
+.
+<div className="company-icon">
+    <a href="https://wimmalab.github.io/example">
+        <img className="company-img" src={ExampleCompany} alt='example'/>
+        <div className="company-overlay">
+            <div className="company-text">
+                <h4>Company Name</h4>
+                <p>What | Company | Does</p>
+                <div className="readmorecompany"><FaArrowCircleRight /></div>
+            </div>
+        </div>
+    </a>
+</div>
+```
+
+# For the future
 
 ### Adviced improvments
 * Clean code, more organized sass workflow. (variables, config file etc...) 
