@@ -155,6 +155,8 @@ import ExampleCompany from '../img/companies/example-hero.png';
     </a>
 </div>
 ```
+### Meta
+public > index.html
 
 # For the future
 ### Adviced improvments
