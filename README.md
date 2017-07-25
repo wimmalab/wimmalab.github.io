@@ -20,14 +20,14 @@ Overall performance on desktop and mobile devices is as expected.
 
 All browsers perform within acceptable expetations.
 * Chrome - OK 
-* IE - not supported (content positioning is off, landing- and about pages) 
-* Edge - partial support (positioning in about page sligthly off, about icon/button texts are not showing) 
-* Mozilla - OK (about icon/button texts are off)
+* IE - not supported (content positioning is off, landing and about sections) 
+* Edge - partial support (positioning in about page sligthly off) 
+* Mozilla - OK (transitions a little shaky)
 
 ### Tablets
 
-* Ipad Safari - semi OK (Contact and landing arrows positioning off in portrait view. About icon/button texts are off) 
-* Ipad Chrome - semi OK ( About icon/button texts are off ) 
+* Ipad Safari - semi OK (Contact and landing arrows positioning off in portrait view) 
+* Ipad Chrome - OK
 * Android tablet Chrome - OK.
 
 ### Mobile Android
@@ -36,7 +36,6 @@ All browsers perform within acceptable expetations.
 * Chrome - OK.
 
 # Bugs
-* About Icons, icon-text below is not showing. Reason: Texts have line-height which does not align properly in many browsers.
 * Fonts do not display correctly on Linux.
 * `background-attachment: fixed; ` is not working on IOS tablets. Workaround: not using `background-attachment: fixed; ` on mobile devices.
 
