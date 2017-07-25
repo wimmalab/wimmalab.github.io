@@ -1,16 +1,27 @@
 # wimmalab.github.io
 
-This file is explain to using this website in the future.
+This project was made using React and Sass.  
+
+# Steps to run locally
+1. install node
+2. git clone https://github.com/wimmalab/wimmalab.github.io.git
+3. ` npm install `
+4. ` npm start `
+
+## On content update
+After pushing to development branch:
+1. `npm run deploy `
 
 # Testing
 
-Overall performance on desktop and mobile is good.
+Overall performance on desktop and mobile is as expected.
 
 ### Desktop
 
 All browses perform within acceptable expetations.
-* Chrome OK -IE not supported (positioning is off, langing and about pages) 
-* Edge partial support. (positioning in about page sligthly off) 
+* Chrome OK 
+* IE not supported (positioning is off, landing- and about pages) 
+* Edge partial support. (positioning in about page sligthly off, titles below icons are off) 
 * Mozilla OK (titles below icons are off)
 
 ### Tablets
@@ -25,9 +36,10 @@ All browses perform within acceptable expetations.
 * Chrome OK.
 
 # Bugs
-* About Icons, text below is not showing. Reason: Texts have line-height which does not perform properly in many browsers. Needs fixing: ASAP. 
-* Fonts do not display correctly in Linux. Needs fixing: SOMEDAY.
-
+* About Icons, text below is not showing. Reason: Texts have line-height which does not perform properly in many browsers.
+* Fonts do not display correctly in Linux.
+* `background-attachment: fixed; ` is not working on IOS tablets. Work around: not using `background-attachment: fixed; ` on mobile devices. 
+* 
 
 # Adding content
 ## Some Examples
